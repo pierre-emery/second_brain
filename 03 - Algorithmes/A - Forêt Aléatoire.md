@@ -1,0 +1,3 @@
+Lorsqu'on utilise des arbres dans des ensembles ce sont des forêts aléatoires
+$$f(y|x)=\frac{1}{|\mathrm M|}\sum_{m\in\mathrm M}f_m(y|x)$$ ici $f(y|x)$ est une forêt, M un ensemble d'arbre et m un arbre.
+Un des intérêt d'utiliser plusieurs arbres et de réduire la variance. Un [[A - Arbre de décision]] seul a souvent une variance élevée (il change beaucoup si tu changes un peu les données). Du coup en utilisant plusieurs arbres et en moyennant leurs prédictions (on peut aussi procéder par vote majoritaire) on réduit la variance et donc le [[C - Surapprentissage]].

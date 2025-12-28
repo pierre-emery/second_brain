@@ -1,0 +1,8 @@
+[[MOC - Probabilité]]
+[[MOC - Inférence Statistique]]
+[[MOC - Algèbre linéaire]]
+[[MOC - Optimisation & calcul matriciel]]
+[[MOC - Méthodes numériques]]
+[[MOC - Modèles ML (supervisé)]]
+[[MOC - Non-supervisé & réduction de dimension]]
+[[MOC - Évaluation & généralisation]]

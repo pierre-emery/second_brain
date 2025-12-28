@@ -1,0 +1,3 @@
+- Entraîner un modèle $\theta$ en utilisant les paires d'entrées et de sortie $(x_i,y_i)$. Ce qui dinstigue ici l'apprentissage supervisé c'est que pour chaque entrée on a connait la sortie attendue et du coup il est plus simple de calculer sa [[C - Fonction de perte]].
+- L'objectif est de prédire une sortie y étant donné une entrée x. Pour entrainer le modèle à faire ceci, les algorithmes d'apprentissage supervisé cherchent à minimiser l'erreur (le [[C - Risque]])
+- Il y a deux grands types d'apprentissage supervisé, les problèmes de [[C - Classification]] et [[C - Régression]]. Les deux peuvent être plus proche que l'on penserait.

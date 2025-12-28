@@ -1,0 +1,6 @@
+- git add . pour ajouter tous les fichiers que nous avons modifier. 
+- git add FILENAME pour un seul fichier au lieu de tous
+- git status pour voir ce que tu vas changer avant de commit. 
+- git commit -m CEQUETUFAIS. 
+- git push pour que ca le update sur github.
+- git pull pour chercher les fichiers updated (si pas a jour dans notre environnement local)

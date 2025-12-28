@@ -1,0 +1,3 @@
+Le risque est synônyme d'erreur. Mais comment mesurer l'erreur?
+L'idée est de trouver l'erreur moyenen sur toutes les données possible. On prend donc l'espérance sur la distribution des données. $R(f) = \mathrm E [l(Y,f(X))]$ pour une [[C - Fonction de perte]] $l(Y,f(X))$ qui mesure l'erreur du modèle.
+! Attention ! En pratique on ne peut pas calculer l'espérance sur toutes les données possible, on n'a simplement accès à un jeu de donnée de taille finie on approxime donc le risque d'apprentissage par le [[C - Risque Empirique]].

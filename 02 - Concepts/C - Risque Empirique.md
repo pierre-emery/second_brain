@@ -1,0 +1,1 @@
+Le risque empirique est l'approximation du [[C - Risque]] sur le jeu de donnée qu'on a pratiquement. Il est donné par $\widehat R(f) = \frac{1}{|D|}\Sigma_{i=1}^{|D|}l(y_i,f(x_i))$ pour la [[C - Fonction de perte]] $l(y_i,f(x_i))$ qui mesure l'erreur du modèle. (ici $|D|$ est la cardinalité du jeu de donnée).

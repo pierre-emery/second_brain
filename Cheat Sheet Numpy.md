@@ -1,0 +1,6 @@
+- `np.arange(start, stop, step)` : créer des bins (ex: distances 0..105 par 5).
+- `np.sqrt(...)` : racine carrée pour la distance.
+- `np.asarray(Image.open(...))` : convertir une image en array (rink).
+- `np.nan` : valeur manquante (utilisée implicitement / pour distance).
+- `abs(x)` : valeur absolue (Python), et parfois `series.abs()` (pandas) / `np.abs(...)` (même idée).
+- Conversions `float(...)` : pour sécuriser des calculs.

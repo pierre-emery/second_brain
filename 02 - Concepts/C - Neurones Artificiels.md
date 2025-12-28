@@ -1,0 +1,1 @@
+Fonction affine dont la sortie est donnée en paramètre à une fonction d'activation qui est non linéaire.

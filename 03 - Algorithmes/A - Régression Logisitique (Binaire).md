@@ -1,0 +1,2 @@
+Pour un problème de [[C - Classification]]binaire le jeu de donnée est constitué de paires (x,y) avec x un vecteur de caractéristiques et y = 0 ou y = 1 une classe associée. On peut utiliser le modèle probabiliste suivant $p(y|x;\theta) = \text{Ber}(y|\sigma(w^\top x +b))$ qui se traduit comme la probabilité de la classe y étant donnée les carctéristiques x. Aussi le paramètre de la [[C - Bernoulli]] dépend de x: selon les caractéristiques la probabilité de la classe change.
+On a donc $p(y=1|x;\theta)=\sigma(a)=\frac{1}{1+e^{-a}}$ ou $a = w^\top x +b$ 

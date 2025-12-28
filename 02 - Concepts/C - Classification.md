@@ -1,0 +1,1 @@
+Cas de [[C - Apprentissage supervisée]] dans lequel la sortie y prend des valeurs discrètes (qu'on interprète comme des classes.)

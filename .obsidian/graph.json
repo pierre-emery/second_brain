@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "section:(MOC)",
+      "color": {
+        "a": 1,
+        "rgb": 6902496
+      }
+    },
+    {
+      "query": "section:(C)",
+      "color": {
+        "a": 1,
+        "rgb": 5425632
+      }
+    },
+    {
+      "query": "section:(A)",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "file:Machine Learning and Data Science",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.00598958333333,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.497395833333333,
+  "repelStrength": 16.09375,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.6883453903553587,
+  "close": true
+}

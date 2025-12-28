@@ -1,0 +1,1 @@
+Cas de [[C - Apprentissage supervisée]] pour lequel la sortie y prend des valeurs continues. 

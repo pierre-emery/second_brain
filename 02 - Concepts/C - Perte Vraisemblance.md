@@ -1,0 +1,1 @@
+$$\widehat R (f) = - \frac 1 N \sum_{i=1}^N \log p(y_i|f(x_i))$$ 
