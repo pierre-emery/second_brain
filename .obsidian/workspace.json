@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a04bf7ee6f72058",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "7039f914e4e942b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheat Sheet Pandas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cheat Sheet Pandas"
-            }
-          },
-          {
-            "id": "e7753ae67e8e0781",
+            "id": "d9884368d40dbdc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,8 +21,7 @@
               "title": "Cours Git avec Stephano20000"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,34 +183,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "e7753ae67e8e0781",
+  "active": "d9884368d40dbdc9",
   "lastOpenFiles": [
-    "Cheat Sheet Numpy.md",
-    "Cheat Sheet Pandas.md",
+    "00 - Home/Sport.md",
+    "Programme d'entrainement.md",
     "Cours Git avec Stephano20000.md",
+    "01 - MOCs (Indexes)/MOC - Évaluation & généralisation.md",
     "01 - MOCs (Indexes)/MOC - Modèles ML (supervisé).md",
-    "03 - Algorithmes/A - Régression Logisitique (Binaire).md",
+    "01 - MOCs (Indexes)/MOC - Méthodes numériques.md",
+    "C - Complexité d'un modèle (capacité).md",
+    "Untitled.md",
+    "03 - Algorithmes/A - Réseau de neurones.md",
+    "03 - Algorithmes/A - Arbre de décision.md",
     "03 - Algorithmes/A - Régression Linéaire.md",
+    "Cheat Sheet Pandas.md",
+    "Cheat Sheet Numpy.md",
+    "03 - Algorithmes/A - Régression Logisitique (Binaire).md",
     "02 - Concepts/C - Compromis Biais-Variance.md",
     "02 - Concepts/C - Surapprentissage.md",
     "02 - Concepts/C - Sous-apprentissage.md",
     "02 - Concepts/C - Variance (expliquée).md",
     "02 - Concepts/C - Biais.md",
-    "01 - MOCs (Indexes)/MOC - Évaluation & généralisation.md",
     "03 - Algorithmes/A - Régression Logistique (Multiclasse).md",
-    "01 - MOCs (Indexes)/MOC - Méthodes numériques.md",
     "03 - Algorithmes/A - Forêt Aléatoire.md",
     "02 - Concepts/C - Risque Empirique.md",
     "02 - Concepts/C - Erreur de généralisation.md",
     "02 - Concepts/C - Perte quadratique (MSE).md",
     "02 - Concepts/C - Sélection de modèle.md",
-    "03 - Algorithmes/A - Arbre de décision.md",
     "03 - Algorithmes/A - Régression Polynomiale.md",
-    "01 - MOCs (Indexes)/MOC - Algèbre linéaire.md",
-    "03 - Algorithmes/A - Gradient Boosted Trees (XGBoost).md",
-    "02 - Concepts/C - Vraisemblance.md",
-    "02 - Concepts/C - Bernoulli.md",
-    "02 - Concepts/C - Classification.md",
     "Untitled.base",
     "Untitled.canvas",
     "98 - Climbing Journal",

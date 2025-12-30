@@ -5,6 +5,12 @@ La question est donc comment les entraîner? Il faut construire les arbres de ma
 Un arbre décisionnel gère implicitement les interactions entre les attributs x sans avoir à les spécifier comme dans un modèle multilinéaire.
 Tout pareil pour les autres modèles basés sur les arbres de décisions ([[A - Forêt Aléatoire]], [[A - Gradient Boosted Trees (XGBoost)]])
 
-Les pours et les contres des arbres de décision
+# Les pours et les contres des arbres de décision
 - Facile à interpréter, Facile de gérer différents types d'entrées et Robuste aux valeurs aberrantes
 - MAIS il peuvent facilement tomber en [[C - Surapprentissage]] et sont instables (forte [[C - Variance (expliquée)]]) de petits changements dans les données d'entrée peuvent avoir un gros impact sur la structure de l'arbre.
+
+# [[C - Complexité d'un modèle (capacité)]]
+
+La complexité des arbres décisionnels dépend de la profondeur de l'arbre et des critères de décision à chaque noeud
+- Pour réduire la complexité il faut limiter sa profondeur
+- Pour l'augmenter il faut passer à une forêt aléatoire

@@ -23,3 +23,4 @@
 [[C - Biais]]
 [[C - Variance (expliquée)]]
 [[C - Compromis Biais-Variance]]
+[[C - Complexité d'un modèle (capacité)]]
