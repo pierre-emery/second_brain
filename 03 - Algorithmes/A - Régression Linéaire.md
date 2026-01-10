@@ -1,4 +1,4 @@
-# [[C - Complexité d'un modèle (capacité)]] pour régression linéaire
+## [[C - Complexité d'un modèle (capacité)]] pour régression linéaire
 - On peut complexifier un modèle linéaire "de base" en y ajoutant de nouvelles combinaisons de caractéristiques: 
 $$\begin{align*}
 &\text{Modèle de base: } &&\hat y =\beta_0+\beta_1x_1+\beta_2x_2\\
@@ -9,3 +9,10 @@ $$\begin{align*}
 \end{align*}$$
 - Les paramètres $\beta$ des modèles linéaires sont faciles à estimer avec la méthodes des [[C - Moindres Carrés Ordinaires (MCO)]] (l'entraînement n'est pas un problème)
 - Le nombre d'intéractions posisbles augmente comme $D^2$ ou D est la dimensionnalité de x
+
+
+## Les métriques qui permettent l'[[MOC - Évaluation & généralisation]]
+
+
+
+

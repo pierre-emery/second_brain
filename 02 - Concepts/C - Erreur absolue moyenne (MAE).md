@@ -1,0 +1,1 @@
+MAE pour Mean Absolute Error

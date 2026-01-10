@@ -1,0 +1,2 @@
+- Rest day
+- Hangboard 10 mins routine [[Programme d'entrainement]]

@@ -1,0 +1,1 @@
+La méthode du early stopping ou de l'arrêt prématuré permet de cesser l'entraînement lorsque le meilleur compromis est atteint entre la mémorisation et la compréhension des données.
