@@ -1,0 +1,1 @@
+La proximité des mesures répétées les unes par rapport aux autres

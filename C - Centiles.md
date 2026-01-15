@@ -1,0 +1,2 @@
+Le p-ième centile est une valeur $P_p$ telle que p% de valeurs observées sont inférieures à $P_p$. On prend typiquement $P_p$ comme une valeurs observées.
+Alternatives : les quartile $Q_i (i=1,2,3)$, etc.

@@ -1,0 +1,2 @@
+-  Prédictives : Prédisent des informations inconnues à partir de données connues. 
+- Descriptives : Déduisent ou extraient des modèles interprétables pour décrire les données.

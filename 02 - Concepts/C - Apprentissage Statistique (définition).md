@@ -1,3 +1,4 @@
-Deux définitions distinctes.
+Plusieurs définitions distinctes.
 - Dans le cours de sciences des données on définit l'apprentissage statistique comme : La construction de modèles $y_i = f(x_i|\theta)$ pour aider à comprendre les données ( la définition s'applique surtout dans un cadre supervisé). On apprend $\theta$ à partir de certaines données collectées $D$ qu'on peut ensuite utilisé sur des nouvelles données (pour prédire ou autre chose...) Nous pouvons penser l'apprentissage automatique comme un moyen de construire des modèles de données.
 - Dans le cours d'apprentissage statistique :
+- Dans le cours de fondements en sciences des données : Apprentissage statistique ou automatique c'est des méthodes qui permettent aux ordinateurs d'apprendre sans être explicitement programmés.

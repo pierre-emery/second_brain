@@ -40,6 +40,7 @@
 - [[C - Spécificité]]
 - [[C - TPR & FPR]]
 - [[C - Seuil de décision (threshold)]]
+- [[C - Détection d'anomalies]]
 - [[C - Courbe ROC & AUC]]
 - [[C - Courbe Precision-Recall (PR)]]
 
@@ -56,3 +57,7 @@
 - [[A - LIME]]
 - [[A - SHAP]]
 - [[A - DeepLIFT]]
+
+## 8) Visualisation pour l'évaluation
+- [[C - Visualisation]]
+

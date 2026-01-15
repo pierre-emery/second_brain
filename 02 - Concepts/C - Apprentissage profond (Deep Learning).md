@@ -1,0 +1,1 @@
+Des algorithmes qui modélisent des abstractions des données en utilisant plusieurs couches de traitement, composées de transformation linéaire et non linéaires ([[C - Fonction d'activation]]).

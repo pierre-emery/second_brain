@@ -1,0 +1,1 @@
+Des données extrêmement volumineuses qui peuvent être analysées par ordinateur pour révéler des modèles, des tendances et des associations en particulier concernant le comportement humain et les interactions.

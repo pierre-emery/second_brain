@@ -1,0 +1,1 @@
+La portion (par ex le %) de l'observation avec chaque valeur spécifique d'un attribut catégorique ou discret.

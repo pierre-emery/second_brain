@@ -1,0 +1,1 @@
+La plage est la différence entre les valeurs max et min observées d'un attribut

@@ -1,0 +1,2 @@
+La mesure dans laquelle les attributs varient ensemble et est calculé par $$cov(x,y) = \frac 1 n \sum^n_{i=1}(x_i - \bar x)(y_i-\bar y)$$Cette valeur dépend de l'ampleur / l'étendue des valeurs des attributs.
+Pour K attributs, ceux-ci forment la [[C - Matrice de Variance-Covariance]].

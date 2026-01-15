@@ -1,0 +1,1 @@
+La valeur la plus fréquent d'un attribut dans les données.

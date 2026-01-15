@@ -1,0 +1,1 @@
+Extraction non triviale des informations utiles, nouvelles, cachées ou implicites à partir des données.

@@ -3,7 +3,7 @@ L'interprétabilité peut aider à détecter les [[C - Biais de sélection]] et 
 
 Les modèles interprétables permettent souvent d'indentifier les facteurs importants.
 - [[A - Régression Linéaire]]
-- [[A - Régression Logisitique (Binaire)]]
+- [[A - Régression Logistique (Binaire)]]
 - [[A - Arbre de décision]]
 
 ### Il existe des méthodes permettent d'expliquer les facteurs importants localement pour une données particulière 
