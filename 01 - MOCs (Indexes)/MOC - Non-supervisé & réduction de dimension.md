@@ -9,3 +9,15 @@
 [[C - Détection de valeurs abberantes]]
 [[C - Géométries de diffusion]]
 [[C - Méthodes prédictives vs descriptives]]
+
+## Représentations / graphes
+- [[C - Représentations non paramétriques]]
+- [[C - Modèle Non Paramétrique]]
+
+## Exploration
+- [[C - Data Exploration]]
+## Visualisation
+- [[G - Diagramme de dispersion]] 
+- [[G - Histogramme]]
+- [[G - Tracé en étoile]]
+- [[G - TreeMap]]

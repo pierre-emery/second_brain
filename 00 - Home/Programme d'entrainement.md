@@ -69,3 +69,5 @@ Choisis 1 format :
 - **Vert :** pas de douleur + pas de raideur matinale → tu fais.
 - **Orange :** raideur doigts le matin > 3/10 OU avant-bras lourds → tu fais **5 répétitions seulement** OU tu augmentes l’assistance.
 - **Rouge :** douleur poulie/coude/avant-bras → **skip 48–72h** et tu gardes technique/antagonistes.
+
+(risque de changer, deux jours push-pulls un jour core-legs et routine doigts + mobilite tous les jours)

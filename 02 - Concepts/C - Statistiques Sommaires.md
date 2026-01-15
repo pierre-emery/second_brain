@@ -23,7 +23,7 @@ Les relations entre trois mesures de centralité [[C - Moyenne]], [[C - Médiane
 Les statistiques sommaires permettent d'identifier divers problèmes de qualité des données tels que :
 - [[C - Précision]]
 - [[C - Biais]]
-- [[C - Justesse]]
+- [[C - Exactitude (accuracy)]]
 - Valeurs manquantes, [[C - Valeurs Aberrantes]] ou dupliquées
 
 

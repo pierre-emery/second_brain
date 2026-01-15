@@ -1,0 +1,1 @@
+La proximité des mesures par rapport à la valeur réelle de la grandeur mesurée.
