@@ -1,0 +1,1 @@
+Généralisez [[C - Correction de Laplace]] à $Pr[x[j]=a|C=C_i] \approx \frac{\Big|x:x[j]=a \land x \in C_i\Big|+mp}{\Big|x:x\in C_i\big|+m}$ oû $0<p\leq 1$ est une probabilité préalable supposée et m est la confiance de supposition.

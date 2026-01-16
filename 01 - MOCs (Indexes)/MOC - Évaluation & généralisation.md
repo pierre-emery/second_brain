@@ -52,7 +52,9 @@
 ## 7) Interprétabilité, explicabilité & biais
 - [[C - Compromis interprétabilité–performance]]
 - [[C - Interprétabilité]]
+- [[C - Explicabilité]]
 - [[C - Biais de sélection]]
+- [[C - Biais Algorithmiques]]
 - [[C - Biais de mesure]]
 - [[A - LIME]]
 - [[A - SHAP]]

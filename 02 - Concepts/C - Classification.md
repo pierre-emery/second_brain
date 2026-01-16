@@ -55,7 +55,7 @@ Il faut donc estimer de nombreuses distributions avec peu d'informations sur cha
 
 # Algorithmes 
 - Classification bayésienne :  - [[A - Classification Naïve Bayésienne]]
-						- [[A - Réseaux de croyances bayésiens]]
+						- [[A - Réseaux de croyances bayésiens (BBN)]]
 
 - Machine à vecteurs de support [[A - SVM]]: - [[C - Classification Linéaire]]
 									-  [[C - Astuce du noyau]]

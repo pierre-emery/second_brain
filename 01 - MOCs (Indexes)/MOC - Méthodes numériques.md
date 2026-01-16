@@ -7,3 +7,4 @@
 
 ## Coût calculatoire
 - [[C - Complexité Algorithmique]]
+- [[C - Parallélisation]]

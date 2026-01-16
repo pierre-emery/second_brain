@@ -1,0 +1,1 @@
+Supposez que tous les compteurs utilisés par les estimateurs sont suffisaement grands pour que nous puissions y ajouter 1 en toute sécurité à chacune des k valerus de l'attribut j pour obtenir $Pr[x[j]=a|C=C_i] \approx \frac{\Big|x:x[j]=a \land x \in C_i\Big|+1}{\Big|x:x\in C_i\big|+k}$ 

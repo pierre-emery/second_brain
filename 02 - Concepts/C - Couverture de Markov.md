@@ -1,0 +1,1 @@
+Une couverture de Markov d'un noeud inclut ses parents, enfants et co-parents. Sachant sa couverture de Markov, un noeud est indépendant du reste du réseau.

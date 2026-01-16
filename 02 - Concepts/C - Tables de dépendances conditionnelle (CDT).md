@@ -1,0 +1,1 @@
+Un CDT contient les valeurs possibles d'un attribut d'un côté et les combinaisons possibles des attributs des parents de l'autres côté. Les cellules de ce tableau prennent en compte les probabilités P(enfants|parents).

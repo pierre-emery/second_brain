@@ -1,0 +1,1 @@
+[[C - Moindres Carrés Ordinaires (MCO)]] 

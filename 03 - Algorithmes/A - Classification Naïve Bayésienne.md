@@ -14,3 +14,7 @@ Pour chaque C et j, estimez P(C) et $P(x[j]|C)$ des données d'entraînement
 
 ### Classificateur
 Chaque x est classé par $\boxed{argmax_c P(C)\prod_{j=1}^n P(x[j]|C)}$
+
+Si $Pr[x[j]=a|C=C_i]\approx 0$ soit un rareté des données, le postérieur de {x : $x[j]=a$} sera zéro, même si d'autres attributs prédisent $C_i$. Ce problème peut être atténué par deux méthodes de correction:
+- [[C - Correction de Laplace]]
+- [[C - m-estimate]]
