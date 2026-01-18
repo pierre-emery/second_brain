@@ -1,0 +1,2 @@
+Un problème d'optimisation linéaire (aussi appelé programmation linéaire) consiste à maximiser ou minimiser une fonction objectif ([[C - Fonction Objective]]) linéaire ([[C - Fonction Linéaire]])sous des contraintes linéaires (égalités ou inégalités) ([[C - Contraintes]]). Par exemple le problème de flot maximum ([[C - Flot Maximum]]) en est un.
+
