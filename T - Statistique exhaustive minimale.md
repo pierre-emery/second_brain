@@ -1,0 +1,1 @@
+Soit $f (x|θ)$ , la fonction de densité (ou la fonction de probabilité) d’un modèle $X$. Supposons qu’il existe une fonction $T(x)$ telle que, pour deux échantillons $x$ et $y$, le ratio $f (x|θ)/f (y|θ)$  est constant en terme de $θ$ si et seulement si $T(x) = T(y)$. Alors, $T(X)$ est une statistique exhaustive minimale pour $θ$.

@@ -25,6 +25,6 @@ P(x[1],...,x[n],C) &= P(x[1]|x[2],...,x[n],C)P(x[2],...,x[n],C)\\
 &= \prod_j P(x[j]|parents(x[j]))
 \end{align*}$$
 Notez que C peut aussi être étendu pour considérer plusieurs noeuds de sortie.
-De plus les valeurs manquantes peuvent naturellement être traitées en considérant des ensembles partiels d'attributs. Les [[C - Vraisemblance]] et les [[C - Distribution a posteriori]] peuvent alors être estimées en utiisant des probabilités conjointes.
+De plus les valeurs manquantes peuvent naturellement être traitées en considérant des ensembles partiels d'attributs. Les [[C - Vraisemblance]] et les [[C - Distribution a postériori]] peuvent alors être estimées en utiisant des probabilités conjointes.
 Lorsqu'on considère la propagation des croyances il est utile d'identifier l'indépendance entre les événements dans le réseau. [[C - Couverture de Markov]] 
 On peut tester l'indépendance entre les événements sachant d'évidence en utilisant la d-séparation ([[C - Séparation Directionnelle]])
