@@ -1,0 +1,2 @@
+Soit $X_i \sim f(x|\theta), i =1,...,n$. Une statistique $T(X)$ est dite exhaustive si la densité conditionnelle $f(x|T(X) = t)$ est indépendante de $\theta$.
+Une statistique exhaustive pour un paramètre $\theta$ est une statistique qui capture toute l'information sur $\theta$ disponible dans l'échantillon.

@@ -1,0 +1,2 @@
+Supposons que $X=(X_1,...,X_n)$ possède une densité conjointe (ou une fonction de probabilité conjointe) $f(x|\theta)$ avec $\theta \in \Theta$. Alors $T(X)$ est exhaustive ([[C - Statistique Exhaustive]]) pour $\theta$ si et seulement si il existe des fonctions $g(T(x)|\theta)$ et $h(x)$ telles que $f(x|\theta)=g(T(x)|\theta)h(x), \forall x, \theta$.
+##### Remarque : $T(x)$ et $\theta$ peuvent être des vecteurs.
