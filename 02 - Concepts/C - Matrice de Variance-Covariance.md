@@ -1,1 +1,0 @@
-On a sur la diagonale des [[C - Variance]] $s_x^2 = cov(x,x)$ sur la diagonale et des [[C - Covariance]] partout ailleurs.
