@@ -1,1 +1,7 @@
-[[C - Moindres Carrés Ordinaires (MCO)]] 
+- [[C - Moindres Carrés Ordinaires (MCO)]] 
+- [[C - Recherche Operationnelle]]
+- [[C - Optimisation Linéaire]]
+- [[C - Fonction Objective]]
+- [[C - Contraintes]]
+- [[C - Flot Maximum]]
+- [[C - Coupe Minimale]]

@@ -1,5 +1,25 @@
 ## 1) Cadre
 - [[C - Inférence Statistique]]
+
+### 1.1) Approches de l’inférence
+- [[C - Statistique fréquentiste]]
+- [[C - Modèle Bayésien]]
+- [[C - Principe de la théorie bayésienne]]
+- [[C - Loi à priori impropre]]
+
+### 1.2) Principes : vraisemblance, conditionnement, suffisance
+- [[C - Principe de vraisemblance]]
+- [[C - Principe de conditionnement]]
+- [[C - Principe d'exhaustivité]]
+- [[C - Statistique Exhaustive]]
+- [[C - Statistique exhaustive minimale]]
+
+### 1.3) Résultats / critères (théorèmes)
+- [[T - Critère de factorisation de Neyman]]
+- [[T - Principe de Vraisemblance]]
+- [[T - Principe d'exhaustivité]]
+- [[T - Statistique exhaustive minimale]]
+- [[T - Théorème de Birnbaum informel]]
 ## 2) Types de variables et échelles de mesure
 - [[C - Attributs Qualitatifs]]
 - [[C - Attributs Quantitatifs]]
@@ -30,3 +50,4 @@
 - [[C - Valeurs Aberrantes]]
 ## 6) Mesure / performance
 - [[C - Exactitude (accuracy)]]
+- [[C - Principe de parcimonie]]

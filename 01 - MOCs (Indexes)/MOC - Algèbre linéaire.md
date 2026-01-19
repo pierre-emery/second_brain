@@ -3,4 +3,5 @@
 [[C - Astuce du noyau]]
 [[C - Espace de Hilbert]]
 [[C - Espaces métriques]]
-
+[[C - Fonction Linéaire]]
+[[C - Fonction Injective]]
