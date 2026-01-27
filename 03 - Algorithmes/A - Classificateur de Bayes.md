@@ -1,7 +1,7 @@
-C'est un Classificateur maximum a posteriori. Il utilise la [[C - Vraisemblance]] et la [[C - Distribution a priori]] de chaque classe pour estimer la [[C - Distribution a postériori]] et classer par probabilité a posteriori maximale. 
+C'est un Classificateur maximum a posteriori. Il utilise la [[C - Vraisemblance]] et la [[C - Distribution à priori]] de chaque classe pour estimer la [[C - Distribution a postériori]] et classer par probabilité a posteriori maximale. 
 
 ### Entraînement (ici dans un cas avec un seul attribut)
-- Estimez la [[C - Distribution a priori]] par les tailles des classes dans les données
+- Estimez la [[C - Distribution à priori]] par les tailles des classes dans les données
 - Pour chaque classe C, estimez P(x|C):
 				-Si x est discret juste comptez les valeurs
 				-Si x est continu, discrétisez ou utilisé un modèle de distribution(p. ex [[D - Loi Gaussienne (Normale)]] ou [[D - Loi de Poisson]])

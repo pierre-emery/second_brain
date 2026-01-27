@@ -1,4 +1,4 @@
-La [[C - Distribution a priori]] est un artifice permettant de modéliser l'information à priori.
+La [[C - Distribution à priori]] est un artifice permettant de modéliser l'information à priori.
 
 La densité $\pi(\theta)$ n'a pas obligatoirement à être une vraie densité, en autant que $\int_\Theta \mathcal L(\theta|x)\pi(\theta)d\theta<\infty$ (ceci certifie que la [[C - Distribution a postériori]] est valide, i.e. $\int \pi(\theta|x)d\theta=1$)
 

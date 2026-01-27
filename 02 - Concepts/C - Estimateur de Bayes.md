@@ -1,4 +1,4 @@
-- Un estimateur de Bayes associé à la [[C - Distribution a priori]] $\pi$ et à la [[C - Fonction de perte]] $L(\theta,\delta)$ est n'importe quel estimateur qui minimise $r(\pi,\delta)$ (en supposant que cette quantitié soit finie sinon il n'existe pas d'estimateur de Bayes)
+- Un estimateur de Bayes associé à la [[C - Distribution à priori]] $\pi$ et à la [[C - Fonction de perte]] $L(\theta,\delta)$ est n'importe quel estimateur qui minimise $r(\pi,\delta)$ (en supposant que cette quantitié soit finie sinon il n'existe pas d'estimateur de Bayes)
 - Le risque de Bayes du problème est donc $r(\pi)=r(\pi,\delta_\pi)$ 
 - Si un estimateur de Bayes $\delta_\pi$ existe alors il existe un [[C - Estimateur de Bayes partiel]] qui est égal à $\delta_\pi$ presque sûrement par rapport à la distribution marginale de $x$.
 - Les estimateurs de Bayes sont souvent admissibles et minimax [[C - Minimaxité et admissibilité (classique)]]

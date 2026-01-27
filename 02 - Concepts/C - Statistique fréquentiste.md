@@ -1,1 +1,4 @@
 Nous basons notre [[C - Inférence Statistique]] sur le modèle statistique $f (x;\theta)$, où $\theta$ est un paramètre fixe et inconnu. Nous tentons alors de tirer des conclusions sur $\theta$ en comparant l’échantillon obtenu à tous les autres échantillons qu’on aurait pu obtenir à partir du même modèle statistique.
+
+# Propriétés des estimateurs fréquentistes
+- [[C - Minimaxité]]

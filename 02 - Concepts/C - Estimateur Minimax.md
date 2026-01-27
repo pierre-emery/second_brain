@@ -1,0 +1,1 @@
+C'est un estimateur $\delta_0^*$ tel que $\bar R=\sup_{\theta}R(\theta,\delta^*_0)$ 

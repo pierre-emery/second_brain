@@ -1,0 +1,1 @@
+Si $\mathcal A \subset \mathbb R^k$ est convexe et compact et si $L(\theta,a)$ est une fonction continue et convexe en $a$ pour tout $\theta\in\Theta$, alors il existe un estimateur non-aléatoire qui est minimax ([[C - Minimaxité]]).

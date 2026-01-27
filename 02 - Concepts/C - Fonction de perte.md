@@ -9,7 +9,7 @@ Voici quelques exemples de fonction de pertes
 - [[C - Perte Vraisemblance]] 
 
 ## Lien avec densité à priori
-La fonction de perte et la [[C - Distribution a priori]] sont reliées de très près. Si $L(\theta, a) = \omega(\theta)(\theta - a)^2$ alors
+La fonction de perte et la [[C - Distribution à priori]] sont reliées de très près. Si $L(\theta, a) = \omega(\theta)(\theta - a)^2$ alors
 
 $$
 \delta_\pi(x)=

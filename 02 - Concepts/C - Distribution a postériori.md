@@ -28,7 +28,7 @@ Puisque $X_i\mid\theta \sim \mathrm{Exp}(\theta)$, i.i.d. conditionnellement à 
 $$
 f(x\mid\theta)=\theta e^{-\theta x},\quad x\ge 0.
 $$
-et la [[C - Distribution a priori]] $\theta\sim\Gamma(\alpha,\lambda)$ (paramétrisation « taux »), on a
+et la [[C - Distribution à priori]] $\theta\sim\Gamma(\alpha,\lambda)$ (paramétrisation « taux »), on a
 $\pi(\theta)\propto \theta^{\alpha-1}e^{-\lambda\theta},\quad \theta>0$.
 On observe $(x=(x_1,\dots,x_n)$ et on pose $S=\sum_{i=1}^n x_i$.
 On trouve donc la [[C - Vraisemblance]]$L(\theta\mid x)=\prod_{i=1}^n \theta e^{-\theta x_i}=\theta^{n}e^{-\theta S}$.
@@ -51,7 +51,7 @@ Supposons que  $\mathcal X \in\{0,1,2\}$ et que $\Theta\in\{1,2,3\}$. Le  modèl
 |                        $x=1$ |       0.25 |        0.3 |        0.8 |
 |                        $x=2$ |       0.25 |        0.6 |        0.2 |
 
-La [[C - Distribution a priori]] de $\theta$ satisfait $$
+La [[C - Distribution à priori]] de $\theta$ satisfait $$
 \pi(\theta)=
 \begin{cases}
 0.2 & \text{si }\theta=1,\\

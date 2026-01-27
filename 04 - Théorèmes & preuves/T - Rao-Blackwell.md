@@ -1,0 +1,2 @@
+Supposons que $\mathcal A$ est un sous-ensemble convexe de $\mathbb R^k$ et que $\forall\theta\in\Theta, L(\theta,a)$ est une fonction convexe en a. Supposons également que $\delta(x)$ est un estimateur non-aléatoire de $g(\theta)$ tel que $\mathbb E[||\delta(X)||]<\infty$.
+Soit $T(X)=t$ une [[C - Statistique Exhaustive]] pour $f(x|\theta)$. Si $\eta(t)=\mathbb(\delta(X)|T=t)$, alors le risque de $\eta(t)$ satisfait $R(\theta,\eta)\leq R(\theta,\delta)$,

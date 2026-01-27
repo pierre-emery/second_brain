@@ -1,0 +1,1 @@
+$$\bar R=\inf_{\delta^*\in\mathcal D^*}\sup_{\theta\in\Theta}R(\theta,\delta^*).$$

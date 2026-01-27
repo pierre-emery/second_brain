@@ -1,6 +1,6 @@
-Soit $\theta$ un paramètre qui prend des valeurs dans l'espace paramètre $\Theta$. La densité utilisée pour modéliser le caractère aléatoire de $\theta$ est appelé [[C - Distribution a priori]] et est dénotée $\pi$ .
+Soit $\theta$ un paramètre qui prend des valeurs dans l'espace paramètre $\Theta$. La densité utilisée pour modéliser le caractère aléatoire de $\theta$ est appelé [[C - Distribution à priori]] et est dénotée $\pi$ .
 
-Un modèle de statistique bayésien est composé d'un modèle statistique paramétrique $f(x|\theta)$ et d'une densité à priori $\pi(\theta)$ ([[C - Distribution a priori]]).
+Un modèle de statistique bayésien est composé d'un modèle statistique paramétrique $f(x|\theta)$ et d'une densité à priori $\pi(\theta)$ ([[C - Distribution à priori]]).
 #### Exemple intuitif:
 Appliquons maintenant le [[T - Théorème de Bayes]] à notre problème d'[[C - Inférence Statistique]]: On observe un échantillon $x_1,...,x_n$ tel que $X_i|\theta \sim f(x_i|\theta)$ indépendamment pour $i=1,...,n$ et on sait que $\theta \sim \pi (\theta)$. Alors,
 $$\pi(\theta|x)=\frac{\mathcal L(\theta|x)\pi(\theta)}{\int_\Theta\mathcal L(\theta|x)\pi(\theta)d\theta}=\frac{\prod_{i=1}^nf(x_i|\theta)\pi(\theta)}{\int_\Theta\prod_{i=1}^nf(x_i|\theta)\pi(\theta)d\theta}$$

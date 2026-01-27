@@ -14,7 +14,7 @@ Posons :
 Pour faire de l'inférence sur $\theta$ dans le cadre de la théorie de décision (approche paramétrique) nous devons spécifier:
 - Un [[C - Modèle paramétrique]] $f(x|\theta)$
 - Une [[C - Fonction de perte]]
-- (dans un contexte bayésien uniquement [[C - Principe de la théorie bayésienne]]) il faut aussi spécifier une densité à priori ([[C - Distribution a priori]])
+- (dans un contexte bayésien uniquement [[C - Principe de la théorie bayésienne]]) il faut aussi spécifier une densité à priori ([[C - Distribution à priori]])
 
 ### Exemple:
 Supposons $X_1,...,X_n\mid\lambda\sim$ i.i.d. Exp($\lambda$) et $\lambda\sim\Gamma(\alpha,\beta)$, où $\alpha$ et $\beta$ sont connus.

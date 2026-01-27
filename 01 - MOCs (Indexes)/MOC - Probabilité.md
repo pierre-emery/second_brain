@@ -2,7 +2,7 @@
 - [[C - Covariance]]
 - [[C - Corrélation]]
 - [[C - Matrice de Variance-Covariance]]
-- [[C - Distribution a priori]]
+- [[C - Distribution à priori]]
 - [[C - Distribution a postériori]]
 - [[D - Bernoulli]]
 - [[D - Loi de Poisson]]
