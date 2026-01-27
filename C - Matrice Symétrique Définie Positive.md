@@ -1,0 +1,1 @@
+$z^\top Q z\geq0$ pour tout vecteur z non-nul
