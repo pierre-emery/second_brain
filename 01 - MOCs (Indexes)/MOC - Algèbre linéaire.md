@@ -5,3 +5,8 @@
 [[C - Espaces métriques]]
 [[C - Fonction Linéaire]]
 [[C - Fonction Injective]]
+[[C - Hyperplan affine]]
+[[C - Demi-Espace]]
+[[C - Espace Pré-Hilbertien]]
+[[C - Fonction de Noyau]] 
+[[T - Théorème de Mercer]]

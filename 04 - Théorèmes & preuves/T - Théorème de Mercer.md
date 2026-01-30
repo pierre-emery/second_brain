@@ -1,0 +1,1 @@
+Si $k(x,y)$ est symétrique, continu et semi-défini positif (c-à-d $\forall_{x_1,...,x_n\in X;g\in L^2}\sum_{i=1}^n\sum_{j=1}^nk(x_i,x_j)g(x_i)g(x_j)\geq0$ où $X$ est un espace de données et $L^2$ est l'espace des fonctions carrées intégrables sur les données), alors il existe une fonction $\Phi$ telle que $k(x,y)=\langle\Phi(x),\Phi(y)\rangle$. 

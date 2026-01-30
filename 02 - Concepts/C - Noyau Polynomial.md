@@ -1,0 +1,1 @@
+Le noyau polynomial est défini par $k(x,y)=(\langle x,y\rangle+1)^p$ pour certain degré $p$. Les degrés particulieurs comprennent $p=1$ qui donne le SVM linéaire classique ([[A - Machines à vecteurs de support (SVM)]]) et $p=2$ qui donne le noyau quadratique

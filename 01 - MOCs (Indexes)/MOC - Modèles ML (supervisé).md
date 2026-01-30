@@ -1,3 +1,6 @@
+
+- [[C - Ingénierie de Caractéristiques]]
+- [[C - Augmentation de la dimensionnalité]]
 ## 1) Cadre & types de tâches
 - [[C - Apprentissage Statistique (définition)]]
 - [[C - Apprentissage supervisée]]
@@ -19,7 +22,11 @@
 - [[C - Séparation Directionnelle]] _(séparabilité/marge → lien SVM, perceptron)_
 
 ### 3.2 Méthodes à noyau / marge
-- [[A - SVM]]
+- [[A - Machines à vecteurs de support (SVM)]]
+- [[A - Kernel SVM]]
+- [[A - Soft Margin SVM]]
+-  [[C - Hyperplan]]
+- [[C - Vecteur de Support]]
 
 ### 3.3 Méthodes à base d’instances
 - [[A - KNN]]

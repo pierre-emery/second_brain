@@ -1,3 +1,7 @@
+- [[C - Dualité]]
+- [[C - Multiplicateurs de Lagrange]]
+- [[C - Transformation primal-dual]]
+- [[C - Conditions KKT]]
 - [[C - Moindres Carrés Ordinaires (MCO)]] 
 - [[C - Recherche Operationnelle]]
 - [[C - Optimisation Linéaire]]

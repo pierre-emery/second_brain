@@ -1,0 +1,1 @@
+Un noyau RBF est défini comme $k(x,y)=\exp\Big(\frac{-||x-y||^2}{\sigma^2}\Big)$ pour un certain $\sigma>0$ 

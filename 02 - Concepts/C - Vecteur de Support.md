@@ -1,0 +1,1 @@
+Les vecteurs de soutien sont les points dans $\{\vec x_i\mid\lambda_i\neq 0,i=1,...,N\}\neq\emptyset$  qui se situent tous exactement sur les frontières de la marge.

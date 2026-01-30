@@ -57,7 +57,7 @@ Il faut donc estimer de nombreuses distributions avec peu d'informations sur cha
 - Classification bayésienne :  - [[A - Classification Naïve Bayésienne]]
 						- [[A - Réseaux de croyances bayésiens (BBN)]]
 
-- Machine à vecteurs de support [[A - SVM]]: - [[C - Classification Linéaire]]
+- Machine à vecteurs de support [[A - Machines à vecteurs de support (SVM)]]: - [[C - Classification Linéaire]]
 									-  [[C - Astuce du noyau]]
 
 - [[A - Arbre de décision]] : - [[C - Mesure d'impureté]]

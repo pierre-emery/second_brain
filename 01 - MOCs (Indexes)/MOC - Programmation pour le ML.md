@@ -14,7 +14,8 @@
 - [[C - Univers du Discours]]
 - [[C - Langage de définition des données - DDL]]
 - [[C - Langage de manipulation des données - DML]]
-
+- [[C - Modèle Entité-Association]]
+- [[C - Modèle Relationnel]]
 
 ## Git & GitHub
 - [[Git & GitHub]]

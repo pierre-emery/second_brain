@@ -1,3 +1,5 @@
+- [[C - Fonction de Base Radiale (RBF)]] 
+- [[C - Noyau Polynomial]]
 ## 1) Cadre & objectifs
 - [[C - Apprentissage non-supervisée]]
 - [[C - Méthodes prédictives vs descriptives]]
