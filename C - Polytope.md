@@ -1,0 +1,1 @@
+Un polytope est un [[C - Polyèdre]] borné.

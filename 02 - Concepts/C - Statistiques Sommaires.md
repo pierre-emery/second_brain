@@ -5,7 +5,7 @@ Afin d'avoir un aperçu général des données et de leurs attributs dans leur e
 ### Définition :
 Propriétés qui résument l'information globale, telles que la tendance centrale, la dispersion et les variations des observations et des caractéristiques.
 
-Ces statistiques constituent une première étape importante dans l'analyse des données et la plupart d'entre elles sont facile à calculer en temps linéaire ([[C - Complexité Algorithmique (Big O)]]) par rapport à la taille des données
+Ces statistiques constituent une première étape importante dans l'analyse des données et la plupart d'entre elles sont facile à calculer en temps linéaire ([[C - Croissance Asymptotique (Big O)]]) par rapport à la taille des données
 
 # Relation centralité
 Les relations entre trois mesures de centralité [[C - Moyenne]], [[C - Médiane]] et [[C - Mode]] peuvent indiquer les distributions symétriques ou asymétriques des attributs

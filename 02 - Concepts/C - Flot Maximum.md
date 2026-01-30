@@ -22,3 +22,4 @@ la fonction objective est sujet aux contraintes:
 qu'on interprète comme 1. Le flot doit respecter la capacité de l'arc et 2. le flot entrant est égal au flot sortant à chaque noeud. Sauf à la source $S$ et au puit $T$.
 
 Le problème de flot maximum est pareil au problème de [[C - Coupe Minimale]].
+
