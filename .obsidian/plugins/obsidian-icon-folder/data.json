@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiAudioWaveform",
+      "LiAtom",
+      "LiAppWindowMac",
+      "LiArrowDownAz",
+      "LiArmchair"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "01 - MOCs (Indexes)": "LiAlignCenter",
+  "06 - Graphes": "LiAreaChart",
+  "100 - Templates": "LiArrowDownToLine",
+  "05 - Distributions": "LiAxis3d",
+  "00 - Home": "LiArmchair",
+  "02 - Concepts": "LiArrowDownAz",
+  "03 - Algorithmes": "LiAppWindowMac",
+  "04 - Théorèmes & preuves": "LiAtom",
+  "99 - Notes lambda": "LiAudioWaveform"
+}
