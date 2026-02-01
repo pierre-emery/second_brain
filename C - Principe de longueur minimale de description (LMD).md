@@ -1,0 +1,1 @@
+Minimisez Cost(data,model) = Cost(model) + Cost(data|model), où ce dernier coût ne tient compte que des étiquettes de classe pour les points mals classifiés.

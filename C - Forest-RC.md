@@ -1,0 +1,1 @@
+Créez de nouveaux attributs qui sont une combinaison linéaire (aléatoire) d'attributs existants. Ce qui réduit la corrélation entre les classificateurs individuels, mais permet également de définir des limites de décision non rectangulaires.

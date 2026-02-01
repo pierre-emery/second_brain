@@ -1,0 +1,1 @@
+Sélectionnez aléatoireent un sous-ensemble d'attributs comme candidats à la division des noeuds au lieu d'utiliser tous les attributs des données. Cette sélection aléatoire est généralement effectuée séparément à chaque noeud.
