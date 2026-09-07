@@ -1,4 +1,14 @@
 [
   "calendar",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "dataview",
+  "obsidian-excalidraw-plugin",
+  "obsidian-git",
+  "obsidian-tasks-plugin",
+  "templater-obsidian",
+  "nldates-obsidian",
+  "quickadd",
+  "obsidian-spaced-repetition",
+  "obsidian-style-settings",
+  "heatmap-tracker"
 ]

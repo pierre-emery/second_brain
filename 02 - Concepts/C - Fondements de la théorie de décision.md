@@ -8,7 +8,7 @@ Posons :
 ### Exemple:
 - [[C - Estimation ponctuelle]]:  $\mathcal A=\Theta$
 - [[C - Test d'hypothèse]]:  $\mathcal A=\{0,1\}$ où $0$ signifie rejeter $H_0$ et $1$ signifie rejeter $H_1$;
-- [[C - Intervalle de confiance]]: $\mathcal A=\{[\theta_0,\theta_1]\mid\theta_0<\theta_1,\theta_0,\theta_1\in\Theta\}$ 
+- [[C - Intervalle de Confiance]]: $\mathcal A=\{[\theta_0,\theta_1]\mid\theta_0<\theta_1,\theta_0,\theta_1\in\Theta\}$ 
 
 ## [[C - Inférence Statistique]]
 Pour faire de l'inférence sur $\theta$ dans le cadre de la théorie de décision (approche paramétrique) nous devons spécifier:

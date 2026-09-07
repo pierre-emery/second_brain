@@ -1,0 +1,1 @@
+Sélectionner un sous-ensemble de caractéristiques existantes et seulement utiliser celles-ci dans l'analuse, tout en leur attribuant éventuellement des pondérations d'importance pour éliminer les informations redondantes

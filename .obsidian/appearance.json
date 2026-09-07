@@ -1,1 +1,10 @@
-{}
+{
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "Notebook Backgrounds",
+    "Daily Note Themes",
+    "CyanVoxel's General Tweaks",
+    "Center Embeds"
+  ],
+  "accentColor": "#5c82f5"
+}

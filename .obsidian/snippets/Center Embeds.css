@@ -1,0 +1,14 @@
+/* Centre automatiquement tous les embeds (images, Excalidraw, etc.) */
+.internal-embed.image-embed,
+.internal-embed.media-embed {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.internal-embed.image-embed img,
+.internal-embed.media-embed img {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,1 @@
+Combinaison de plusieurs attributs à une seule caractéristique, ou de plusieurs points de données en une seule observation.

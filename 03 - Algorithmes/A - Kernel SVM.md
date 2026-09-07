@@ -17,7 +17,7 @@ $$\begin{align*}
 \end{align*}$$
 L'optimisation suit les mêmes étapes que pour [[A - Machines à vecteurs de support (SVM)]] et la classification tient compte $\langle\vec w,\phi(y)\rangle-b$ pour un nouveau point y.
 
-Les transformations de représentation peuvent être conçus (p. ex. filter banks et scattering) ou apprises des données (p. ex., à [[C - Apprentissage profond (Deep Learning)]]). Cependant, l'extraction des caractéristiques ([[C - Ingénerie de Caractéristiques]]) appropriées n'est pas toujours claire ou pratique.
+Les transformations de représentation peuvent être conçus (p. ex. filter banks et scattering) ou apprises des données (p. ex., à [[C - Apprentissage profond (Deep Learning)]]). Cependant, l'extraction des caractéristiques ([[C - Ingénierie de Caractéristiques]]) appropriées n'est pas toujours claire ou pratique.
 
 # Entrainement de Kernel SVM
 Entrée:

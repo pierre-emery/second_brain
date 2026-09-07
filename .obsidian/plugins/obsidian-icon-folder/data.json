@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAudioWaveform",
-      "LiAtom",
-      "LiAppWindowMac",
-      "LiArrowDownAz",
-      "LiArmchair"
+      "LiPencilLine",
+      "LiCalendar",
+      "LiAnvil",
+      "LiActivity",
+      "LiAudioWaveform"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,8 @@
   "02 - Concepts": "LiArrowDownAz",
   "03 - Algorithmes": "LiAppWindowMac",
   "04 - Théorèmes & preuves": "LiAtom",
-  "99 - Notes lambda": "LiAudioWaveform"
+  "99 - Notes lambda": "LiAudioWaveform",
+  "98 - Logs Santé": "LiActivity",
+  "07 - Exemples & Exercices": "LiPencilLine",
+  "97 - Calendrier": "LiCalendar"
 }

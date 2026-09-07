@@ -1,3 +1,11 @@
+---
+type: algorithme
+cours: [IFT6758]
+statut: complet
+tags: []
+prerequis: ["[[A - Arbre de décision]]"]
+maj: 2026-08-06
+---
 Une méthode d'ensemble qui combine plusieurs arbres de décision et agrège leurs résultats. Pour construire les arbres, plusieurs vecteurs aléatoires sont échantillonnés i.i.d. de la même distribution et chaque construction individuelle d'arbre de décision dépend des données et de l'un de ces vecteurs.
 $$f(y|x)=\frac{1}{|\mathrm M|}\sum_{m\in\mathrm M}f_m(y|x)$$ ici $f(y|x)$ est une forêt, M un ensemble d'arbre et m un arbre.
 Un des intérêt d'utiliser plusieurs arbres et de réduire la variance. Un [[A - Arbre de décision]] seul a souvent une variance élevée (il change beaucoup si tu changes un peu les données). Du coup en utilisant plusieurs arbres et en moyennant leurs prédictions (on peut aussi procéder par vote majoritaire) on réduit la variance et donc le [[C - Surapprentissage]].

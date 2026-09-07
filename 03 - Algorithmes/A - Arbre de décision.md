@@ -1,3 +1,12 @@
+---
+type: algorithme
+cours: [IFT6758]
+statut: complet
+tags: []
+prerequis: []
+maj: 2026-08-06
+---
+
 # En bref
 C'est un classificateur simple et populaire.
 - L'algorithme d'induction conçoit un partitionnement hiérarchique des données en sous-ensembles homogènes qui se composnet pour la plupart d'une seule classe
@@ -105,3 +114,7 @@ La taille de l'arbre de décision est réduite par l'élagage:
 
 ### Lien vers [[A - Forêt Aléatoire]]
 Alors que les arbres de décision sont simples et efficaces, ils sont égalements sensibles aux variations d'entraînement et au suréquipement. Pour réduire la variance et augmenter la stabilité, plusieurs arbres de décision peuvent être combinés ensemble pour former une forêt.
+
+## Analogie (station de ski)
+
+Chaque skieur potentiel utilise "son propre arbre décisionnel" (météo, jour, congé, neige) pour décider de venir skier ou non. Les profits d'une station dépendent donc des décisions d'un grand nombre d'arbres et la foule décide comme une forêt aléatoire (voir [[A - Forêt Aléatoire]]).

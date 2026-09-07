@@ -1,0 +1,35 @@
+{
+  "quickadd:choice:420bf143-a5b7-4422-80b5-5a3ed165ab52": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "quickadd:choice:c35ec03b-629e-49f5-bfbe-209a2fe18922": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:330ec4c7-f704-446e-975b-a454548ca9c4": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
+}

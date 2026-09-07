@@ -1,32 +1,71 @@
-- [[C - Fonction de Base Radiale (RBF)]] 
-- [[C - Noyau Polynomial]]
+---
+## type: moc-theme
+sujet: non-supervise-reduction-dimension
+maj: 2026-08-06
+---
 ## 1) Cadre & objectifs
+
 - [[C - Apprentissage non-supervisée]]
 - [[C - Méthodes prédictives vs descriptives]]
 - [[C - Data Mining]]
+
 ## 2) Grandes tâches (problèmes)
+
 - [[C - Clustering]]
 - [[C - Réduction de dimensions]]
 - [[C - Détection d'anomalies]]
 - [[C - Détection de valeurs abberantes]]
 - [[C - Découverte de règles d'associations]]
 - [[C - Découverte de motifs séquentiels]]
-## 3) Représentations, distances et graphes
+
+## 3) Algorithmes (A -)
+
+### Clustering
+
+- [[A - K-Means]]
+- [[A - DBScan]]
+- [[A - Regroupement hiérarchique]]
+
+### Réduction de dimension
+
+- [[A - Analyse en composantes principales (PCA)]]
+- [[A - Isomap]]
+- [[A - Diffusion Maps]]
+- [[A - Positionnement multidimensionnel]]
+- [[A - Projections aléatoires]]
+
+## 4) Représentations, distances, noyaux et graphes
+
 - [[C - Représentations non paramétriques]]
 - [[C - Modèle Non Paramétrique]]
 - [[C - Matrice de Similitudes]]
 - [[C - Matrice d'Adjacence]]
-## 4) Géométrie & méthodes basées sur graphes
+
+### Fonctions noyau
+
+- [[C - Fonction de Base Radiale (RBF)]]
+- [[C - Noyau Polynomial]]
+
+## 5) Géométrie & méthodes basées sur graphes
+
 - [[C - Géométries de diffusion]]
-## 5) Exploration & visualisation (EDA)
+
+## 6) Exploration & visualisation (EDA)
+
 - [[C - Data Exploration]]
+
 ### Graphes
+
 - [[G - Diagramme de dispersion]]
 - [[G - Histogramme]]
 - [[G - Tracé en étoile]]
 - [[G - TreeMap]]
-## 6) Ponts vers d’autres cadres
+
+## 7) Ponts vers d'autres cadres
+
 - [[C - Apprentissage semi-supervisé]]
-## 7) (Optionnel) Modèles probabilistes sur graphes
+
+## 8) (Optionnel) Modèles probabilistes sur graphes
+
 - [[A - Réseaux de croyances bayésiens (BBN)]]
 - [[C - Couverture de Markov]]
