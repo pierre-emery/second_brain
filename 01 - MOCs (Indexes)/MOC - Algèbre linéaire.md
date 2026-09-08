@@ -28,10 +28,12 @@ maj: 2026-09-08
 - [[C - Trace d'une matrice]]
 - [[C - Déterminant d'une matrice]]
 - [[C - Inverse d'une matrice]]
+- [[C - Pseudo-inverse de Moore-Penrose]]
 - [[C - Rang d'une matrice]]
 - [[C - Espace Image (Range) d'une matrice]]
 - [[C - Espace Nul (Null Space) d'une matrice]]
 - [[C - Valeurs et Vecteurs propres]]
+- [[C - Nombre de Conditionnement (matrice)]]
 
 ## Types de matrices particulières
 
