@@ -1,13 +1,9 @@
 ---
-
 type: moc-cours
-
-cours: [IFT6269]
-
+cours:
+  - IFT6269
 sujet: Modèles graphiques probabilistes
-
-maj: 2026-09-04
-
+maj: 2026-09-08
 ---
 
 > IFT6269 — Probabilistic Graphical Models, Simon Lacoste-Julien (Mila / UdeM).
@@ -40,13 +36,13 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 - [[C - Sources d'incertitude]]
 - [[C - Espace de probabilité]]
--  [[C - Variable Aléatoire]]
+- [[C - Variable Aléatoire]]
 - [[C - Distribution de probabilité (axiomes de Kolmogorov)]]
 - [[C - Fonction de masse et de densité (pmf-pdf)]]
 - [[C - Fonction de répartition (CDF)]]
-- [[C - Distribution jointe et marginale]]
+- [[C - Distribution Jointe, Marginale et Conditionnelle]]
 - [[C - Espérance]]
-- [[C - Indépendance de variables aléatoires]]
+- [[C - Indépendance (variables aléatoires)]]
 - [[C - Conditionnement (probabilité conditionnelle)]]
 
 ## Résultats fondamentaux
@@ -56,9 +52,12 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 ## Modèles graphiques probabilistes
 
-- [[C - Modèle Graphique Probabiliste]]
-- [[C - Modèle de Markov Caché (HMM)]]
+- [[A - Modèle Graphique Probabiliste]]
+- [[A - Modèle Graphique Non-dirigé]]
+- [[C - Clique (graphe)]]
+- [[A - Modèle de Markov Caché (HMM)]]
 - [[C - Factorisation d'une distribution jointe]]
+- [[C - Séparation Directionnelle]]
 
 ## Inférence et calcul
 
