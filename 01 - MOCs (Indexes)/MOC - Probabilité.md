@@ -21,7 +21,7 @@ maj: 2026-08-06
 ## 3) Inférence bayésienne
 
 - [[C - Distribution à priori]]
-- [[C - Distribution a postériori]]
+- [[C - Distribution à postériori]]
 - [[T - Théorème de Bayes]]
 ## 4) Distributions
 

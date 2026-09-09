@@ -1,9 +1,14 @@
 ---
-## type: concept cours: [IFT67658, STT2700, STT3790, STT2105, IFT6269]
+type:
+  - concept
+cours:
+  - IFT6758
+  - IFT6269
+  - STT3790
+  - STT2105
+  - STT2700
 statut: complet
-tags: [] 
-prerequis: []
-maj: 2026-08-06
+maj: 2026-09-08
 ---
 Si on observe $x = (x_1,...,x_n)$ provenant de n variables aléatoires i.i.d., la densité conjointe correspond à la fonction de vraisemblance $$\mathcal L(\theta|x)=\prod_{i=1}^n f(x_i;\theta)=f(x;\theta)$$
 #### Attention
@@ -19,5 +24,6 @@ Supposons que $x_1,\ldots,x_m \sim \mathcal{N}(\mu,\sigma)$ i.i.d., on veut esti
 - [[C - Perte Vraisemblance]]
 - [[MOC - Inférence Statistique]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[C - Hypothèse i.i.d.]]

@@ -23,6 +23,11 @@ $$p(x_{1:n})=\prod_{i=1}^np(x_i)\;\;\;\forall x_{1:n}\in\bigtimes_{i=1}^n\Omega_
 
 ![[C - Indépendance Conditionnelle]]
 
+## Deux structures graphiques opposées (aperçu)
+
+- **Fourche** (ancêtre commun) : $p(x,y,z) = p(x\mid z)\,p(y\mid z)\,p(z)$ → $X \perp\!\!\!\perp Y \mid Z$, mais pas nécessairement $X\perp\!\!\!\perp Y$.
+
+- **Collision** (v-structure) : $p(x,y,z) = p(z\mid x,y)\,p(x)\,p(y)$ → $X\perp\!\!\!\perp Y$ (marginalement), mais généralement **pas** $X\perp\!\!\!\perp Y \mid Z$. C'est le phénomène du **« explaining away »** (observer un effet commun $Z$ rend ses causes $X,Y$ dépendantes). Ce sujet sera formalisé plus tard avec la d-séparation dans les modèles graphiques dirigés.
 ## Liens connexes
 
 - [[MOC - Probabilité]]

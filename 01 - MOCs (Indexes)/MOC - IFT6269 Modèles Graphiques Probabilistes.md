@@ -49,6 +49,8 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 - [[T - Théorème de Bayes]]
 - [[T - Règle de la chaîne (probabilité)]]
+- [[T - Loi des grands nombres]]
+- [[T - Théorème central limite]]
 
 ## Modèles graphiques probabilistes
 
@@ -63,6 +65,26 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 - [[A - Passation de Messages]]
 
+
+## Modèles paramétriques et distributions
+
+- [[C - Modèle paramétrique]]
+- [[D - Bernoulli]]
+- [[D - Binomiale]]
+- [[D - Beta]]
+- [[D - Loi de Poisson]]
+- [[D - Loi Gaussienne (Normale)]]
+- [[D - Gamma]]
+
+## Statistique fréquentiste et bayésienne
+- [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]
+- [[C - Statistique fréquentiste]]
+- [[C - Modèle Bayésien]]
+- [[C - Distribution à priori]]
+- [[C - Distribution à postériori]]
+- [[C - Vraisemblance]]
+- [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
+
 ## Thèmes du cours
 
 - [[C - Thèmes clés de l'apprentissage statistique]]
@@ -73,6 +95,7 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - Inférence approximative : échantillonnage, méthodes variationnelles
 - Estimation : maximum de vraisemblance, maximum d'entropie, appariement de moments
 - Paradoxe de Borel-Kolmogorov (propriétés contre-intuitives du conditionnement continu)
+- Propriétés générales des estimateurs (biais, variance, consistance; MAP)
 
 ## MOC thématiques liés
 

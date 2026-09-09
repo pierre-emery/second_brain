@@ -1,3 +1,9 @@
+---
+type: concept
+cours: [STT2105, IFT6269]
+statut: complet
+maj: 2026-09-08
+---
 ## Exemple ([[D - Bernoulli]])
 Considérons $X_i|\theta \sim$ Bernouilli($\theta),i=1,...,n$ des variables aléatoires conditonnellement i.i.d. sachant $\theta$. Supposons que $\theta \sim Beta(\alpha,\beta)$. ([[D - Beta]])
 
@@ -96,3 +102,12 @@ Et on trouve :$$
 $$
 # Attention
 Il faut cependant être prudent lorsqu’on travaille avec des distributions particulières telles que des mélanges, ou tout simplement avec des distributions discrètes non identifiées. Dans de tels cas, il est plus prudent de procéder par la méthode longue pour déterminer la distribution à postériori.
+
+## Liens connexes
+
+ - [[MOC - Inférence Statistique]]
+ - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
+ - [[C - Modèle Bayésien]]
+ - [[C - Distribution à priori]]
+ - [[D - Beta]]
+ - [[D - Gamma]]

@@ -1,4 +1,4 @@
-Si l'inférence sur $\theta$ est basée sur la [[C - Distribution a postériori]] alors le principe de vraisemblance est satisfait.
+Si l'inférence sur $\theta$ est basée sur la [[C - Distribution à postériori]] alors le principe de vraisemblance est satisfait.
 
 ### Démonstration
 $$\begin{align}

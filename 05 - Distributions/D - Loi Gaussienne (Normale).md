@@ -1,11 +1,12 @@
 ---
-
 type: distribution
-
-cours: [IFT6135]
-
+cours:
+  - IFT6135
+  - IFT6269
+  - STT2105
+  - STT3790
 statut: brouillon
-
+maj: 2026-09-08
 ---
 **Cas univarié** ($X \in \mathbb{R}$) :
 
@@ -18,4 +19,6 @@ $$p(\mathbf{x}) = \frac{1}{\sqrt{(2\pi)^d \det(\Sigma)}}\exp\left(-\frac{1}{2}(\
 
 - [[MOC - Probabilité]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Matrice de Variance-Covariance]]
+- [[T - Théorème central limite]]

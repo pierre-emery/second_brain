@@ -1,10 +1,17 @@
+---
+type: concept
+cours: STT2105
+statut: complet
+maj: 2026-09-08
+---
+
 Soit $\theta$ un paramètre qui prend des valeurs dans l'espace paramètre $\Theta$. La densité utilisée pour modéliser le caractère aléatoire de $\theta$ est appelé [[C - Distribution à priori]] et est dénotée $\pi$ .
 
 Un modèle de statistique bayésien est composé d'un modèle statistique paramétrique $f(x|\theta)$ et d'une densité à priori $\pi(\theta)$ ([[C - Distribution à priori]]).
 #### Exemple intuitif:
 Appliquons maintenant le [[T - Théorème de Bayes]] à notre problème d'[[C - Inférence Statistique]]: On observe un échantillon $x_1,...,x_n$ tel que $X_i|\theta \sim f(x_i|\theta)$ indépendamment pour $i=1,...,n$ et on sait que $\theta \sim \pi (\theta)$. Alors,
 $$\pi(\theta|x)=\frac{\mathcal L(\theta|x)\pi(\theta)}{\int_\Theta\mathcal L(\theta|x)\pi(\theta)d\theta}=\frac{\prod_{i=1}^nf(x_i|\theta)\pi(\theta)}{\int_\Theta\prod_{i=1}^nf(x_i|\theta)\pi(\theta)d\theta}$$
-La densité $\pi(\theta|x)$ est appelée [[C - Distribution a postériori]]
+La densité $\pi(\theta|x)$ est appelée [[C - Distribution à postériori]]
 
 ## Idée
 - Initialement nous croyons que $\pi$ la densité à priori est un bon modèle pour la variable aléatoire $\theta$. La densité$\pi(\theta)$ est le meilleur choix qu'on puisse faire étant donné l'information que l'on possède.
@@ -20,3 +27,14 @@ Une fois le choix d'une bonne distribution à propri on l'utilise pour obtenir l
 - La densité marginale de X est $m(x)=\int_\Theta f(x|\theta)\pi(\theta)d\theta$ 
 - La densité à postériori de $\theta$ est $\pi(\theta|x)=\frac{\psi(\theta,x)}{m(x)}=\frac{f(x|\theta)\pi(\theta)}{\int_\Theta f(x|\theta)\pi(\theta)d\theta}$
 - La densité prédictive de $Y$ lorsque $Y \sim g(y|\theta,x)$ est $g(y|x)=\int_\Theta g(y|\theta,x)\pi(\theta|x)d\theta$
+
+## Notes supplémentaires de IFT6269
+
+Philosophie de l'approche bayésienne : traiter **toute quantité incertaine** comme une variable aléatoire, y compris les paramètres du modèle. Voir [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]] pour la comparaison avec l'approche fréquentiste, et [[D - Beta]] pour l'exemple classique de conjugaison Beta-Bernoulli/Binomiale (prior uniforme, mise à jour, estimateur bayésien = moyenne a postériori).
+## Liens connexes
+
+- [[MOC - Inférence Statistique]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
+- [[C - Distribution à priori]]
+- [[C - Distribution à postériori]]
+- [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]

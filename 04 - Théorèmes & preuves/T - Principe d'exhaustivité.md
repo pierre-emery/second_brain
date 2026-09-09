@@ -1,4 +1,4 @@
-Si $f(x|\theta$) admet une [[C - Statistique Exhaustive]], alors la [[C - Distribution a postériori]] de $\theta$ ne dépend de $x$ qu'à traers $T(x)$.
+Si $f(x|\theta$) admet une [[C - Statistique Exhaustive]], alors la [[C - Distribution à postériori]] de $\theta$ ne dépend de $x$ qu'à traers $T(x)$.
 
 #### Démonstration
 Posons $T(x)=t$ alors on a $$\begin{align}
