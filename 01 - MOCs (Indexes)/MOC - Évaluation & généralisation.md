@@ -9,6 +9,8 @@ maj: 2026-08-06
 - [[C - Risque]]
 - [[C - Risque Empirique]]
 - [[C - Régularisation]]
+- [[C - Décroissance des poids (Weight Decay)]]
+- [[C - Théorème du No Free Lunch]]
 - [[C - Erreur de généralisation]]
 
 ## 2) Biais–variance, complexité, over/underfitting
@@ -42,6 +44,7 @@ maj: 2026-08-06
 ### Perte / erreur
 
 - [[C - Perte 0-1]]
+- [[C - Taux d'Erreur Bayésien]]
 
 ### Matrice de confusion & métriques dérivées
 
@@ -74,3 +77,7 @@ maj: 2026-08-06
 ## 8) Visualisation pour l'évaluation
 
 - [[C - Visualisation]]
+## MOC thématiques liés
+
+- [[MOC - Inférence Statistique]]
+- [[MOC - Modèles ML (supervisé)]]

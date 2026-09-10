@@ -1,13 +1,15 @@
 ---
-## type: moc-theme
 sujet: non-supervise-reduction-dimension
-maj: 2026-08-06
+maj: 2026-09-09
 ---
+- [[C - Fonction de Base Radiale (RBF)]]
+- [[C - Noyau Polynomial]]
 ## 1) Cadre & objectifs
 
 - [[C - Apprentissage non-supervisée]]
 - [[C - Méthodes prédictives vs descriptives]]
 - [[C - Data Mining]]
+- [[C - Hypothèse de Variété (Manifold Hypothesis)]]
 
 ## 2) Grandes tâches (problèmes)
 

@@ -1,7 +1,6 @@
 ---
-## type: moc-theme
 sujet: modeles-supervises
-maj: 2026-08-06
+maj: 2026-09-09
 ---
 - [[C - Ingénierie de Caractéristiques]]
 - [[C - Augmentation de la dimensionnalité]]
@@ -14,7 +13,7 @@ maj: 2026-08-06
 - [[C - Classification]]
 - [[C - Régression]]
 - [[C - Réduction de dimensions (cadre supervisé)]]
-
+- [[C - Recette de construction d'un algorithme ML]]
 ## 2) Hypothèses de modélisation & estimation
 
 - [[C - Modèle paramétrique]]
@@ -79,7 +78,7 @@ maj: 2026-08-06
 - [[C - Biais]]
 - [[C - Variance (expliquée)]]
 - [[C - Compromis Biais-Variance]]
-
+- [[C - Théorème du No Free Lunch]]
 ## 5) Représentations de texte (features)
 
 - [[C - Bag of Words]]
