@@ -8,7 +8,9 @@ maj: 2026-08-06
 - [[C - Fonction de perte]]
 - [[C - Risque]]
 - [[C - Risque Empirique]]
-- [[C - Régularisation]]
+- [[C - Régularisation]]
+- [[C - Régularisation L1]]
+- [[C - Régularisation L2 (Weight Decay)]]
 - [[C - Décroissance des poids (Weight Decay)]]
 - [[C - Théorème du No Free Lunch]]
 - [[C - Erreur de généralisation]]
@@ -22,6 +24,8 @@ maj: 2026-08-06
 - [[C - Surapprentissage]]
 - [[C - Sous-apprentissage]]
 - [[C - Sélection de modèle]]
+- [[C - Recherche en Grille (Grid Search)]]
+- [[C - Recherche Aléatoire (Random Search)]]
 - [[C - Hyperparamètres]]
 ## 3) Diagnostic d'entraînement (courbes)
 

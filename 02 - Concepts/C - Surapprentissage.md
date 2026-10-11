@@ -26,7 +26,7 @@ maj: 2026-08-06
 
 ## Exemple
 
-Un modèle de degré 10 ajusté sur des données bruitées, qui suit parfaitement chaque point d'entraînement (y compris le bruit) plutôt que la tendance réelle — c'est le cas classique du "forcefitting -- too good to be true".
+Un modèle de degré 10 ajusté sur des données bruitées, qui suit parfaitement chaque point d'entraînement (y compris le bruit) plutôt que la tendance réelle, c'est le cas classique du "forcefitting -- too good to be true".
 
 ![[Under-overfitting]]
 
@@ -45,4 +45,4 @@ Un modèle de degré 10 ajusté sur des données bruitées, qui suit parfaitemen
 - [[C - Compromis Biais-Variance]]
 - [[C - Early stopping]]
 - [[MOC - IFT6758 Sciences des données]]
-- - [[MOC - IFT6135 Apprentissage de Représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]

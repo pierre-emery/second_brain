@@ -20,7 +20,7 @@ L'approche la plus complète est d'utiliser la distribution a posteriori bayési
 
 ## Lien avec la régularisation : MAP = décroissance des poids
 
-Pour une [[A - Régression Linéaire|régression linéaire]] avec un prior gaussien $\mathcal{N}(\mathbf{w}; 0, \frac{1}{\lambda}\mathbf{I})$ sur les poids, le terme de log-prior dans l'équation ci-dessus est proportionnel à $\lambda\mathbf{w}^\top\mathbf{w}$ (plus un terme qui ne dépend pas de $\mathbf{w}$) — exactement la pénalité de [[C - Décroissance des poids (Weight Decay)|décroissance des poids]]. **L'inférence bayésienne MAP avec un prior gaussien sur les poids correspond donc exactement à la décroissance des poids.**
+Pour une [[A - Régression Linéaire|régression linéaire]] avec un prior gaussien $\mathcal{N}(\mathbf{w}; 0, \frac{1}{\lambda}\mathbf{I})$ sur les poids, le terme de log-prior dans l'équation ci-dessus est proportionnel à $\lambda\mathbf{w}^\top\mathbf{w}$ (plus un terme qui ne dépend pas de $\mathbf{w}$) ce qui est exactement la pénalité de [[C - Décroissance des poids (Weight Decay)|décroissance des poids]]. **L'inférence bayésienne MAP avec un prior gaussien sur les poids correspond donc exactement à la décroissance des poids.**
 
 Plus généralement, beaucoup de stratégies de régularisation (ex. maximum de vraisemblance régularisé par décroissance des poids) peuvent être interprétées comme une approximation MAP de l'inférence bayésienne, dès que la régularisation ajoute un terme correspondant au $\log p(\theta)$ d'un prior. Attention : tous les régularisateurs ne correspondent pas à un MAP bayésien (certains ne sont pas le logarithme d'une distribution de probabilité valide, ou dépendent des données, ce qu'un prior n'a pas le droit de faire).
 

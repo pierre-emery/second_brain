@@ -14,7 +14,7 @@ Ensemble de méthodes pour vérifier qu'un modèle entraîné généralise bien,
 
 - **Holdout (ensemble de test)** : réserver une partie des données, jamais vue à l'entraînement, pour évaluer la performance finale.
 - **Validation croisée (k-fold)** : diviser les données en k parties, entraîner sur k-1 d'entre elles et valider sur la dernière, en alternant la partie de validation.
-- **Entraînement / Validation / Test** : si assez de données, séparer en 3 ensembles — entraînement (ajuster les paramètres), validation (ajuster les hyperparamètres), test (évaluation finale, jamais utilisé pour ajuster quoi que ce soit).
+- **Entraînement / Validation / Test** : si assez de données, séparer en 3 ensembles : entraînement (ajuster les paramètres), validation (ajuster les hyperparamètres), test (évaluation finale, jamais utilisé pour ajuster quoi que ce soit).
 
 ## Pourquoi
 

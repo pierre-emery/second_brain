@@ -47,7 +47,7 @@ $$
 $$
 \boxed{\;\theta\mid x \sim \Gamma(\alpha+n,\;\lambda+S)\;}
 $$
-## Exemple 3 — Cas discret : calculs de posterior
+## Exemple 3, Cas discret : calculs de posterior
 
 Supposons que  $\mathcal X \in\{0,1,2\}$ et que $\Theta\in\{1,2,3\}$. Le  modèle échantionnal possède les masses de probabilités suiavntes: 
 

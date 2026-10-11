@@ -19,7 +19,7 @@ Pour accéder simultanément à plusieurs éléments d'un vecteur $\mathbf{x}$, 
 
 ## Fonction appliquée à une matrice
 
-Quand on indexe le résultat d'une fonction appliquée à une matrice (plutôt qu'une simple variable), on n'utilise pas la convention minuscule/majuscule habituelle : $f(\mathbf{A})_{i,j}$ désigne l'élément $(i,j)$ de la matrice obtenue en appliquant $f$ à $\mathbf{A}$ — utile pour noter une opération appliquée élément par élément (ex. une fonction d'activation appliquée à une couche entière).
+Quand on indexe le résultat d'une fonction appliquée à une matrice (plutôt qu'une simple variable), on n'utilise pas la convention minuscule/majuscule habituelle : $f(\mathbf{A})_{i,j}$ désigne l'élément $(i,j)$ de la matrice obtenue en appliquant $f$ à $\mathbf{A}$ ce qui est utile pour noter une opération appliquée élément par élément (ex. une fonction d'activation appliquée à une couche entière).
 
 ## Liens connexes
 

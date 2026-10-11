@@ -5,9 +5,8 @@ cours:
 statut: incomplet
 tags: []
 prerequis: []
-maj: 2026-08-06
+maj: 2026-09-27
 ---
-
 ## Définition
 
 Le choix, parmi plusieurs familles de modèles possibles, de celle la mieux adaptée au problème à résoudre.
@@ -28,6 +27,7 @@ Processus de choix des meilleurs hyperparamètres, effectué sur l'ensemble de *
 - $\mathcal{D}^{\text{valid}}$ sert à choisir les hyperparamètres
 - $\mathcal{D}^{\text{test}}$ sert à estimer la performance de généralisation
 
+**Méthodes de recherche** : voir [[C - Recherche en Grille (Grid Search)]] et [[C - Recherche Aléatoire (Random Search)]].
 ## Liens connexes
 
 - [[MOC - Évaluation & généralisation]]

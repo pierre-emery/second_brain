@@ -25,7 +25,6 @@ En général, on régularise un modèle $f(\mathbf{x};\theta)$ en ajoutant à la
 ## Interprétation bayésienne
 
 La décroissance des poids correspond exactement à une [[C - Estimation Maximum a Posteriori (MAP)|estimation MAP]] avec un prior gaussien centré en zéro sur les poids voir cette note pour la dérivation.
-
 ## Liens connexes
 
 - [[MOC - Évaluation & généralisation]]

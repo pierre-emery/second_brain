@@ -14,7 +14,7 @@ Procédure itérative pour minimiser une fonction (typiquement le risque empiriq
     - $\Delta = -\frac{1}{T}\sum_t \nabla_\theta l(f(\mathbf{x}^{(t)};\theta), y^{(t)}) - \lambda\nabla_\theta\Omega(\theta)$
     - $\theta \leftarrow \theta + \alpha,\Delta$
 
-$\alpha$ est le [[C - Taux d'apprentissage]]. La direction $-\nabla_\mathbf{x} f(\mathbf{x})$ correspond à la direction de plus forte diminution de $f$ — voir la dérivation ci-dessous pour la justification.
+$\alpha$ est le [[C - Taux d'apprentissage]]. La direction $-\nabla_\mathbf{x} f(\mathbf{x})$ correspond à la direction de plus forte diminution de $f$  (voir la dérivation ci-dessous pour la justification).
 
 ## Dérivation : pourquoi le gradient négatif ?
 

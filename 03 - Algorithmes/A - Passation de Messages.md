@@ -23,7 +23,7 @@ $$x_1 \to x_2 \to x_3 \to \cdots \to x_{T-1} \to x_T$$ $$\longleftarrow M_T(x_{T
 
 - Chaque message coûte $O(K^2)$ à calculer.
 - Il y a $T$ messages à calculer (un par étape).
-- **Complexité totale : $O(T \cdot K^2) \ll O(K^T)$** — c'est exactement le même gain que celui de la [[C - Factorisation d'une distribution jointe|factorisation]] (thème : **Inférence**, voir [[C - Thèmes clés de l'apprentissage statistique]]).
+- **Complexité totale : $O(T \cdot K^2) \ll O(K^T)$** c'est exactement le même gain que celui de la [[C - Factorisation d'une distribution jointe|factorisation]] (thème : **Inférence**, voir [[C - Thèmes clés de l'apprentissage statistique]]).
 
 Cet algorithme sera revu plus formellement plus tard dans le cours; on y reviendra aussi pour l'**inférence approximative** (échantillonnage, méthodes variationnelles) quand le calcul exact n'est plus tractable.
 

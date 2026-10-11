@@ -67,4 +67,4 @@ Pour minimiser $\rho(\pi,a\mid x)$, il faut alors maximiser $\pi(a\mid x)$. La m
 
 ## Vue "science des données"
 
-C'est l'évaluation naturelle d'un [[C - Classification|classificateur]] : elle compte simplement la proportion d'erreurs. Le problème est qu'elle n'est pas directement dérivable/optimisable (elle est plate presque partout) — d'où l'usage de proxys différentiables comme la [[C - Perte Vraisemblance]] (via une probabilité $f(x)=P(y=1|x)\in[0,1]$) pour entraîner le modèle, quitte à revenir à la perte 0-1 pour l'évaluation finale.
+C'est l'évaluation naturelle d'un [[C - Classification|classificateur]] : elle compte simplement la proportion d'erreurs. Le problème est qu'elle n'est pas directement dérivable/optimisable (elle est plate presque partout), d'où l'usage de proxys différentiables comme la [[C - Perte Vraisemblance]] (via une probabilité $f(x)=P(y=1|x)\in[0,1]$) pour entraîner le modèle, quitte à revenir à la perte 0-1 pour l'évaluation finale.

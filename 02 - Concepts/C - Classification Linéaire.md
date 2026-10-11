@@ -1,15 +1,28 @@
 ---
-## type: concept
-cours: [IFT6758]
+cours:
+  - IFT6758
+  - IFT6135
 statut: complet
 tags: []
-prerequis: ["[[C - Classification]]", "[[C - Hyperplan]]"]
-maj: 2026-08-06
+prerequis:
+  - "[[C - Classification]]"
+  - "[[C - Hyperplan]]"
+maj: 2026-09-26
 ---
 ## Définition
 
-Un classificateur linéaire sépare les classes à l'aide d'une frontière de décision **linéaire** (un [[C - Hyperplan]] en dimension $n$). C'est le cas le plus simple de [[C - Classification]] — mais beaucoup de problèmes réels ne sont **pas** linéairement séparables.
+Un classificateur linéaire sépare les classes à l'aide d'une frontière de décision **linéaire** (un [[C - Hyperplan]] en dimension $n$). C'est le cas le plus simple de [[C - Classification]], mais beaucoup de problèmes réels ne sont **pas** linéairement séparables.
 
+## Approche paramétrique (cadre scores de classe)
+
+Pour une entrée $\mathbf{x}$ (ex. une image aplatie en vecteur)
+et $K$ classes, le classificateur linéaire calcule un score par classe :
+$$f(\mathbf{x},\mathbf{W})=\mathbf{W}\mathbf{x}+\mathbf{b}$$ où $\mathbf{W}$ (poids) et $\mathbf{b}$ (biais) sont les paramètres appris. C'est un simple neurone [[C - Neurones Artificiels|(sans fonction d'activation)]] à sorties multiples (un neurone par classe).
+
+### Trois points de vue équivalents 
+- **Algébrique** : $f(\mathbf{x},\mathbf{W})=\mathbf{W}\mathbf{x}+\mathbf{b}$
+- **Visuel** : chaque ligne de $\mathbf{W}$ peut être vue comme un « template » appris pour une classe. Le score est la similarité (produit scalaire) entre l'image et ce template.
+- **Géométrique** : chaque ligne de $\mathbf{W}$ définit un hyperplan qui découpe l'espace des entrées ; le score de chaque classe augmente dans la direction perpendiculaire à son hyperplan.
 ## Exemple : deux classes en anneaux concentriques
 
 Données 2D, deux classes bien séparées mais avec une frontière **non-linéairement séparable** (classe 1 au centre, classe 0 en anneau autour). Un classificateur linéaire (perceptron simple, ou réseau de neurones dont la couche cachée a une activation **identité**, voir [[C - Fonction d'activation]]) ne peut tracer qu'une droite et sépare mal les données. Il faut de la **non-linéarité** (ex: ReLU) pour bien capturer une frontière courbe.
@@ -29,3 +42,5 @@ Les [[A - Machines à vecteurs de support (SVM)]] cherchent aussi un hyperplan s
 - [[A - Régression Logistique (Binaire)]]
 - [[A - Machines à vecteurs de support (SVM)]]
 - [[C - Fonction d'activation]]
+- [[A - Réseau de neurones]]
+- [[MOC - IFT6135 Apprentissage de représentations]]

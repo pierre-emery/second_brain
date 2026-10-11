@@ -12,7 +12,7 @@ Le processus de créer, transformer ou sélectionner les variables d'entrée (ca
 
 ## Sélection de caractéristiques
 
-Toutes les caractéristiques ne sont pas égales — il faut utiliser les meilleures.
+Toutes les caractéristiques ne sont pas égales, il faut utiliser les meilleures.
 
 - Réduire la taille de l'entrée
 - Garder les caractéristiques corrélées avec la sortie y, retirer les redondantes ou non pertinentes

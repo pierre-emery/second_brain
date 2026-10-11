@@ -10,7 +10,7 @@ Dans un [[C - Modèle Bayésien|modèle bayésien]], soit $\theta$ un paramètre
 
 ## Exemple (prior non-informatif)
 
-Pour $\theta \in [0,1]$ (ex. le biais d'une pièce), un choix simple est le prior **uniforme** sur $[0,1]$ — il n'encode aucune préférence particulière : $$\pi(\theta) = 1 \quad \forall \theta \in [0,1]$$
+Pour $\theta \in [0,1]$ (ex. le biais d'une pièce), un choix simple est le prior **uniforme** sur $[0,1]$  il n'encode aucune préférence particulière : $$\pi(\theta) = 1 \quad \forall \theta \in [0,1]$$
 ## Rôle dans l'inférence bayésienne
 
 Après avoir observé $x$, on **met à jour** cette croyance en une [[C - Distribution a postériori|distribution a postériori]] $\pi(\theta\mid x)$ via le [[T - Théorème de Bayes]] : $$\pi(\theta\mid x) = \frac{p(x\mid\theta),\pi(\theta)}{p(x)} \propto p(x\mid\theta),\pi(\theta)$$ où le symbole $\propto$ (« proportionnel à ») permet d'ignorer tout terme ne dépendant pas de $\theta$, le facteur de normalisation. $p(x)$ (la « vraisemblance marginale ») peut être retrouvé après coup en intégrant sur $\theta$.

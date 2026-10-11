@@ -20,12 +20,14 @@ maj: 2026-09-08
 ## 3) Optimisation pour l'apprentissage
 
 - [[A - Rétropropagation du gradient (gradient descent)]]
+- [[C - Graphe de Calcul (Flow Graph)]]
+- [[C - Vérification de Gradient (Gradient Checking)]]
 - [[A - Descente de Gradient Stochastique (SGD)]]
-- [[A - Méthode de Newton (optimisation)]]
-- [[C - Moindres Carrés Ordinaires (MCO)]]
-- [[C - Pseudo-inverse de Moore-Penrose]]
+- [[A - Descente de Gradient par Mini-lot (Mini-batch)]]
+- [[C - Momentum]]
+- [[C - Taux d'apprentissage]]
+- [[A - Initialisation de Glorot (Xavier)]]
 - [[C - Régularisation]]
-
 ## 4) Optimisation classique
 
 - [[C - Dualité]]
@@ -38,7 +40,6 @@ maj: 2026-09-08
 - [[C - Contraintes]]
 - [[C - Flot Maximum]]
 - [[C - Coupe Minimale]]
-
 ## MOC thématiques liés
 
 - [[MOC - Algèbre linéaire]]

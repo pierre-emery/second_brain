@@ -4,11 +4,8 @@ cours:
   - IFT6135
   - IFT6269
 statut: brouillon
-maj: 2026-09-04
+maj: 2026-09-30
 ---
----
-
-
 # Définition simple donnée en IFT6135
 
 Triplet $(\Omega, \mathcal{F}, P)$ :
@@ -28,7 +25,7 @@ Triplet $(\Omega, \mathcal{F}, P)$ :
 
 ## Construction formelle
 
-- $\Omega$ : l'**espace échantillon**, l'ensemble des « événements élémentaires » — les valeurs possibles de la variable aléatoire. Ex. pour un dé, $\Omega = {1,2,3,4,5,6}$.
+- $\Omega$ : l'**espace échantillon**, l'ensemble des « événements élémentaires »  les valeurs possibles de la variable aléatoire. Ex. pour un dé, $\Omega = {1,2,3,4,5,6}$.
 
 ![[C - Variable Aléatoire]]
 

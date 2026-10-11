@@ -4,7 +4,7 @@ session: Bac
 maj: 2026-08-06
 ---
 
-> Cours croisé IFT3700 (Bacc.) / IFT6758 (Maîtrise) — "Science des données", Vincent Taboga (Mila), basé sur les cours de Gauthier Gidel et Glen Berseth.
+> Cours croisé IFT3700 (Bacc.) / IFT6758 (Maîtrise) : "Science des données", Vincent Taboga (Mila), basé sur les cours de Gauthier Gidel et Glen Berseth.
 
 ## Notes du cours, par thème (auto)
 

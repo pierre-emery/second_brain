@@ -1,10 +1,9 @@
 ---
 sujet: modeles-supervises
-maj: 2026-09-09
+maj: 2026-09-26
 ---
 - [[C - Ingénierie de Caractéristiques]]
 - [[C - Augmentation de la dimensionnalité]]
-
 ## 1) Cadre & types de tâches
 
 - [[C - Apprentissage Statistique (définition)]]
@@ -60,11 +59,31 @@ maj: 2026-09-09
 
 ### 3.6 Réseaux de neurones
 
+- [[C - Neurones Artificiels]]
+- [[C - Fonction d'activation]]
 - [[A - Réseau de neurones]]
+- [[T - Théorème d'approximation universelle]]
+- [[C - Neurone Biologique (analogie)]]
 - [[A - Réseau de neurones convolutionnels (CNN)]]
+- [[C - Perte d'Entropie Croisée (Cross-Entropy)]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
+- [[A - Initialisation de Glorot (Xavier)]]
 - [[C - Apprentissage profond (Deep Learning)]]
 
+### 3.6.1 Réseaux convolutionnels
+
+- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[C - Connectivité Locale (Champ Récepteur)]]
+- [[C - Partage de Paramètres (Poids Partagés)]]
+- [[C - Équivariance vs Invariance]]
+- [[C - Couche de Pooling (Max Pooling)]]
+- [[C - Convolution Discrète (2D)]]
+- [[C - Terminologie de la Convolution (stride, padding, kernel)]]
+- [[C - Convolution Dilatée]]
+- [[A - Convolution Transposée (Déconvolution)]]
+- [[C - Apprentissage Hiérarchique des Caractéristiques (CNN)]]
+- [[C - Augmentation de Données (Data Augmentation)]]
+- [[A - ResNet (Connexion Résiduelle)]]
 ### 3.7 Approches basées sur règles
 
 - [[A - Ruled-based classification]]
