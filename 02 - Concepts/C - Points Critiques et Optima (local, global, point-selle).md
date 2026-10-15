@@ -2,10 +2,11 @@
 type: concept
 cours:
   - IFT6135
+  - IFT6269
 statut: brouillon
-maj: 2026-09-27
+maj: 2026-10-15
 ---
-**Points critiques** : $\{\mathbf{x} \in \mathbb{R}^d \mid \nabla_\mathbf{x} f(\mathbf{x}) = 0\}$
+**Points critiques** : ${\mathbf{x} \in \mathbb{R}^d \mid \nabla_\mathbf{x} f(\mathbf{x}) = 0}$
 
 **Courbure** dans la direction $\mathbf{v}$ : $\mathbf{v}^\top \nabla^2_\mathbf{x} f(\mathbf{x}) \mathbf{v}$
 
@@ -15,17 +16,20 @@ maj: 2026-09-27
 - Maximum local : $\mathbf{v}^\top \nabla^2_\mathbf{x} f(\mathbf{x}) \mathbf{v} < 0\ \forall \mathbf{v}$ (Hessienne définie négative)
 - Point-selle : la courbure est positive dans certaines directions, négative dans d'autres
 
-## Optimisation d'un réseau de neurones : non-convexité
+## Notes supplémentaires de IFT6269 (nécessaire vs suffisant, cas global et bords)
 
-Il n'y a pas un unique optimum global : on peut permuter les unités cachées d'une couche (avec leur connexions) et obtenir exactement la même fonction. On dit que les paramètres des unités cachées ne sont pas **indentifiables**.
+**Cas 1D** : $f'(\theta^\star)=0$ est une condition **nécessaire** (pas suffisante) pour un maximum local si $\theta^\star$ est à l'**intérieur** de $\Theta$. Il faut aussi $f''(\theta^\star)<0$ pour confirmer un maximum local (analogue 1D de la Hessienne définie négative).
 
-L'optimisation peut rester bloquée dans un minimum local ou un **plateau**. Des travaux (Dauphin, Pascanu, Gulcehre, Cho, Ganguli, Bengio, NIPS 2014) suggèrent qu'en haute dimension, les points critiques problématiques sont souvent des **points de selles** que de véritables minima locaux d'où l'intérêt du [[C - Momentum]] pour les traverser plus rapidement.
+**Résultat global** : si $f$ est **concave** sur tout $\Theta$ (i.e. $\forall\theta\in\Theta,\ f''(\theta)\leq 0$, ou en multivarié $\mathrm{Hessienne}(f)(\theta)\preceq 0$ partout), alors tout point stationnaire est automatiquement un maximum **global**, pas seulement local. C'est le cas typique des log-vraisemblances de familles exponentielles (ex. [[E - Exercice MLE Binomiale]], [[E - Exercice MLE Multinomiale]]).
+
+**Piège des bords (boundary)** : si l'optimum $\theta^\star$ est sur la **frontière** de $\Theta$, il n'est en général **pas** un point stationnaire ($\nabla f(\theta^\star)$ peut être non nul). La condition de stationnarité ne s'applique qu'à l'intérieur du domaine.
+
 ## Liens connexes
 
 - [[MOC - Optimisation & calcul matriciel]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Matrice Hessienne]]
 - [[C - Gradient]]
-- [[C - Momentum]]
-- [[A - Initialisation de Glorot (Xavier)]]
+- [[A - Maximisation de la vraisemblance]]
 - 

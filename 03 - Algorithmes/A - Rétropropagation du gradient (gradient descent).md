@@ -3,7 +3,7 @@ type: algorithme
 cours:
   - IFT6135
 statut: complet
-maj: 2026-09-08
+maj: 2026-10-15
 ---
 Procédure itérative pour minimiser une fonction (typiquement le risque empirique régularisé).
 
@@ -47,7 +47,9 @@ Le concept général est de répéter de petits pas vers de meilleures configura
 ## Voir aussi
 
 Voir [[A - Descente de Gradient Stochastique (SGD)]] pour la variante qui met à jour $\theta$ après chaque exemple plutôt qu'après avoir parcouru tout l'ensemble d'entraînement.
+## Extension aux réseaux récurrents
 
+Appliquée au graphe d'un RNN déroulé dans le temps, la rétropropagation devient la [[A - Rétropropagation à travers le temps (BPTT)|BPTT]].
 ## Liens connexes
 
 - [[MOC - Modèles ML (supervisé)]]
@@ -60,3 +62,4 @@ Voir [[A - Descente de Gradient Stochastique (SGD)]] pour la variante qui met à
 - [[A - Méthode de Newton (optimisation)]]
 - [[C - Nombre de Conditionnement (matrice)]]
 - [[C - Moindres Carrés Ordinaires (MCO)]]
+- [[A - Rétropropagation à travers le temps (BPTT)]]

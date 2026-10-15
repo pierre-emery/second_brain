@@ -84,6 +84,19 @@ maj: 2026-09-26
 - [[C - Apprentissage Hiérarchique des Caractéristiques (CNN)]]
 - [[C - Augmentation de Données (Data Augmentation)]]
 - [[A - ResNet (Connexion Résiduelle)]]
+
+### 3.6.2 Réseaux récurrents & attention
+
+- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[A - Modèle de Langage Neuronal (Bengio 2003)]]
+- [[C - RNN Profond (Empilé)]]
+- [[A - Rétropropagation à travers le temps (BPTT)]]
+- [[C - Gradient Explosif et Évanescent (RNN)]]
+- [[A - LSTM (Long Short-Term Memory)]]
+- [[A - GRU (Gated Recurrent Unit)]]
+- [[A - RNN Bidirectionnel]]
+- [[A - Seq2Seq (Encodeur-Décodeur)]]
+- [[A - Attention Douce (Bahdanau)]]
 ### 3.7 Approches basées sur règles
 
 - [[A - Ruled-based classification]]

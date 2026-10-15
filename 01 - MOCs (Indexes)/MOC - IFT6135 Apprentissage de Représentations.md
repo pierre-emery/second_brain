@@ -131,6 +131,38 @@ maj: 2026-09-28
 - [[C - Apprentissage Hiérarchique des Caractéristiques (CNN)]]
 - [[C - Augmentation de Données (Data Augmentation)]]
 - [[A - ResNet (Connexion Résiduelle)]]
+## 4) Réseaux de neurones récurrents (Chapitre 05)
+
+### Modélisation de séquences et du langage
+
+- [[C - Modélisation du Langage]]
+- [[C - n-grammes]]
+- [[A - Modèle de Langage Neuronal (Bengio 2003)]]
+- [[C - Plongement de Mots (Word Embedding)]]
+### RNN
+
+- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[C - RNN Profond (Empilé)]]
+- [[C - Étiquetage de Séquence]]
+- [[C - Classification de Séquence]]
+- [[A - RNN Bidirectionnel]]
+### Entraînement et stabilité du gradient
+
+- [[A - Rétropropagation à travers le temps (BPTT)]]
+- [[A - BPTT Tronquée (Truncated BPTT)]]
+- [[C - Gradient Explosif et Évanescent (RNN)]]
+- [[A - Écrêtage du Gradient (Gradient Clipping)]]
+- [[A - Initialisation Orthogonale]]
+### Cellules à portes
+
+- [[A - LSTM (Long Short-Term Memory)]]
+- [[A - GRU (Gated Recurrent Unit)]]
+### Séquence à séquence
+- [[A - Seq2Seq (Encodeur-Décodeur)]]
+- [[A - Recherche en Faisceau (Beam Search)]]
+## 5) Mécanismes d'attention
+
+- [[A - Attention Douce (Bahdanau)]]
 ## Liens connexes
 
 - [[MOC - Algèbre linéaire]]

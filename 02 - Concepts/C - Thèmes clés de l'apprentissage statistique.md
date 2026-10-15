@@ -4,7 +4,6 @@ cours: [IFT6269]
 statut: brouillon
 maj: 2026-09-07
 ---
-
 Les trois grands axes autour desquels s'organise le cours (et plus largement, la modélisation probabiliste en science des données) :
 
 ## I. Représentation (côté probabilité)

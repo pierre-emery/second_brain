@@ -1,11 +1,10 @@
 ---
-
 type: concept
-
-cours: [IFT6135]
-
+cours:
+  - IFT6135
+  - IFT6269
 statut: brouillon
-
+maj: 2026-10-15
 ---
 Matrice des dérivées secondes d'une fonction scalaire $f(\mathbf{x})$ :
 
@@ -17,5 +16,6 @@ Encode la courbure de $f$ et permet de caractériser les points critiques (minim
 
 - [[MOC - Optimisation & calcul matriciel]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Gradient]]
 - [[C - Points Critiques et Optima (local, global, point-selle)]]

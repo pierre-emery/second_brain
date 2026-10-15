@@ -3,7 +3,8 @@ type: concept
 cours:
   - IFT6135
   - IFT6269
-statut: brouillon
+statut: complet
+maj: 2026-10-15
 ---
 ## Définition en IFT6135
 
