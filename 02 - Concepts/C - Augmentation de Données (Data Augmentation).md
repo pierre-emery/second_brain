@@ -13,3 +13,11 @@ Un réseau convolutionnel est équivariant aux petites translations (grâce à l
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Équivariance vs Invariance]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Principe de l'augmentation de données ?::Créer de nouveaux exemples en appliquant des transformations (translation, rotation, échelle, recadrage) aux images existantes.
+
+Quel problème des CNN l'augmentation de données résout-elle ?::L'absence d'invariance naturelle aux rotations et changements d'échelle : le réseau l'apprend en voyant ces transformations.

@@ -34,3 +34,12 @@ Un ancêtre commun peut créer de la dépendance : si $Z$= indicateur qu'une mè
 - [[A - Modèle Graphique Probabiliste]]
 - [[C - Indépendance (variables aléatoires)]]
 - [[C - Couverture de Markov]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition de $X_1 \perp\!\!\!\perp X_2 \mid X_3$ ?::$p(x_1, x_2 \mid x_3) = p(x_1 \mid x_3)\,p(x_2 \mid x_3)$, ou $p(x_1 \mid x_2, x_3) = p(x_1 \mid x_3)$.
+
+Exemple de la mère et ses deux enfants (maladie génétique) : quelles indépendances tiennent ?::Les enfants sont indépendants **sachant** le statut de la mère, mais **pas** marginalement : apprendre qu'un enfant est atteint renseigne sur la mère, donc sur l'autre enfant.  
+
+L'indépendance par paires implique-t-elle l'indépendance mutuelle ?::Non. $X, Y$ deux pièces indépendantes et $Z = X \oplus Y$ : indépendance par paires, mais $Z$ est déterminé par $(X,Y)$.

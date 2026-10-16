@@ -21,3 +21,10 @@ C'est un résultat d'**existence**, pas de constructibilité : il ne garantit pa
 - [[C - Fonction d'activation]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[MOC - Modèles ML (supervisé)]]
+## Flashcards
+
+#flashcards/IFT6135/01-neurone
+
+Énoncé du théorème d'approximation universelle (Hornik, 1991) ?::Un réseau à **une seule couche cachée** avec sortie linéaire peut approximer n'importe quelle fonction continue arbitrairement bien, avec assez d'unités cachées.
+
+Quelle est la limite pratique du théorème d'approximation universelle ?::C'est un résultat d'**existence** : il ne garantit pas que l'apprentissage (SGD) trouvera ces paramètres, ni combien d'unités il faut.

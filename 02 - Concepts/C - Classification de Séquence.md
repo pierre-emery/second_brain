@@ -23,3 +23,11 @@ L'intérêt clé du [[A - Réseau de Neurones Récurrent (RNN)|RNN]] ici : il tr
 - [[A - Seq2Seq (Encodeur-Décodeur)]]
 - [[C - Perte d'Entropie Croisée (Cross-Entropy)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Comment voir la classification de séquence comme un cas de Seq2Seq ?::La séquence cible n'a qu'un seul symbole $w_1$ : l'étiquette de la séquence d'entrée.
+
+Quelle propriété du RNN rend la classification de séquence possible ?::Il transforme une séquence de longueur variable en une représentation de **taille fixe** (p. ex. $\mathbf{h}_T$).

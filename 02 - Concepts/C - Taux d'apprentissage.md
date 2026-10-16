@@ -22,3 +22,12 @@ En pratique, il est souvent préférable d'utiliser un taux fixe pour les premi�
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[A - Descente de Gradient Stochastique (SGD)]]
 - [[C - Hyperparamètres]]
+## Flashcards
+
+#flashcards/IFT6135/02-entrainement
+
+Conditions de convergence de SGD sur le taux $\alpha_t$ ?::$\sum_t \alpha_t = \infty$ et $\sum_t \alpha_t^2 < \infty$.
+
+Interprète les deux conditions de convergence de SGD.::$\sum \alpha_t = \infty$ : on peut aller arbitrairement loin (atteindre l'optimum). $\sum \alpha_t^2 < \infty$ : les pas décroissent assez vite pour que le bruit du gradient s'annule.
+
+Deux stratégies de décroissance du taux d'apprentissage ?::$\alpha_t = \dfrac{\alpha}{1 + \delta t}$ ou $\alpha_t = \dfrac{\alpha}{t^\delta}$ avec $0.5 < \delta \leq 1$.

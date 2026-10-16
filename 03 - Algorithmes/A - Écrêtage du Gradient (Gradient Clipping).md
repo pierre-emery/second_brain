@@ -29,3 +29,14 @@ L'écrêtage empêche des pas démesurés, mais ne fait **rien** contre le gradi
 - [[A - Descente de Gradient Stochastique (SGD)]]
 - [[C - Taux d'apprentissage]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Règle de l'écrêtage du gradient ?::Si $\|\nabla_\theta l\| > C$ : $\nabla_\theta l \leftarrow C \dfrac{\nabla_\theta l}{\|\nabla_\theta l\|}$.
+
+Que conserve et que modifie l'écrêtage du gradient ?::Il conserve la **direction** et plafonne la **longueur** à $C$.
+
+L'écrêtage aide-t-il contre le gradient évanescent ?::Non, seulement contre l'explosion.
+
+Sur quoi applique-t-on souvent l'écrêtage ?::Sur la concaténation de **tous** les paramètres du modèle (norme globale).

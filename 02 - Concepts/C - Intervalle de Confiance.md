@@ -5,7 +5,6 @@ cours:
 statut: brouillon
 maj: 2026-09-09
 ---
-
 ## Erreur standard
 
 Pour un [[C - Estimateur Ponctuel|estimateur]] $\widehat\theta$, l'**erreur standard** $SE(\widehat\theta)$ est la racine carrée de sa variance : $SE(\widehat\theta) = \sqrt{\text{Var}(\widehat\theta)}$. Elle mesure à quel point on s'attend à ce que l'estimé varie si on rééchantillonnait indépendamment le jeu de données depuis le processus générateur sous-jacent.
@@ -37,3 +36,15 @@ L'erreur standard de la moyenne est très utile pour estimer l'erreur de génér
 - [[D - Loi Gaussienne (Normale)]]
 - [[C - Estimateur Ponctuel]]
 - [[C - Compromis Biais-Variance]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision 
+
+Définition de l'erreur standard d'un estimateur ?::$SE(\widehat\theta) = \sqrt{\mathrm{Var}(\widehat\theta)}$
+
+Erreur standard de la moyenne échantillonnale ?::$\sigma / \sqrt{m}$
+
+Intervalle de confiance à 95 % pour une moyenne ?::$\widehat\mu \pm 1.96\sqrt{\widehat\sigma^2 / T}$
+
+Règle pratique pour dire qu'un algorithme A est meilleur que B ?::La borne supérieure de l'IC à 95 % de l'erreur de A est inférieure à la borne inférieure de l'IC de B.
+<!--SR:!2026-10-17,1,230-->

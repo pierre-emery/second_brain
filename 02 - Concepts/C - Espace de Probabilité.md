@@ -46,3 +46,14 @@ Voir [[C - Sources d'incertitude]] pour la motivation : la probabilité est un c
 - [[C - Fonction de répartition (CDF)]]
 - [[C - Distribution jointe et marginale]]
 - [[C - Sources d'incertitude]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Les trois composantes d'un espace de probabilité $(\Omega, \mathcal{F}, P)$ ?::$\Omega$ : espace des résultats possibles ; $\mathcal{F}$ : espace des événements ; $P$ : mesure qui associe à chaque événement une probabilité dans $[0,1]$.
+
+Deux axiomes (version discrète) d'une mesure de probabilité ?::$P(\{\omega\}) \geq 0$ pour tout $\omega$, et $\sum_{\omega \in \Omega} P(\{\omega\}) = 1$.
+
+Lancer d'un dé : probabilité de l'événement $\{1, 5\}$ ?::$2/6 = 1/3$.
+<!--SR:!2026-10-20,4,270-->

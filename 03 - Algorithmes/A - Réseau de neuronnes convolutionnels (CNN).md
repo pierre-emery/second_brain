@@ -36,3 +36,14 @@ La convolution donne de l'**équivariance** aux translations, le pooling ajoute 
 - [[A - Réseau de neurones]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[MOC - Modèles ML (supervisé)]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Les trois idées fondatrices d'un CNN ?::Connectivité locale, partage de paramètres (convolution), pooling.
+
+Architecture typique d'un CNN (ex. LeNet) ?::Alternance convolution → pooling, puis couches fully-connected avant la sortie ; les canaux augmentent en profondeur et la résolution diminue.
+
+Comment traiter des entrées de taille variable avec un CNN ?::Remplacer les couches fully-connected par un pooling global (p. ex. average pooling) dont la taille s'adapte à l'entrée.
+
+Pourquoi ReLU est-elle populaire dans les CNN profonds ?::Elle ne sature pas pour $x > 0$, ce qui facilite la circulation du gradient.

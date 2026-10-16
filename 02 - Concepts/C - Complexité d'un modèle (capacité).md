@@ -31,4 +31,11 @@ Comment mesurer la complexité selon le type de modèle :
 - [[MOC - IFT6758 Sciences des données]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 
+## Flashcards
 
+#flashcards/IFT6135/00-revision 
+
+Deux facteurs principaux de la capacité d'un modèle ?::Le nombre de paramètres et l'architecture/structure du modèle.
+<!--SR:!2026-10-19,3,250-->
+
+Les performances plafonnent malgré plus de données d'entraînement. Que faire ?::Augmenter la capacité du modèle ou changer de famille de modèles.

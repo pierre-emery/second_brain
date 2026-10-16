@@ -30,3 +30,12 @@ Le support $\Omega_X$ de la distribution est généralement fixe pour tout $\the
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[D - Bernoulli]]
 - [[D - Loi Gaussienne (Normale)]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition d'un modèle paramétrique ?::Une famille de distributions $\{p(\cdot\,; \theta) \mid \theta \in \Theta\}$ indexée par un nombre **fini et fixe** de paramètres.
+
+Comment évolue la capacité d'un modèle paramétrique avec la quantité de données ?::Elle est fixe (contrairement à un modèle non paramétrique).
+
+Deux exemples de modèles paramétriques ?::Classifieur linéaire ; réseau de neurones à architecture fixe.

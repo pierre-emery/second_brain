@@ -14,3 +14,10 @@ Alternative : voir [[C - Recherche Aléatoire (Random Search)]].
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[C - Sélection de modèle]]
 - [[C - Hyperparamètres]]
+## Flashcards
+
+#flashcards/IFT6135/02-entrainement
+
+Principe de la recherche en grille ?::Choisir un ensemble de valeurs par hyperparamètre et tester **toutes** les combinaisons (produit cartésien), en gardant la meilleure en validation.
+
+Principal défaut de la recherche en grille ?::Le coût explose exponentiellement avec le nombre d'hyperparamètres, et elle gaspille des essais sur les hyperparamètres peu importants.

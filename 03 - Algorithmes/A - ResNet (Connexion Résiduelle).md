@@ -19,3 +19,14 @@ Empiler naïvement plus de couches dans un [[A - Réseau de neuronnes convolutio
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[C - Complexité d'un modèle (capacité)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Qu'est-ce qu'une connexion résiduelle ?::Une connexion de saut qui additionne l'entrée d'un bloc à sa sortie (avant l'activation finale) : le bloc apprend un résidu $F(\mathbf{x})$, sortie $F(\mathbf{x}) + \mathbf{x}$.
+
+Quel problème motive ResNet ?::Empiler plus de couches dégrade la performance même en entraînement (pas seulement du surapprentissage) ; les connexions résiduelles facilitent la circulation du gradient.  
+
+Structure d'un bloc « bottleneck » de ResNet-50 ?::Convolution 1×1 (réduit les canaux) → 3×3 → 1×1 (restaure les canaux).
+
+Pourquoi le chemin additif d'un bloc résiduel aide-t-il le gradient ? *(lien avec le LSTM)*::La dérivée de $\mathbf{x} + F(\mathbf{x})$ contient l'identité : le gradient passe directement sans être multiplié par les poids du bloc : même principe que la cellule additive du LSTM.

@@ -16,3 +16,14 @@ Chaque unité est connectée à **tous les canaux** de son patch (1 canal si ima
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Partage de Paramètres (Poids Partagés)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Qu'est-ce que la connectivité locale dans un CNN ?::Chaque unité cachée n'est connectée qu'à un patch de l'entrée, son **champ récepteur**, au lieu de toute l'image.
+
+Deux justifications de la connectivité locale ?::Les corrélations spatiales d'une image sont locales ; et une couche fully-connected aurait trop de paramètres (~2 milliards pour 200×200 avec 40K unités) pour les données disponibles.
+
+À combien de canaux une unité est-elle connectée dans son patch ?::À **tous** les canaux de l'entrée (p. ex. 3 pour RGB).
+<!--SR:!2026-10-15,0,230-->

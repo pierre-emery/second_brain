@@ -18,3 +18,13 @@ Cette hiérarchie émerge naturellement de l'empilement de couches de convolutio
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Connectivité Locale (Champ Récepteur)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/03-cnn 
+
+Que détectent les couches 1, 2-3 et 4-5 d'un CNN (Zeiler & Fergus, 2013) ?::Couche 1 : bords orientés, couleurs. Couches 2-3 : textures et motifs. Couches 4-5 : parties d'objets et objets entiers.
+<!--SR:!2026-10-15,0,230-->
+
+Pourquoi les caractéristiques deviennent-elles plus abstraites en profondeur ?::Chaque couche combine les caractéristiques de la précédente, sur un champ récepteur de plus en plus grand.
+<!--SR:!2026-10-15,0,230-->

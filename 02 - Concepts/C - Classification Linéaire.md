@@ -44,3 +44,15 @@ Les [[A - Machines à vecteurs de support (SVM)]] cherchent aussi un hyperplan s
 - [[C - Fonction d'activation]]
 - [[A - Réseau de neurones]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/01-neurone
+
+Forme d'un classifieur linéaire à $K$ classes ?::$f(\mathbf{x}, \mathbf{W}) = \mathbf{W}\mathbf{x} + \mathbf{b}$ : un score par classe (une ligne de $\mathbf{W}$ par classe).
+
+Trois points de vue sur un classifieur linéaire ?::Algébrique ($\mathbf{W}\mathbf{x} + \mathbf{b}$) ; visuel (chaque ligne de $\mathbf{W}$ est un « template » de classe, le score est un produit scalaire) ; géométrique (chaque ligne définit un hyperplan).
+
+Pourquoi un classifieur linéaire échoue-t-il sur deux classes en anneaux concentriques ?::Il ne peut tracer qu'une frontière droite (hyperplan) ; la frontière nécessaire est courbe → il faut de la non-linéarité.
+
+Régression logistique : où se trouve la frontière de décision $p = 0.5$ ?::Là où $a = \mathbf{w}^\top\mathbf{x} + b = 0$ : un hyperplan.

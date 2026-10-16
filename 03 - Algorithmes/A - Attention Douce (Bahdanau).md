@@ -63,3 +63,24 @@ Bonnes visualisations : distill.pub/2016/augmented-rnns (*Attentional interfaces
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[A - GRU (Gated Recurrent Unit)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Deux bénéfices de l'attention douce par rapport au Seq2Seq vanille ?::Plus de goulot d'étranglement (le décodeur voit tous les états de l'encodeur) ; raccourcis dans le graphe de calcul → dépendances plus courtes pour le gradient.
+
+Formule du vecteur de contexte $c_i$ ?::$c_i = \sum_{j=1}^{T_x} \alpha_{ij} h_j$ : moyenne pondérée des annotations de l'encodeur.
+
+Formule des poids d'attention $\alpha_{ij}$ ?::$\alpha_{ij} = \dfrac{\exp(e_{ij})}{\sum_k \exp(e_{ik})}$ avec $e_{ij} = a(s_{i-1}, h_j)$.
+
+Fonction de score de l'attention de Bahdanau (additive) ?::$a(s_{i-1}, h_j) = \mathbf{v}_a^\top\tanh(\mathbf{W}_a s_{i-1} + \mathbf{U}_a h_j)$ : un MLP à une couche.
+
+Équations du décodeur avec attention ?::$s_i = f(s_{i-1}, y_{i-1}, c_i)$ ; $p(y_i \mid y_{<i}, \mathbf{x}) = g(y_{i-1}, s_i, c_i)$.
+
+Quel encodeur utilise-t-on avec l'attention de Bahdanau et pourquoi ?::Bidirectionnel : $h_j = [\overrightarrow{h}_j; \overleftarrow{h}_j]$ résume toute la phrase centrée sur le mot $j$.
+
+Comment l'alignement est-il appris dans l'attention de Bahdanau ?::Conjointement avec la traduction, par rétropropagation (tout est différentiable), sans supervision d'alignement.
+
+Résultat clé de RNNsearch vs RNNencdec sur les phrases longues ?::RNNsearch ne perd pas de performance avec la longueur, alors que l'encodeur-décodeur s'effondre au-delà de ~20 mots (BLEU 26.75 vs 17.82).
+
+Exemple d'alignement non monotone appris par l'attention ?::« European Economic Area » ↔ « Espace économique européen » (ordre inversé), ou le verbe allemand en fin de phrase.

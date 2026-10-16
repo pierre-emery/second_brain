@@ -41,3 +41,18 @@ Le mécanisme anti-évanescence est le même : quand $\mathbf{z}_t \approx 0$, $
 - [[A - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Équations des portes du GRU ?::$\mathbf{z}_t = \mathrm{sigm}(\mathbf{b}_{[z]} + \mathbf{U}_{[z]}\mathbf{h}_{t-1} + \mathbf{W}_{[z]}C(w_t))$ (mise à jour) ; $\mathbf{r}_t$ idem avec $[r]$ (réinitialisation).
+
+Équations de la cellule du GRU ?
+?
+$\widetilde{\mathbf{c}}_t = \tanh(\mathbf{b}_{[c]} + \mathbf{U}_{[c]}(\mathbf{r}_t \odot \mathbf{h}_{t-1}) + \mathbf{W}_{[c]}C(w_t))$ ; $\mathbf{c}_t = (1 - \mathbf{z}_t) \odot \mathbf{c}_{t-1} + \mathbf{z}_t \odot \widetilde{\mathbf{c}}_t$ ; $\mathbf{h}_t = \mathbf{c}_t$.
+
+GRU vs LSTM : trois différences structurelles ?::2 portes au lieu de 3 ; oubli et entrée couplés ($\mathbf{f} = 1 - \mathbf{z}$, $\mathbf{i} = \mathbf{z}$) ; $\mathbf{h}_t = \mathbf{c}_t$ (pas de porte de sortie ni de tanh final).
+
+Rôle de la porte de réinitialisation $\mathbf{r}_t$ ?::Choisir quelle partie de l'état passé sert à calculer le candidat ; $\mathbf{r} \approx 0$ = « repartir de zéro ».
+
+Quand le gradient traverse-t-il un pas de GRU presque intact ?::Quand $\mathbf{z}_t \approx 0$ : $\mathbf{c}_t \approx \mathbf{c}_{t-1}$.

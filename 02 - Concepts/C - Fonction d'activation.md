@@ -95,3 +95,31 @@ Sur des données non-linéairement séparables (2 classes en anneaux concentriqu
 - [[C - Perte d'Entropie Croisée (Cross-Entropy)]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/01-neurone
+
+Pourquoi faut-il une activation non linéaire entre les couches ?::Sans non-linéarité, une composition de couches affines reste affine : le réseau entier serait un modèle linéaire.
+
+ReLU : formule, avantage principal, problème principal ?::$\max(0, x)$ ; gradient stable pour $x > 0$ et activités parcimonieuses ; neurones « morts » (gradient nul si toujours $x < 0$).  
+
+Image de la sigmoïde et de tanh ?::Sigmoïde : $(0, 1)$. Tanh : $(-1, 1)$, centrée en 0.
+
+Dérivées de tanh et de la sigmoïde en fonction de leur sortie ?::$\tanh' = 1 - \tanh^2$ ; $\sigma' = \sigma(1 - \sigma)$.
+
+Pourquoi la sigmoïde et tanh causent-elles des gradients évanescents ?::Elles **saturent** : pour $|x|$ grand, la dérivée est presque nulle.
+
+Formule de Maxout et ce qu'elle généralise ?::$g(\mathbf{x}) = \max_j (b_j + \mathbf{w}_j^\top\mathbf{x})$ sur $k$ morceaux ; généralise ReLU et la valeur absolue.
+
+  
+
+Quelle activation de sortie pour : classification binaire, multiclasse, régression ?::Sigmoïde ; softmax ; identité (linéaire).
+
+  
+
+Formule du softmax ?::$\mathrm{softmax}(\mathbf{z})_k = \dfrac{e^{z_k}}{\sum_j e^{z_j}}$
+
+  
+
+Quel rôle joue la sigmoïde dans un LSTM ou un GRU ?::Celui de **porte** : sa sortie dans $(0,1)$ est une fraction d'ouverture multipliée élément par élément avec un signal.

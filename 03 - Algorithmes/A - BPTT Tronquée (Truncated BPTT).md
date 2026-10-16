@@ -32,3 +32,14 @@ Le modèle ne peut plus recevoir de signal de gradient pour des dépendances plu
 - [[A - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Pourquoi la BPTT complète est-elle inadaptée à certaines séquences ?::Pour des séquences très longues ou infinies (en ligne) : coût mémoire et aucune mise à jour avant la fin.
+
+Principe de la BPTT tronquée ($k_1$, $k_2$) ?::Propagation avant $k_1$ pas à la fois ; rétropropagation sur seulement $k_2$ pas, puis mise à jour, en traitant les pas antérieurs comme fixes.
+
+Entre deux segments, la BPTT tronquée coupe le ==gradient== mais transmet l'==état caché== (calculé avant la mise à jour).
+
+Conséquence de la troncature sur les dépendances apprises ?::Aucun signal de gradient pour les dépendances plus longues que $k_2$ pas.

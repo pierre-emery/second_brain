@@ -34,3 +34,16 @@ Comme chaque log-probabilité est négative, le score favorise les séquences **
 - [[A - Seq2Seq (Encodeur-Décodeur)]]
 - [[C - Modélisation du Langage]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Pourquoi a-t-on besoin d'une approximation pour décoder $\arg\max_\mathbf{w} p(\mathbf{w} \mid \mathbf{x})$ ?::Il y a $|V|^T$ séquences possibles : la recherche exacte est intraitable.
+
+Algorithme de la recherche en faisceau ?::Garder les $k$ meilleures hypothèses partielles, les étendre à chaque pas, les classer par log-probabilité cumulée, ne garder que les $k$ meilleures ; arrêter quand la meilleure se termine par la fin de phrase.
+
+Recherche en faisceau avec $k = 1$ ?::C'est le décodage glouton.
+
+Quel avantage du faisceau illustre l'exemple « The » / « An » du cours ?::Une hypothèse qui n'est pas en tête au début (« An ») peut gagner au final : le glouton l'aurait écartée.
+
+Quel biais a le score de log-probabilité cumulée, et comment le corriger ? *(complément)*::Il favorise les séquences courtes (chaque terme est négatif) ; on normalise par la longueur.

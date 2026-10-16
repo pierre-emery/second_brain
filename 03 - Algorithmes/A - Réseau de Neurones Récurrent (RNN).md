@@ -52,3 +52,18 @@ Par [[A - Rétropropagation à travers le temps (BPTT)|rétropropagation à trav
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[MOC - Modèles ML (supervisé)]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Deux limites du MLP pour les séquences ?::Entrées/sorties de taille fixe sans structure temporelle ; traitement purement feed-forward, sans mémoire.
+
+Équation de l'état caché d'un RNN ?::$\mathbf{h}_t = \tanh(\mathbf{b} + \mathbf{U}\mathbf{h}_{t-1} + \mathbf{W}C(w_t))$
+
+Rôle de $\mathbf{W}$, $\mathbf{U}$ et $\mathbf{V}$ dans un RNN ?::$\mathbf{W}$ : entrée → caché ; $\mathbf{U}$ : caché → caché (récurrence) ; $\mathbf{V}$ : caché → sortie.
+
+Quel état caché sert à calculer $p(w_t \mid w_1, \ldots, w_{t-1})$ ?::$\mathbf{h}_{t-1}$.
+
+Comment est calculé $\mathbf{h}_0$ ?::$\mathbf{h}_0 = \tanh(\mathbf{b} + \mathbf{W}C(\texttt{<BOS>}))$, sans terme récurrent.
+
+Que signifie « dérouler » un RNN ?::Représenter le calcul comme un graphe acyclique avec une copie de la cellule par pas de temps, toutes partageant les mêmes paramètres.

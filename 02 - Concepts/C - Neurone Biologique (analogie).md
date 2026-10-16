@@ -28,3 +28,10 @@ Cette analogie est utile pédagogiquement mais **ne doit pas être prise trop au
 - [[C - Neurones Artificiels]]
 - [[A - Réseau de neurones]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/01-neurone
+
+Correspondances biologique → artificiel : taux de décharge, excitation/inhibition synaptique, seuil ?::Taux de décharge → activation $h(\mathbf{x})$ ; excitation/inhibition → signe et magnitude des poids ; seuil → biais $b$ et forme de $g$.
+
+Donne deux limites de l'analogie neurone biologique / artificiel.::P. ex. : les dendrites font elles-mêmes des calculs non linéaires ; une synapse est un système dynamique, pas un poids scalaire (aussi : nombreux types de neurones, le codage par taux est discutable).

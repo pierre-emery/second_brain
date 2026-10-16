@@ -55,3 +55,20 @@ Améliorations : encodeur [[A - RNN Bidirectionnel|bidirectionnel]], puis surtou
 - [[A - RNN Bidirectionnel]]
 - [[C - Modélisation du Langage]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Pourquoi la traduction ne peut-elle pas être traitée comme un étiquetage ?::La cible n'a pas forcément la même longueur que la source et n'est pas alignée position par position.
+
+Architecture Seq2Seq de base ?::Un encodeur RNN lit toute la séquence $\mathbf{x}$ ; un décodeur RNN, initialisé par l'état final de l'encodeur, génère $\mathbf{w}$ comme un modèle de langage.  
+
+Deux astuces qui améliorent le Seq2Seq de base ?::Des paramètres différents pour l'encodeur et le décodeur ; lire $\mathbf{x}$ **à l'envers**.
+
+Pourquoi lire la phrase source à l'envers aide-t-il ?::Les premiers mots source se retrouvent proches des premiers mots cibles, ce qui raccourcit les dépendances critiques.
+
+Perte d'entraînement d'un Seq2Seq ?::$l = \sum_t -\log p(w_{t+1} \mid \mathbf{x}, w_1, \ldots, w_t)$, avec les vrais mots précédents en entrée (teacher forcing).
+
+Pourquoi grouper les exemples en mini-lots de longueurs similaires ?::Pour minimiser le remplissage (padding) gaspillé.
+
+Deux problèmes du Seq2Seq « vanille » ?::Goulot d'étranglement (toute la source dans un seul vecteur) ; dépendances très longues (gradient sur ~50 pas).

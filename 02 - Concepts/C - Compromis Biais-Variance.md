@@ -32,5 +32,12 @@ Quand l'erreur de généralisation est mesurée par la MSE, augmenter la [[C - C
 - [[C - Estimateur Ponctuel]]
 - [[C - Complexité d'un modèle (capacité)]]
 
+## Flashcards
 
+#flashcards/IFT6135/00-revision
 
+Décomposition de la MSE d'un estimateur ?::$\mathrm{MSE} = E[(\widehat\theta - \theta)^2] = \mathrm{Biais}(\widehat\theta)^2 + \mathrm{Var}(\widehat\theta)$
+
+Quand la capacité augmente, comment évoluent biais et variance ?::Le biais diminue, la variance augmente → courbe en U de l'erreur de généralisation.
+
+Comment trouver la complexité optimale en pratique ?::Entraîner plusieurs modèles de capacités différentes sur les mêmes données et garder le meilleur sur l'ensemble de validation.

@@ -34,3 +34,20 @@ C'est le même phénomène que dans un réseau feed-forward très profond (voir 
 - [[A - LSTM (Long Short-Term Memory)]]
 - [[C - Fonction d'activation]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Quand le gradient d'un RNN explose-t-il ?::Quand $\mathbf{U}$ est « grande » : $\nabla_{\mathbf{h}_t} l_{t+\delta}$ croît exponentiellement avec $\delta$.
+
+Quand le gradient d'un RNN s'évanouit-il (deux causes) ?::Quand $\mathbf{U}$ est « petite », ou quand les unités cachées sont saturées ($1 - h^2 \approx 0$).
+
+Conséquence concrète du gradient évanescent ?::Le modèle ne peut pas apprendre les dépendances à long terme.
+
+Conséquence concrète du gradient explosif ?::Gradients énormes sur $\mathbf{W}$ et $\mathbf{U}$ → pas démesurés, entraînement instable.
+
+Solutions : à quel problème répond chacune ? écrêtage, initialisation orthogonale, LSTM/GRU.::Écrêtage → explosion. Initialisation orthogonale → les deux, au début. LSTM/GRU → évanescence (chemin additif).
+
+Pourquoi le problème est-il pire dans un RNN que dans un réseau profond feed-forward ?::La **même** matrice $\mathbf{U}$ est multipliée à chaque pas, au lieu de matrices différentes : les effets se composent exponentiellement.
+
+Quelle quantité spectrale gouverne l'explosion/évanescence ? *(complément)*::Le rayon spectral de $\mathbf{U}$ : $> 1$ nécessaire à l'explosion ; plus grande valeur singulière $< 1$ suffit à l'évanescence.

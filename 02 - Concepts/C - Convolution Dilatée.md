@@ -21,3 +21,13 @@ Une convolution **causale** ne regarde que le passé (les positions précédente
 - [[C - Terminologie de la Convolution (stride, padding, kernel)]]
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Taille effective d'un noyau de taille $k$ dilaté d'un facteur $d$ ?::$\hat{k} = k + (k-1)(d-1)$
+
+Avantage d'une convolution dilatée ?::Élargir le champ récepteur **sans** ajouter de paramètres ni réduire la résolution.
+
+Qu'est-ce qu'une convolution causale et où sert-elle ?::Elle ne regarde que les positions passées ; essentielle pour la génération séquentielle (WaveNet, décodeur de ByteNet).
+<!--SR:!2026-10-15,0,230-->

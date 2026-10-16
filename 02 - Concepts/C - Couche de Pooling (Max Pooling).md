@@ -18,3 +18,14 @@ Quand le pooling est effectué sur des voisinages **non chevauchants**, on parle
 - [[C - Équivariance vs Invariance]]
 - [[C - Connectivité Locale (Champ Récepteur)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Qu'est-ce que le max pooling ?::Remplacer un voisinage d'unités par leur maximum.
+
+Deux problèmes résolus par le pooling ?::Ajouter de l'invariance locale aux translations ; réduire le nombre d'unités (calculs et paramètres en aval).
+
+Qu'appelle-t-on subsampling ?::Un pooling sur des voisinages **non chevauchants**.
+
+Comment le gradient traverse-t-il un max pooling ?::Il est entièrement routé vers l'entrée qui était maximale ; les autres reçoivent 0.

@@ -18,3 +18,11 @@ Comment faire alors?
 
 - [[MOC - Non-supervisé & réduction de dimension]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Qu'est-ce que l'apprentissage non supervisé ?::Chercher des structures dans des données **sans étiquettes** $y$.
+
+Deux hypothèses typiques de l'apprentissage non supervisé ?::Les points similaires partagent une même « étiquette » cachée (clustering) ; les données vivent près d'une représentation de basse dimension (réduction de dimension).

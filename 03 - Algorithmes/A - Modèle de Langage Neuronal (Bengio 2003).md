@@ -32,3 +32,13 @@ La fenêtre de contexte est **fixe** ($n-1$ mots). Le [[A - Réseau de Neurones 
 - [[A - Réseau de neurones]]
 - [[A - Réseau de Neurones Récurrent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Architecture du modèle de langage neuronal de Bengio et al. (2003) ?::Plongements $C(w)$ des $n-1$ mots du contexte (matrice $\mathbf{C}$ partagée) → concaténation → couche tanh → softmax sur le vocabulaire.
+<!--SR:!2026-10-20,4,270-->
+
+Où se fait l'essentiel du calcul dans le modèle de Bengio ?::Dans la couche de sortie softmax, dont la taille est celle du vocabulaire.
+
+Limite du modèle de Bengio que le RNN lève ?::La fenêtre de contexte est fixe ($n-1$ mots).

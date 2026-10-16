@@ -24,3 +24,14 @@ $$\mathbf{X}\mathbf{u}_i = \lambda_i \mathbf{u}_i \quad \text{et} \quad \mathbf{
 - [[C - Rang d'une matrice]]
 - [[C - Déterminant d'une matrice]]
 - [[C - Matrice Symétrique Définie Positive]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Équation définissant une paire valeur propre / vecteur propre $(\lambda, \mathbf{u})$ ?::$\mathbf{X}\mathbf{u} = \lambda\mathbf{u}$, avec $\mathbf{u} \neq \mathbf{0}$.
+
+Décomposition spectrale d'une matrice symétrique réelle ?::$\mathbf{X} = \sum_i \lambda_i \mathbf{u}_i\mathbf{u}_i^\top$, avec des vecteurs propres orthonormaux ($\mathbf{u}_i^\top\mathbf{u}_j = 1_{i=j}$).
+
+Critère de définie positivité via les valeurs propres (matrice symétrique) ?::$\mathbf{X}$ est définie positive ssi $\lambda_i > 0$ pour tout $i$.
+
+Lien entre déterminant et valeurs propres ?::$\det(\mathbf{X}) = \prod_i \lambda_i$ (valeurs propres comptées avec multiplicité, éventuellement complexes).

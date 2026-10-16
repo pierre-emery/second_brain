@@ -46,3 +46,12 @@ Un modèle de degré 10 ajusté sur des données bruitées, qui suit parfaitemen
 - [[C - Early stopping]]
 - [[MOC - IFT6758 Sciences des données]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Symptôme du surapprentissage ?::Très bonne performance en entraînement, mauvaise en validation/test : le modèle mémorise le bruit.
+
+Profil biais/variance du surapprentissage ?::Biais faible, variance élevée.
+
+Quatre remèdes au surapprentissage ?::Régularisation, plus de données (ou augmentation), simplifier le modèle, early stopping.

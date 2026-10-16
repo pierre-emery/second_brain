@@ -21,3 +21,13 @@ Pour une fonction $f(\mathbf{X})$ qui prend une matrice en entrée, le gradient 
 - [[C - Matrice Hessienne]]
 - [[C - Matrice Jacobienne]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition du gradient $\nabla_\mathbf{x} f(\mathbf{x})$ ?::Le vecteur des dérivées partielles $\left[\frac{\partial f}{\partial x_1}, \ldots, \frac{\partial f}{\partial x_d}\right]^\top$.
+
+Quelle direction indique le gradient ?::La direction de plus forte **augmentation** de $f$ ; $-\nabla f$ est celle de plus forte diminution.
+
+Quelle est la forme du gradient d'une fonction scalaire $f(\mathbf{X})$ d'une matrice ?::Une matrice de même taille que $\mathbf{X}$ : $(\nabla_\mathbf{X} f)_{i,j} = \partial f / \partial X_{i,j}$.

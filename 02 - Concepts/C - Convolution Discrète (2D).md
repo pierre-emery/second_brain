@@ -25,3 +25,13 @@ On peut utiliser du **remplissage par des zéros** (zero padding) autour de l'im
 - [[C - Terminologie de la Convolution (stride, padding, kernel)]]
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Différence entre convolution et corrélation croisée ?::La convolution retourne (« flip ») le noyau avant de le faire glisser ; la corrélation croisée non. Les CNN calculent en fait une corrélation croisée, mais on garde le nom « convolution ».
+<!--SR:!2026-10-15,0,230-->
+
+Couche de convolution avec non-linéarité (Jarrett et al., 2009) ?::$y_j = g_j \tanh\!\left(\sum_i k_{ij} * x_i\right)$ : somme sur les canaux d'entrée $i$ de la convolution par le noyau $k_{ij}$, puis activation et échelle apprise $g_j$.
+
+À quoi sert le zero padding ?::Permettre au noyau de dépasser les bords de l'image, pour contrôler la taille de sortie.

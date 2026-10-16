@@ -32,4 +32,14 @@ maj: 2026-10-15
 - [[C - Matrice Hessienne]]
 - [[C - Gradient]]
 - [[A - Maximisation de la vraisemblance]]
-- 
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition d'un point critique ?::Un point où $\nabla_\mathbf{x} f(\mathbf{x}) = \mathbf{0}$.
+
+Qu'est-ce qu'un point-selle ?::Un point critique où la courbure est positive dans certaines directions et négative dans d'autres.
+
+Pourquoi la perte d'un réseau n'a-t-elle pas un optimum global unique ?::Permuter les unités cachées d'une couche (avec leurs connexions) donne la même fonction : les paramètres ne sont pas identifiables.
+
+En haute dimension, quels points critiques posent surtout problème (Dauphin et al., 2014) ?::Les points-selles, plus que les minima locaux : d'où l'intérêt du momentum pour les traverser.

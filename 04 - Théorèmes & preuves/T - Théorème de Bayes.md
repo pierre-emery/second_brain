@@ -23,3 +23,12 @@ Considérons $Y$, une variable aléatoire de densité $g(y)$ et $X|Y=y$ une vari
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Conditionnement (probabilité conditionnelle)]]
 - [[C - Modèle Bayésien]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Énoncé du théorème de Bayes ?::$P(A \mid B) = \dfrac{P(B \mid A)\,P(A)}{P(B)}$
+
+Nomme les 4 termes de $P(C \mid x) = \frac{P(x \mid C)\,P(C)}{P(x)}$.::$P(C \mid x)$ : a posteriori ; $P(x \mid C)$ : vraisemblance ; $P(C)$ : a priori ; $P(x)$ : évidence (normalisation).
+
+Comment développer le dénominateur $P(B)$ dans Bayes (cas d'un événement $A$ et son complément) ?::Par probabilités totales : $P(B) = P(B \mid A)P(A) + P(B \mid A^c)P(A^c)$.

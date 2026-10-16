@@ -31,3 +31,12 @@ Une couche est un ensemble de neurones qui traitent tous les mêmes entrées (ce
 - [[C - Fonction d'activation]]
 - [[C - Neurone Biologique (analogie)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/01-neurone
+
+Pré-activation et activation d'un neurone artificiel ?::$a(\mathbf{x}) = b + \mathbf{w}^\top\mathbf{x}$ ; $h(\mathbf{x}) = g(a(\mathbf{x}))$.
+
+Rôle géométrique des poids $\mathbf{w}$ vs du biais $b$ ?::$\mathbf{w}$ fixe l'**orientation** de la frontière de décision ; $b$ ne fait que la **déplacer**.
+
+Qu'est-ce qu'une couche de neurones ?::Un ensemble de neurones qui reçoivent tous les mêmes entrées (la couche précédente) et produisent chacun une sortie.

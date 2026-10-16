@@ -16,3 +16,10 @@ où $f(x)$ est la perte et $x$ un paramètre. Si le gradient analytique (rétrop
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[C - Dérivée et Dérivée Partielle]]
+## Flashcards
+
+#flashcards/IFT6135/02-entrainement
+
+Formule de différence finie centrée utilisée pour vérifier un gradient ?::$\dfrac{\partial f}{\partial x} \approx \dfrac{f(x + \epsilon) - f(x - \epsilon)}{2\epsilon}$
+
+À quoi sert la vérification de gradient ?::Déboguer une implémentation de fprop/bprop en comparant le gradient analytique à l'approximation numérique.

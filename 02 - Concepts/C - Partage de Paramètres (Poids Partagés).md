@@ -23,3 +23,16 @@ Concrètement, ce partage de poids **est** l'opération de convolution : voir [[
 - [[C - Équivariance vs Invariance]]
 - [[C - Convolution Discrète (2D)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Qu'est-ce que le partage de paramètres dans un CNN ?::Utiliser le **même** filtre à toutes les positions de l'image : ce qui revient exactement à une convolution.
+
+Quelle hypothèse justifie le partage de paramètres ?::La stationnarité : les statistiques de l'image sont semblables partout ; un détecteur utile à un endroit l'est ailleurs.
+
+Deux bénéfices du partage de paramètres ?::Beaucoup moins de paramètres ; équivariance aux translations.
+
+Qu'est-ce qu'une carte de caractéristiques (feature map) ?::L'ensemble des unités qui partagent un même filtre : la détection d'un même patron à toutes les positions.
+
+Où retrouve-t-on le partage de paramètres dans un RNN ?::Les mêmes matrices $\mathbf{W}, \mathbf{U}, \mathbf{V}$ sont réutilisées à **chaque pas de temps** (partage dans le temps plutôt que dans l'espace).

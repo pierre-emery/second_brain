@@ -53,3 +53,20 @@ Pour les séquences très longues ou infinies : [[A - BPTT Tronquée (Truncated 
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[A - BPTT Tronquée (Truncated BPTT)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Qu'est-ce que la BPTT ?::La rétropropagation appliquée au graphe du RNN déroulé dans le temps, en remontant de $t = T-1$ à $0$.
+
+Écris la boucle de la BPTT (pour $t$ de $T-1$ à $0$).
+?
+$\nabla_\mathbf{V} l \mathrel{+}= \nabla_\mathbf{V} l_t$ ; $\nabla_{\mathbf{h}_t} l \mathrel{+}= \nabla_{\mathbf{h}_t} l_t$ ; $\nabla_{\mathbf{a}_t} l = (1 - \mathbf{h}_t^2) \odot \nabla_{\mathbf{h}_t} l$ ; $\nabla_\mathbf{W} l \mathrel{+}= (\nabla_{\mathbf{a}_t} l)\,C(w_t)^\top$ ; $\nabla_\mathbf{U} l \mathrel{+}= (\nabla_{\mathbf{a}_t} l)\,\mathbf{h}_{t-1}^\top$ ; $\nabla_{\mathbf{h}_{t-1}} l = \mathbf{U}^\top\nabla_{\mathbf{a}_t} l$.
+
+Pourquoi les gradients de $\mathbf{W}, \mathbf{U}, \mathbf{V}$ sont-ils des sommes ($\mathrel{+}=$) sur les pas de temps ?::Parce que les paramètres sont partagés dans le temps : chaque pas contribue au gradient total.
+
+Pourquoi le facteur $(1 - \mathbf{h}_t^2)$ apparaît-il dans la BPTT ?::C'est la dérivée de tanh : $\tanh'(a) = 1 - \tanh^2(a) = 1 - h^2$.
+
+Formule de $\nabla_{\mathbf{h}_t} l_{t+\delta}$ en fonction de $\nabla_{\mathbf{h}_{t+\delta}} l_{t+\delta}$ ?
+?
+$$\nabla_{\mathbf{h}_t} l_{t+\delta} = \left(\prod_{t'=t+1}^{t+\delta} \mathbf{U}^\top\mathrm{diag}(1 - \mathbf{h}_{t'}^2)\right)\nabla_{\mathbf{h}_{t+\delta}} l_{t+\delta}$$

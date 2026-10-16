@@ -21,3 +21,12 @@ La convolution transposée peut produire des **artefacts en damier** (checkerboa
 - [[C - Convolution Discrète (2D)]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Qu'est-ce qu'une convolution transposée ?::L'opération qui agrandit une carte de caractéristiques : c'est aussi l'opération effectuée en rétropropagation à travers une convolution.
+
+Deux usages de la convolution transposée ?::Segmentation sémantique (une classe par pixel) et génération d'images, dans des architectures encodeur-décodeur.
+
+Quel artefact produit la convolution transposée et quelle alternative ?::Des artefacts en damier (chevauchement inégal du noyau) ; alternative : interpolation puis convolution (resize-convolution).

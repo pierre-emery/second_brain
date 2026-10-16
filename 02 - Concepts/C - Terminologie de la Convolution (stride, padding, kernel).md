@@ -24,3 +24,14 @@ $$o = \left\lfloor \frac{i + 2p - k}{s} \right\rfloor + 1$$
 - [[A - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Convolution Dilatée]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Formule de la taille de sortie d'une convolution ?::$o = \left\lfloor \dfrac{i + 2p - k}{s} \right\rfloor + 1$
+
+Entrée 32, noyau 5, padding 2, stride 1 : taille de sortie ?::$\lfloor (32 + 4 - 5)/1 \rfloor + 1 = 32$ (padding « same »).
+
+Entrée 7, noyau 3, padding 0, stride 2 : taille de sortie ?::$\lfloor (7 - 3)/2 \rfloor + 1 = 3$.
+
+Padding valid, same, full : valeur de $p$ et effet sur la taille ?::Valid : $p = 0$, sortie plus petite. Same : $p = \lfloor k/2 \rfloor$, même taille (stride 1). Full : $p = k - 1$, sortie plus grande.

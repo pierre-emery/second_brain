@@ -27,3 +27,11 @@ L'apprentissage est ainsi posé comme un problème d'optimisation. Idéalement o
 - [[C - Fonction de perte]]
 - [[C - Régularisation]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Formule du risque empirique régularisé ?::$\arg\min_\theta \frac{1}{T}\sum_t l(f(\mathbf{x}^{(t)}; \theta), y^{(t)}) + \lambda\,\Omega(\theta)$
+
+Pourquoi minimise-t-on une perte substitut plutôt que l'erreur de classification ?::L'erreur de classification n'est pas différentiable ; la perte (p. ex. entropie croisée) en est un substitut lisse, souvent une borne supérieure.
+

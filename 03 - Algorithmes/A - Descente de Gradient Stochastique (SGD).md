@@ -29,3 +29,16 @@ Pour appliquer cet algorithme à un réseau de neurones, il faut : la fonction d
 - [[A - Descente de Gradient par Mini-lot (Mini-batch)]]
 - [[C - Momentum]]
 - [[C - Taux d'apprentissage]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Mise à jour SGD pour un exemple $(\mathbf{x}^{(t)}, y^{(t)})$ ?
+?
+$\Delta = -\nabla_\theta l(f(\mathbf{x}^{(t)}; \theta), y^{(t)}) - \lambda\nabla_\theta\Omega(\theta)$, puis $\theta \leftarrow \theta + \alpha\Delta$.
+
+Qu'est-ce qu'une époque ?::Un passage complet sur tous les exemples d'entraînement.
+
+Quatre ingrédients pour entraîner un réseau par SGD ?::La perte $l$, une procédure de calcul des gradients (rétropropagation), le régularisateur $\Omega$ et son gradient, une méthode d'initialisation.
+
+Différence entre descente de gradient (batch) et SGD ?::Batch : une mise à jour après avoir moyenné le gradient sur tout l'ensemble. SGD : une mise à jour après chaque exemple (gradient bruité mais beaucoup plus de pas).

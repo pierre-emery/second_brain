@@ -28,3 +28,12 @@ Si $X$ et $Y$ sont indépendantes : $\text{Var}[X+Y] = \text{Var}[X]+\text{Var}[
 - [[MOC - Probabilité]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[C - Covariance]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition probabiliste de la variance (deux formes) ?::$\mathrm{Var}[X] = E[(X - E[X])^2] = E[X^2] - E[X]^2$
+
+$\mathrm{Var}[X+Y]$ si $X$ et $Y$ sont indépendantes ?::$\mathrm{Var}[X] + \mathrm{Var}[Y]$
+
+Lien entre variance et covariance ?::$\mathrm{Var}(X) = \mathrm{Cov}(X, X)$

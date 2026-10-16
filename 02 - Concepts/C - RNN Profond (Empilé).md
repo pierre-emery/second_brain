@@ -27,3 +27,10 @@ Il y a donc deux « axes » de profondeur : **verticale** (les couches, via $\ma
 - [[A - Réseau de Neurones Récurrent (RNN)]]
 - [[A - Réseau de neurones]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention 
+
+Équation de la 2e couche d'un RNN empilé ?::$\mathbf{h}^{(2)}_t = \tanh(\mathbf{b}^{(2)} + \mathbf{U}^{(2)}\mathbf{h}^{(2)}_{t-1} + \mathbf{W}^{(2)}\mathbf{h}^{(1)}_t)$
+
+Quels sont les deux « axes » de profondeur d'un RNN profond ?::Vertical (les couches, via $\mathbf{W}^{(\ell)}$) et temporel (la récurrence, via $\mathbf{U}^{(\ell)}$).

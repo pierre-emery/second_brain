@@ -36,3 +36,16 @@ $$p(x_{1:n})=\prod_{i=1}^np(x_i)\;\;\;\forall x_{1:n}\in\bigtimes_{i=1}^n\Omega_
 - [[A - Modèle Graphique Probabiliste]]
 - [[C - Indépendance Conditionnelle]]
 - [[C - Covariance]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition de $X_1 \perp\!\!\!\perp X_2$ ?::$p(x_1, x_2) = p(x_1)\,p(x_2)$ pour toutes les valeurs, ou de façon équivalente $p(x_1 \mid x_2) = p(x_1)$.
+
+Trois conséquences de l'indépendance de $X$ et $Y$ (espérance, covariance, variance) ?::$E[XY] = E[X]E[Y]$ ; $\mathrm{Cov}(X,Y) = 0$ ; $\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$.
+
+$\mathrm{Cov}(X,Y) = 0$ implique-t-il l'indépendance ?::Non. Contre-exemple : $X \sim \mathcal{U}(-1,1)$, $Y = X^2$ : covariance nulle mais $Y$ est déterminée par $X$.
+<!--SR:!2026-10-17,1,230-->
+
+Structure « collision » $X \to Z \leftarrow Y$ : $X$ et $Y$ sont-elles indépendantes ? Et sachant $Z$ ?::Marginalement indépendantes, mais généralement **dépendantes** sachant $Z$ (« explaining away »).

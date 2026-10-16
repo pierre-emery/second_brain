@@ -18,3 +18,10 @@ Variante de la [[A - Descente de Gradient Stochastique (SGD)|descente de gradien
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[A - Descente de Gradient Stochastique (SGD)]]
 - [[C - Parallélisation]]
+## Flashcards
+
+#flashcards/IFT6135/02-entrainement
+
+Qu'est-ce que la descente de gradient par mini-lot ?::Chaque mise à jour utilise le gradient moyen sur un petit lot d'exemples (entre SGD à 1 exemple et le batch complet).
+
+Deux avantages du mini-lot par rapport à SGD à un exemple ?::Estimation du gradient plus précise (moins bruitée) ; opérations matrice-matrice plus efficaces (parallélisation).

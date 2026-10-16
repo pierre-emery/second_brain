@@ -36,3 +36,10 @@ $$l = \sum_{t} -\log p(w_{t+1} \mid w_1, \dots, w_t)$$
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[C - Modèle de Markov Caché (HMM)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Factorisation exacte d'un modèle de langage ?::$p(w_1, \ldots, w_T) = \prod_t p(w_t \mid w_1, \ldots, w_{t-1})$ (règle de chaîne).
+
+Hypothèse de Markov d'ordre $n$ en modélisation du langage ?::$p(w_t \mid w_1, \ldots, w_{t-1}) \approx p(w_t \mid w_{t-n+1}, \ldots, w_{t-1})$ : seuls les $n-1$ mots précédents comptent.

@@ -32,3 +32,13 @@ Les n-grammes servent aussi de caractéristiques : on étend le [[C - Bag of Wor
 - [[A - Modèle de Langage Neuronal (Bengio 2003)]]
 - [[A - Réseau de Neurones Récurrent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Estimation par comptage d'un modèle n-gramme *(complément)* ?::$\hat p(w_t \mid \text{contexte}) = \dfrac{\mathrm{count}(\text{contexte}, w_t)}{\mathrm{count}(\text{contexte})}$
+
+Principal problème des modèles n-grammes ?::La rareté : le nombre de contextes croît en $|V|^{n-1}$, la plupart des n-grammes ne sont jamais vus et reçoivent une probabilité nulle ; aucun partage entre mots similaires.
+
+Comment le modèle neuronal de Bengio règle-t-il la limite des n-grammes ?::Avec des plongements de mots appris : des contextes faits de mots similaires donnent des prédictions similaires, même s'ils n'ont jamais été vus.

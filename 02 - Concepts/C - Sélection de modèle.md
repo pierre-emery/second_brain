@@ -38,3 +38,10 @@ Processus de choix des meilleurs hyperparamètres, effectué sur l'ensemble de *
 - [[C - Complexité d'un modèle (capacité)]]
 - [[C - Validation croisée]]
 - [[MOC - IFT6758 Sciences des données]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Rôle de chacun des trois ensembles : entraînement, validation, test ?::Entraînement : apprendre les paramètres. Validation : choisir les hyperparamètres / le modèle. Test : estimer la performance de généralisation.
+
+Pourquoi ne jamais choisir les hyperparamètres sur l'ensemble de test ?::L'estimation de généralisation deviendrait optimiste (biaisée), car le test aurait servi à l'ajustement.

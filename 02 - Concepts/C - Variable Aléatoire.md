@@ -34,3 +34,12 @@ Notation : $P(\{X=x\}) = p(x)$ (le raccourci usuel, encore plus ambigu : $p(x)$)
 - [[C - Distribution Jointe, Marginale et Conditionnelle]]
 - [[C - Distribution de probabilité (axiomes de Kolmogorov)]]
 - [[C - Fonction de masse et de densité (pmf-pdf)]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition formelle d'une variable aléatoire ?::Une fonction (mesurable) $X: \Omega \to \mathbb{R}$ définie sur les résultats d'un espace de probabilité.
+
+Pour une variable continue, que vaut $P(X = x)$ ?::0 : $p(x)$ est une densité, et $P(X \in A) = \int_A p(x)\,dx$.
+
+Variable discrète vs continue : comment chacune est-elle caractérisée ?::Discrète : fonction de masse (pmf). Continue : fonction de densité (pdf).

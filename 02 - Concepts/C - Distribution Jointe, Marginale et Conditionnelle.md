@@ -47,3 +47,13 @@ on intègre sur la composante continue et somme sur celle qui est dicrète.
 - [[C - Fonction de masse et de densité (pmf-pdf)]]
 - [[C - Conditionnement (probabilité conditionnelle)]]
 - [[C - Indépendance (variables aléatoires)]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Comment obtient-on une distribution marginale à partir de la jointe ?::En sommant (ou intégrant) sur les variables absentes : $p(o,s) = \sum_x p(x,o,s)$ : la « règle de somme ».
+
+Définition de la distribution conditionnelle à partir de la jointe ?::$p(s \mid o) = \dfrac{p(s, o)}{p(o)}$
+
+Jointe, marginale, conditionnelle : en une phrase chacune.::Jointe : assignation complète de toutes les variables. Marginale : assignation partielle (on somme les autres). Conditionnelle : certaines variables étant donné une assignation des autres.

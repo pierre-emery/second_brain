@@ -14,3 +14,11 @@ Déduire des informations à partir de données étiquetées.
 ## Liens connexes
 - [[MOC - Modèles ML (supervisé)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Qu'est-ce qui distingue l'apprentissage supervisé ?::On dispose de paires $(\mathbf{x}, y)$ : pour chaque entrée, la sortie attendue est connue.
+
+Deux grands types de problèmes supervisés ?::Classification (sortie discrète) et régression (sortie continue).

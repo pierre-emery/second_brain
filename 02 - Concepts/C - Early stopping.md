@@ -16,3 +16,11 @@ La méthode du early stopping ou de l'arrêt prématuré permet de cesser l'entr
 - [[C - Surapprentissage]]
 - [[C - Sous-apprentissage]]
 - [[C - Sélection de modèle]]
+
+## Flashcards
+
+#flashcards/IFT6135/02-entrainement 
+
+Principe de l'early stopping ?::Arrêter l'entraînement quand l'erreur de validation recommence à augmenter (avec une patience), même si l'erreur d'entraînement baisse encore.
+
+Quel hyperparamètre l'early stopping règle-t-il implicitement ?::Le nombre d'époques, choisi via l'ensemble de validation.

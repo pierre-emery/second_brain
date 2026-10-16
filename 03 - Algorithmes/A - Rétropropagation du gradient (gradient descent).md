@@ -63,3 +63,20 @@ Appliquée au graphe d'un RNN déroulé dans le temps, la rétropropagation devi
 - [[C - Nombre de Conditionnement (matrice)]]
 - [[C - Moindres Carrés Ordinaires (MCO)]]
 - [[A - Rétropropagation à travers le temps (BPTT)]]
+## Flashcards
+
+#flashcards/IFT6135/02-entrainement
+
+Mise à jour de la descente de gradient (batch) sur le risque empirique régularisé ?
+?
+$\Delta = -\frac{1}{T}\sum_t \nabla_\theta l(f(\mathbf{x}^{(t)}; \theta), y^{(t)}) - \lambda\nabla_\theta\Omega(\theta)$, puis $\theta \leftarrow \theta + \alpha\Delta$.
+
+Pourquoi $-\nabla f$ est-elle la direction de plus forte descente ?::La dérivée directionnelle vaut $\mathbf{u}^\top\nabla f = \|\nabla f\|\cos\theta$ pour $\|\mathbf{u}\| = 1$ ; elle est minimale quand $\cos\theta = -1$, i.e. $\mathbf{u}$ opposé au gradient.
+
+Quand la descente de gradient converge-t-elle ?::À un point critique, où le gradient est (presque) nul.
+
+Pourquoi la descente de gradient est-elle lente quand la Hessienne est mal conditionnée ?::Elle ignore la courbure : dans un « canyon » allongé, elle oscille d'une paroi à l'autre au lieu d'avancer ; la méthode de Newton corrige cela.
+
+Qu'est-ce que la recherche linéaire (line search) ?::Évaluer $f(\mathbf{x} - \epsilon\nabla f)$ pour plusieurs $\epsilon$ et garder le meilleur pas.
+
+Comment s'appelle la rétropropagation appliquée à un RNN déroulé ?::La rétropropagation à travers le temps (BPTT).

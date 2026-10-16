@@ -18,3 +18,12 @@ En résumé : la **convolution** rend le réseau équivariant aux translations ;
 - [[C - Couche de Pooling (Max Pooling)]]
 - [[C - Augmentation de Données (Data Augmentation)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/03-cnn
+
+Différence entre équivariance et invariance aux translations ?::Équivariance : translater l'entrée translate la sortie de la même façon. Invariance : translater (un peu) l'entrée ne change pas la sortie.
+
+Quelle opération d'un CNN donne l'équivariance, laquelle l'invariance locale ?::La convolution (partage de poids) → équivariance ; le pooling → invariance locale.
+
+Comment obtenir l'invariance aux rotations et à l'échelle dans un CNN ?::Par augmentation de données ; ni la convolution ni le pooling ne la donnent.

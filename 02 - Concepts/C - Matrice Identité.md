@@ -17,3 +17,10 @@ $$\mathbf{I}_{i,j} = \begin{cases} 1 & \text{si } i=j \\ 0 & \text{si } i \neq j
 - [[MOC - Algèbre linéaire]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[C - Inverse d'une matrice]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition de la matrice identité $\mathbf{I}$ ?::Matrice carrée avec $I_{i,j} = 1$ si $i = j$ et $0$ sinon.
+
+Propriété algébrique de $\mathbf{I}$ ?::Élément neutre de la multiplication : $\mathbf{X}\mathbf{I} = \mathbf{I}\mathbf{X} = \mathbf{X}$.

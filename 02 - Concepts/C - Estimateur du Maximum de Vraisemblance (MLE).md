@@ -60,3 +60,20 @@ Pour $X \sim \mathrm{Bin}(n,\theta)$ observé, $x$ succès sur $n$ essais : $$\w
 - [[C - Estimateur Ponctuel]]
 - [[A - Régression Linéaire]]
 - [[C - Perte quadratique (MSE)]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition du MLE ?::$\widehat\theta = \arg\max_\theta\, p(\mathbf{x}^{(1)}, \ldots, \mathbf{x}^{(T)}; \theta)$
+
+Pourquoi maximise-t-on la log-vraisemblance plutôt que la vraisemblance ?::Le $\log$ est croissant (même $\arg\max$), transforme le produit en somme et évite l'underflow numérique.
+
+Maximiser la vraisemblance équivaut à minimiser quelle divergence ?::La divergence KL entre la distribution empirique $\widehat p_{\text{data}}$ et le modèle : ce qui revient à minimiser l'entropie croisée.
+
+Avec $p(y \mid \mathbf{x}) = \mathcal{N}(y; \widehat y(\mathbf{x}; \mathbf{w}), \sigma^2)$, maximiser la log-vraisemblance conditionnelle équivaut à… ?::Minimiser l'erreur quadratique moyenne (MSE).
+
+Le MLE de la covariance gaussienne divise par $T$ ou $T-1$ ?::Par $T$ ; il est donc biaisé. L'estimateur sans biais divise par $T-1$.
+<!--SR:!2026-10-15,0,230-->
+
+Deux propriétés asymptotiques du MLE (sous conditions) ?::Consistant (converge vers le vrai $\theta$) et efficace (variance asymptotique minimale parmi les estimateurs consistants).

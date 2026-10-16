@@ -28,3 +28,13 @@ Le choix des hyperparamètres se fait via la [[C - Sélection de modèle]], sur 
 - [[C - Validation croisée]]
 - [[MOC - IFT6758 Sciences des données]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision 
+
+Définition d'un hyperparamètre ?::Un paramètre qui n'est pas appris par l'optimisation, mais fixé avant ou entre les entraînements.
+
+Trois exemples d'hyperparamètres d'un réseau de neurones ?::Taux d'apprentissage, coefficient de régularisation $\lambda$, nombre de couches (ou d'unités).
+<!--SR:!2026-10-19,3,250-->
+
+Sur quel ensemble règle-t-on les hyperparamètres ?::L'ensemble de validation (ou par validation croisée), jamais le test.

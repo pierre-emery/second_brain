@@ -28,3 +28,12 @@ Le produit de facteurs est donc proche d'une isométrie : le gradient ne s'évan
 - [[A - Initialisation de Glorot (Xavier)]]
 - [[A - Écrêtage du Gradient (Gradient Clipping)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Recette de l'initialisation orthogonale d'un RNN ?::$\mathbf{U}$ : matrice orthogonale aléatoire ; $\mathbf{W}$ : petites valeurs aléatoires comme d'habitude.
+
+Pourquoi l'initialisation orthogonale stabilise-t-elle le gradient (deux raisons) ?::Multiplier par $\mathbf{U}^\top$ conserve la norme ; et $\mathbf{W}$ petite donne $\mathbf{h} \approx 0$, donc $\mathrm{diag}(1 - \mathbf{h}^2) \approx \mathbf{I}$.
+
+L'initialisation orthogonale garantit-elle des gradients stables pendant tout l'entraînement ?::Non, seulement au début : $\mathbf{U}$ ne reste pas orthogonale.

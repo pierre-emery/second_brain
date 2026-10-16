@@ -30,3 +30,12 @@ Si la sortie n'a pas la même longueur que l'entrée ou n'est pas alignée (trad
 - [[C - Classification de Séquence]]
 - [[A - RNN Bidirectionnel]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Qu'est-ce que l'étiquetage de séquence ?::Prédire une étiquette $y_t$ pour chaque élément $x_t$ : entrée et sortie de même longueur et alignées.
+
+Trois exemples d'étiquetage de séquence ?::Étiquetage morphosyntaxique (POS), reconnaissance d'entités nommées (NER), reconnaissance de caractères.
+
+Limite d'un RNN gauche → droite pour l'étiquetage ?::Il ne peut pas utiliser l'information des pas suivants, alors que toute l'entrée est disponible → RNN bidirectionnel.

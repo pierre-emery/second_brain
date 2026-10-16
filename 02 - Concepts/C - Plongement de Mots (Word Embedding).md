@@ -32,3 +32,12 @@ En modélisation de séquences on ajoute des plongements pour des symboles spéc
 - [[C - Word 2 vec]]
 - [[C - Hypothèse de Variété (Manifold Hypothesis)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/05-rnn-attention
+
+Qu'est-ce qu'un plongement de mots ?::Un vecteur dense $C(w) \in \mathbb{R}^d$ ($d \ll |V|$) appris pour chaque mot, rangé dans une matrice $\mathbf{C} \in \mathbb{R}^{|V| \times d}$.
+
+Comment s'écrit la consultation (lookup) d'un plongement avec un vecteur one-hot ?::$C(w) = \mathbf{C}^\top\mathbf{e}(w)$ ; en pratique, on lit directement la ligne $w$.
+
+Qu'est-ce que `<BOS>` et peut-il être prédit ?::Le plongement spécial de début de phrase, utilisé en entrée pour calculer $\mathbf{h}_0$ ; il n'est **jamais** une sortie possible.

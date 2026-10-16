@@ -19,3 +19,12 @@ Si $X_1, X_2$ indépendantes, $\text{Cov}(X_1,X_2)=0$. On a $\text{Var}(X) = \te
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[C - Matrice de Variance-Covariance]]
 - [[C - Indépendance (variables aléatoires)]]
+
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition probabiliste de la covariance ?::$\mathrm{Cov}(X_1, X_2) = E[(X_1 - E[X_1])(X_2 - E[X_2])]$
+<!--SR:!2026-10-19,3,250-->
+
+Pourquoi la covariance est-elle difficile à interpréter seule ?::Elle dépend de l'échelle des variables ; la corrélation la normalise.

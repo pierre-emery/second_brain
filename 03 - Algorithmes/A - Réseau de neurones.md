@@ -78,3 +78,18 @@ L'interprétabilité des résultats des réseaux de neurones est un champ actif 
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[A - Initialisation de Glorot (Xavier)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
+## Flashcards
+
+#flashcards/IFT6135/01-neurone
+
+Pré-activation et activation de la couche $k$ d'un réseau ?::$\mathbf{a}^{(k)} = \mathbf{b}^{(k)} + \mathbf{W}^{(k)}\mathbf{h}^{(k-1)}$ ; $\mathbf{h}^{(k)} = \mathbf{g}(\mathbf{a}^{(k)})$.
+
+Combien de couches a un « 2-layer network » ?::Une couche cachée + la couche de sortie (on ne compte pas l'entrée).
+
+Écris un réseau ReLU à 3 couches de façon compacte (sans biais).::$f(\mathbf{x}) = \mathbf{W}_3\max(0, \mathbf{W}_2\max(0, \mathbf{W}_1\mathbf{x}))$
+
+Exemple classique de problème qu'un seul neurone ne peut pas résoudre ?::XOR (non linéairement séparable).
+
+Quelle est l'idée clé d'un réseau de neurones par rapport à une régression polynomiale ?::Rendre les transformations de caractéristiques $\phi(\mathbf{x}; \theta)$ **apprenables** au lieu de les fixer à la main.
+
+Ajouter des couches améliore-t-il toujours la performance ?::Non : au-delà d'un certain point l'erreur augmente (difficultés d'optimisation, gradients) : ce que ResNet corrige.

@@ -27,3 +27,17 @@ Cette propriété motive l'[[A - Initialisation Orthogonale|initialisation ortho
 - [[C - Transposée d'une matrice]]
 - [[A - Initialisation Orthogonale]]
 - [[C - Norme]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision
+
+Définition d'une matrice orthogonale $\mathbf{X}$ ?::$\mathbf{X}^\top = \mathbf{X}^{-1}$, i.e. $\mathbf{X}^\top\mathbf{X} = \mathbf{X}\mathbf{X}^\top = \mathbf{I}$ ; ses colonnes forment une base orthonormale.
+
+Démontre qu'une matrice orthogonale conserve la norme.
+?
+$\|\mathbf{X}\mathbf{v}\|^2 = (\mathbf{X}\mathbf{v})^\top(\mathbf{X}\mathbf{v}) = \mathbf{v}^\top\mathbf{X}^\top\mathbf{X}\mathbf{v} = \mathbf{v}^\top\mathbf{v} = \|\mathbf{v}\|^2$
+
+Module des valeurs propres d'une matrice orthogonale ?::Toutes de module 1 (c'est une isométrie : rotation ou réflexion).
+<!--SR:!2026-10-17,1,230-->
+
+Pourquoi la propriété d'isométrie des matrices orthogonales est-elle utile pour les RNN ?::Initialiser la matrice récurrente $\mathbf{U}$ orthogonale fait que multiplier répétitivement le gradient par $\mathbf{U}^\top$ ne le fait ni exploser ni s'évanouir (au moins au début).

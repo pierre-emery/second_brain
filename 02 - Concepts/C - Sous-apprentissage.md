@@ -43,3 +43,12 @@ Un modèle linéaire appliqué à une relation clairement non-linéaire est un e
 - [[C - Complexité d'un modèle (capacité)]]
 - [[MOC - IFT6758 Sciences des données]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
+## Flashcards
+
+#flashcards/IFT6135/00-revision 
+
+Symptôme du sous-apprentissage ?::Mauvaise performance sur l'entraînement **et** le test.
+
+Profil biais/variance du sous-apprentissage ?::Biais élevé, variance faible.
+
+Trois remèdes au sous-apprentissage ?::Ajouter des caractéristiques (ou interactions), complexifier/changer le modèle, entraîner plus longtemps.
