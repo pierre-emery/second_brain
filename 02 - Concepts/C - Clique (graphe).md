@@ -14,3 +14,10 @@ Dans le contexte des [[A - Modèle Graphique Non-dirigé| modèles graphiques no
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[A - Modèle Graphique Non-dirigé]]
 - [[C - Factorisation d'une distribution jointe]]
+## Flashcards
+
+#flashcards/IFT6269/00-modeles-graphiques
+
+Qu'est-ce qu'une clique ?::Un ensemble de nœuds tous reliés deux à deux (sous-graphe complet).
+
+Pourquoi chercher des factorisations en petites cliques ?::Le nombre de paramètres d'un facteur croît exponentiellement avec la taille de sa clique.

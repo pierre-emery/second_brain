@@ -27,3 +27,19 @@ Si $X \perp\!\!\!\perp Y$ : $p(x\mid y) = \dfrac{p(x,y)}{p(y)} = \dfrac{p(x)p(y)
 - [[C - Indépendance (variables aléatoires)]]
 - [[T - Règle de la chaîne (probabilité)]]
 - [[T - Théorème de Bayes]]
+
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Définition de $P(A \mid B)$ pour des événements ?::$P(A \mid B) \triangleq \dfrac{P(A \cap B)}{P(B)}$, avec $P(B) \neq 0$.
+
+Intuition de $P(A \mid B)$ ?::On se restreint au sous-espace où $B$ se produit, puis on regarde la part où $A$ se produit aussi ; $P(B)$ sert de normalisateur.
+
+Énonce la règle du produit.::$p(x,y) = p(x \mid y)\,p(y)$ : toujours vraie (tant que $p(y) \neq 0$).
+
+Énonce la loi des probabilités totales.::Pour une partition $\{A_i\}$ de $\Omega$ : $P(B) = \sum_i P(A_i \cap B)$.
+
+Que signifie $p(x \mid y) \propto p(x,y)$ ?::À $y$ fixé, la conditionnelle est la jointe renormalisée : il suffit de diviser par $\sum_x p(x,y) = p(y)$.
+
+Que se passe-t-il pour $p(x \mid y)$ quand $p(y) = 0$ (cas continu) ?::Elle est indéfinie ; conditionner sur un événement de probabilité nulle donne des résultats contre-intuitifs (paradoxe de Borel-Kolmogorov).

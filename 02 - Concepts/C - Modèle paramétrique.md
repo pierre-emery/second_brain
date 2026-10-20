@@ -39,3 +39,11 @@ Définition d'un modèle paramétrique ?::Une famille de distributions $\{p(\cdo
 Comment évolue la capacité d'un modèle paramétrique avec la quantité de données ?::Elle est fixe (contrairement à un modèle non paramétrique).
 
 Deux exemples de modèles paramétriques ?::Classifieur linéaire ; réseau de neurones à architecture fixe.
+
+#flashcards/IFT6269/02-modeles-parametriques
+
+Écris formellement une famille paramétrique de distributions.::$\mathcal P_\Theta = \{p(\cdot\,;\theta) \mid \theta \in \Theta\}$, où $p(\cdot\,;\theta)$ est une pmf ou pdf et $\Theta$ l'ensemble des paramètres valides.
+
+Pourquoi écrire $p_\theta(x;\theta)$ est-il un abus de notation ?::$p(x;\theta)$ est un scalaire pour $x$ fixé, pas une distribution ; c'est $p(\cdot\,;\theta)$ qui est la pmf/pdf.
+
+Le support $\Omega_X$ dépend-il de $\theta$ dans un modèle paramétrique ?::Généralement non (ex. $\{0,1\}$ pour une pièce, $[0,+\infty)$ pour la gamma), mais ce n'est pas toujours le cas.

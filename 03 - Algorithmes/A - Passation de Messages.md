@@ -27,3 +27,14 @@ Cet algorithme sera revu plus formellement plus tard dans le cours; on y reviend
 - [[C - Modèle Graphique Probabiliste]]
 - [[C - Modèle de Markov Caché (HMM)]]
 - [[C - Thèmes clés de l'apprentissage statistique]]
+## Flashcards
+
+#flashcards/IFT6269/00-modeles-graphiques
+
+À quoi sert la passation de messages ?::Calculer efficacement une marginale (ex. $p(x_1)$) en exploitant la factorisation de la jointe.
+
+Quelle propriété algébrique permet la passation de messages ?::La distributivité, $a(b+c) = ab + ac$ : on pousse chaque somme le plus à l'intérieur possible.
+
+Qu'est-ce que le message $M_T(x_{T-1})$ dans une chaîne ?::$M_T(x_{T-1}) = \sum_{x_T} f_T(x_T \mid x_{T-1})$ ; les messages se calculent récursivement de droite à gauche.
+
+Complexité de la passation de messages sur une chaîne de longueur $T$ à $K$ états, vs le calcul naïf ?::$O(TK^2)$ contre $O(K^T)$.

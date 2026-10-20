@@ -26,3 +26,14 @@ Si la contrainte est déjà respectée par la solution non contrainte, alors $\l
 - [[C - Conditions KKT]]
 - [[C - Dualité]]
 - [[C - Moindres Carrés Ordinaires (MCO)]]
+## Flashcards
+
+#flashcards/IFT6269/04-maximum-vraisemblance
+
+Condition sur la solution de $\min f(z)$ sous $g_j(z) = 0$ ?::Elle est un point stationnaire du Lagrangien $f(z) - \sum_j \lambda_j g_j(z)$ (condition nécessaire, pas suffisante).
+
+Pourquoi suffit-il de résoudre $\partial f_P / \partial z = 0$ plus les contraintes initiales ?::Car $\partial f_P / \partial \lambda_j = g_j$ : annuler ces dérivées redonne simplement les contraintes.
+
+Interprétation géométrique au point optimal d'un problème avec contrainte d'égalité ?::$\nabla f$ et $\nabla g$ sont parallèles : les courbes de niveau de $f$ sont tangentes à la contrainte $g = 0$.
+
+Comment traiter une contrainte d'inégalité $h(z) \leq 0$ ?::Multiplicateur $\lambda \geq 0$ et problème min-max $\min_z \max_{\lambda \geq 0} f(z) + \lambda h(z)$ ; si la contrainte est inactive, $\lambda = 0$ (généralisation : KKT).

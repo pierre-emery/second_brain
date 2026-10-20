@@ -41,3 +41,22 @@ Le MLE est **non biaisé**, alors que l'estimateur bayésien est **biaisé mais 
 - [[T - Théorème central limite]]
 - [[D - Binomiale]]
 - [[D - Beta]]
+## Flashcards
+
+#flashcards/IFT6269/03-frequentiste-vs-bayesien
+
+Probabilité vs statistique : quelle direction, et lequel des deux problèmes est mal posé ?::Probabilité : modèle $\theta \to$ données (bien posé). Statistique : données $\to$ modèle $\theta$ (mal posé).
+
+Sens de $P(X=x)$ pour un fréquentiste ?::La fréquence relative limite d'observer $X=x$ si on répétait l'expérience une infinité de fois de façon i.i.d.
+
+Sens de $P(X=x)$ pour un bayésien ?::La croyance d'un agent que $X=x$ ; les règles de probabilité décrivent comment combiner rationnellement croyances et observations.
+
+Statut du paramètre $\theta$ selon chaque école ?::Fréquentiste : fixe et inconnu. Bayésien : variable aléatoire, comme toute quantité incertaine.
+
+$X \sim \mathrm{Bin}(n,\theta)$, $x$ succès : estimateur fréquentiste (MLE) et estimateur bayésien (prior uniforme) ?::MLE : $\dfrac{x}{n}$. Bayes (moyenne a posteriori de $\mathrm{Beta}(x+1, n-x+1)$) : $\dfrac{x+1}{n+2}$.
+
+Biais du MLE $x/n$ et de l'estimateur bayésien $(x+1)/(n+2)$ ?::Le MLE est sans biais ; l'estimateur bayésien est biaisé mais asymptotiquement sans biais.
+
+On observe $n$ faces sur $n$ lancers. Que prédisent le MLE et l'estimateur bayésien (prior uniforme) ?::MLE : $\widehat\theta = 1$, certitude totale (sur-apprentissage). Bayes : $\frac{n+1}{n+2} < 1$, il garde une incertitude résiduelle.
+
+Pourquoi $P(F=1 \mid X=x) = E[\theta \mid X=x]$ pour le prochain lancer $F$ ?::En marginalisant sur $\theta$ : $\int P(F=1 \mid \theta)\,\pi(\theta \mid x)\,d\theta = \int \theta\,\pi(\theta \mid x)\,d\theta$.

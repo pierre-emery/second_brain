@@ -33,3 +33,14 @@ Répondre à des questions sur les données : calculer des distributions **condi
 - [[C - Factorisation d'une distribution jointe]]
 - [[A - Passation de Messages]]
 - [[C - Sources d'incertitude]]
+## Flashcards
+
+#flashcards/IFT6269/00-modeles-graphiques
+
+Les trois grands thèmes du cours IFT6269 ?::Représentation (structure de la distribution), estimation (apprendre les paramètres), inférence (calculer marginales et conditionnelles).
+
+Thème « représentation » : deux outils ?::Graphe → factorisation ; paramétrisation (table complète vs famille exponentielle).
+
+Thème « estimation » : trois exemples de méthodes ?::Maximum de vraisemblance, maximum d'entropie, appariement de moments.
+
+Thème « inférence » : que faire quand le calcul exact devient intraitable ?::Inférence approximative : échantillonnage ou méthodes variationnelles.

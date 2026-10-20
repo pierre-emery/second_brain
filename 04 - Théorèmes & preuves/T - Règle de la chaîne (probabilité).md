@@ -23,3 +23,12 @@ C'est cette hypothèse structurelle qui donne au [[C - Modèle Graphique Probabi
 - [[C - Conditionnement (probabilité conditionnelle)]]
 - [[C - Factorisation d'une distribution jointe]]
 - [[A - Modèle Graphique Probabiliste]]
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Énonce la règle de la chaîne pour $p(x_1, \dots, x_n)$.::$p(x_1,\dots,x_n) = \prod_{i=1}^n p(x_i \mid x_1, \dots, x_{i-1})$ : toujours vraie, sans hypothèse.
+
+D'où vient la règle de la chaîne ?::De l'application successive de la règle du produit : $p(x_{1:n}) = p(x_{1:n-1})\,p(x_n \mid x_{1:n-1}) = \cdots$
+
+Comment la règle de la chaîne se simplifie-t-elle dans un modèle graphique dirigé ?::Chaque facteur ne dépend que des parents : $p(x_i \mid x_{1:i-1}) = p(x_i \mid x_{\pi_i})$.

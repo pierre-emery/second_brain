@@ -24,3 +24,12 @@ L'exemple ci-dessus factorise en distributions conditionnelles, c'est la forme d
 - [[T - Règle de la chaîne (probabilité)]]
 - [[A - Passation de Messages]]
 - [[C - Thèmes clés de l'apprentissage statistique]]
+## Flashcards
+
+#flashcards/IFT6269/00-modeles-graphiques
+
+Combien de paramètres pour une distribution complète sur $T$ variables à $K$ valeurs ?::De l'ordre de $K^T$ : exponentiel en $T$.
+
+Factorisation markovienne d'ordre 1 de $p(x_{1:T})$ et nombre de paramètres ?::$f_1(x_1)\prod_{t\geq 2} f_t(x_t \mid x_{t-1})$ : environ $TK^2$ paramètres (linéaire en $T$).
+
+Sur quoi repose une factorisation de la jointe ?::Sur des hypothèses d'indépendance conditionnelle appliquées à la règle de la chaîne.

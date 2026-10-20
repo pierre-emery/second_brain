@@ -17,3 +17,12 @@ Une façon de contourner ce problème : reparamétrer avec $\pi_1,\dots,\pi_{K-1
 - [[D - Multinomiale (et Multinoulli)]]
 - [[C - Multiplicateurs de Lagrange]]
 - [[C - Contraintes]]
+## Flashcards
+
+#flashcards/IFT6269/02-modeles-parametriques
+
+Définition du simplexe de probabilité $\Delta_K$ ?::$\{\pi \in \mathbb R^K : \pi_j \geq 0\ \forall j,\ \sum_j \pi_j = 1\}$.
+
+Quelle est la dimension de $\Delta_K$, et pourquoi est-ce un problème ?::$K-1$ (dans $\mathbb R^K$), à cause de la contrainte de somme : on ne peut pas y appliquer directement l'optimisation sans contrainte.
+
+Deux façons d'optimiser sur le simplexe ?::(1) Multiplicateurs de Lagrange sur $\Delta_K$ ; (2) reparamétrer avec $\pi_K = 1 - \sum_{j<K}\pi_j$ pour obtenir un objet plein dans $\mathbb R^{K-1}$ (« coin du cube »).

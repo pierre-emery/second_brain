@@ -43,3 +43,9 @@ Définition de $X_1 \perp\!\!\!\perp X_2 \mid X_3$ ?::$p(x_1, x_2 \mid x_3) = p(
 Exemple de la mère et ses deux enfants (maladie génétique) : quelles indépendances tiennent ?::Les enfants sont indépendants **sachant** le statut de la mère, mais **pas** marginalement : apprendre qu'un enfant est atteint renseigne sur la mère, donc sur l'autre enfant.  
 
 L'indépendance par paires implique-t-elle l'indépendance mutuelle ?::Non. $X, Y$ deux pièces indépendantes et $Z = X \oplus Y$ : indépendance par paires, mais $Z$ est déterminé par $(X,Y)$.
+
+#flashcards/IFT6269/01-probabilites
+
+En quoi l'indépendance conditionnelle est-elle au cœur des modèles graphiques ?::Elle permet la factorisation de la jointe : l'absence d'arête dans le graphe encode une hypothèse d'indépendance conditionnelle.
+
+$X \perp\!\!\!\perp Y \mid Z$ implique-t-il $X \perp\!\!\!\perp Y$ ?::Non. Un ancêtre commun $Z$ inconnu crée de la dépendance : observer $X$ renseigne sur $Z$, donc sur $Y$.

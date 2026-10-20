@@ -37,3 +37,16 @@ Interprétation comme limite : $p(x) = \lim_{r \to 0^+} \dfrac{P(B_r)}{\text{vol
 - [[C - Fonction de répartition (CDF)]]
 - [[C - Distribution Jointe, Marginale et Conditionnelle]]
 
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Deux conditions pour qu'une fonction $p$ soit une pmf ?::$p(x) \geq 0$ pour tout $x \in \Omega$ et $\sum_{x \in \Omega} p(x) = 1$.
+
+Deux conditions pour qu'une fonction $p$ soit une pdf ?::$p(x) \geq 0$ pour tout $x$, et $p$ intégrable avec $\int_\Omega p(x)\,dx = 1$.
+
+Une densité $p(x)$ peut-elle être supérieure à 1 ?::Oui : seule son intégrale doit valoir 1. $p(x)$ n'est pas une probabilité ; $P(X \in x \pm \tfrac\Delta2) \approx p(x)\,\Delta$.
+
+Interprétation de la densité comme limite ?::$p(x) = \lim_{r \to 0^+} \dfrac{P(B_r)}{\mathrm{vol}(B_r)}$, où $B_r$ est une boule de rayon $r$ centrée en $x$.
+
+Pourquoi peut-on modifier une pdf en un nombre dénombrable de points sans rien changer ?::Un ensemble dénombrable est de mesure (de Lebesgue) nulle : les intégrales, donc toutes les probabilités, restent identiques.

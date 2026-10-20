@@ -38,3 +38,12 @@ Philosophie de l'approche bayésienne : traiter **toute quantité incertaine** c
 - [[C - Distribution à priori]]
 - [[C - Distribution à postériori]]
 - [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]
+## Flashcards
+
+#flashcards/IFT6269/03-frequentiste-vs-bayesien
+
+De quoi se compose un modèle statistique bayésien ?::D'un modèle paramétrique $f(x \mid \theta)$ et d'une densité a priori $\pi(\theta)$.
+
+Densité marginale $m(x)$ dans un modèle bayésien ?::$m(x) = \int_\Theta f(x \mid \theta)\,\pi(\theta)\,d\theta$.
+
+Densité prédictive d'une nouvelle observation $Y$ ?::$g(y \mid x) = \int_\Theta g(y \mid \theta, x)\,\pi(\theta \mid x)\,d\theta$.

@@ -43,3 +43,9 @@ Qu'est-ce qu'un point-selle ?::Un point critique où la courbure est positive da
 Pourquoi la perte d'un réseau n'a-t-elle pas un optimum global unique ?::Permuter les unités cachées d'une couche (avec leurs connexions) donne la même fonction : les paramètres ne sont pas identifiables.
 
 En haute dimension, quels points critiques posent surtout problème (Dauphin et al., 2014) ?::Les points-selles, plus que les minima locaux : d'où l'intérêt du momentum pour les traverser.
+
+#flashcards/IFT6269/04-maximum-vraisemblance
+
+En 1D, $f'(\theta^\star) = 0$ suffit-il pour un maximum local ?::Non, c'est nécessaire (à l'intérieur du domaine) mais pas suffisant : il faut aussi $f''(\theta^\star) < 0$.
+
+Quelle classe de log-vraisemblances est typiquement concave, ce qui garantit un maximum global ?::Celles des familles exponentielles (ex. Binomiale, Multinomiale).

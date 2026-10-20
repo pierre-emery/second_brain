@@ -43,3 +43,9 @@ Définition formelle d'une variable aléatoire ?::Une fonction (mesurable) $X: \
 Pour une variable continue, que vaut $P(X = x)$ ?::0 : $p(x)$ est une densité, et $P(X \in A) = \int_A p(x)\,dx$.
 
 Variable discrète vs continue : comment chacune est-elle caractérisée ?::Discrète : fonction de masse (pmf). Continue : fonction de densité (pdf).
+
+#flashcards/IFT6269/01-probabilites
+
+Que représente l'événement $\{X = x\}$, et quel est le raccourci de notation usuel ?::L'ensemble des $\omega \in \Omega$ tels que $X(\omega) = x$ ; on note $P(\{X=x\}) = p(x)$.
+
+Pourquoi le σ-field devient-il crucial pour une variable continue ?::Quand $\Omega$ est non dénombrable, on ne peut plus prendre $\mathcal E = 2^\Omega$ ; on utilise un σ-field plus restreint, typiquement le σ-field de Borel.

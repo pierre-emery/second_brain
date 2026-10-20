@@ -16,3 +16,10 @@ Soit $B \triangleq \mathbb 1{X=x} \sim \mathrm{Bern}(\theta)$, encodant l'évén
 - [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]
 - [[T - Théorème central limite]]
 - [[D - Binomiale]]
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Énonce la loi des grands nombres.::Si $B_1, B_2, \dots$ sont i.i.d. avec $E[B_i] = \theta$, alors $\frac1n\sum_{i=1}^n B_i \to \theta$ quand $n \to \infty$.
+
+Comment la loi des grands nombres justifie-t-elle l'interprétation fréquentiste ?::Avec $B_i = \mathbb 1\{X_i = x\} \sim \mathrm{Bern}(\theta)$, la fréquence relative observée converge vers $\theta = P(X=x)$.

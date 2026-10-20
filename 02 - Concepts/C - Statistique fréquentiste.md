@@ -18,5 +18,13 @@ Le paradigme fréquentiste repose sur une **interprétation** particulière de l
 
 - [[MOC - Inférence Statistique]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[C - Interprétations de la probabilité (fréquentiste vs bayésienne)]]
+- [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
+
+## Flashcards
+
+#flashcards/IFT6269/03-frequentiste-vs-bayesien
+
+Sur quoi le fréquentiste base-t-il ses conclusions sur $\theta$ ?::Sur la comparaison de l'échantillon observé à tous les autres échantillons qu'on aurait pu obtenir du même modèle $f(x;\theta)$, $\theta$ fixe.
+
+Quels théorèmes justifient l'interprétation fréquentiste de la probabilité ?::La loi des grands nombres (convergence de la fréquence relative) et le TCL (vitesse de concentration).

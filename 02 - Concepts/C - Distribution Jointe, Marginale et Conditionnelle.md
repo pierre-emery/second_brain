@@ -57,3 +57,11 @@ Comment obtient-on une distribution marginale à partir de la jointe ?::En somma
 Définition de la distribution conditionnelle à partir de la jointe ?::$p(s \mid o) = \dfrac{p(s, o)}{p(o)}$
 
 Jointe, marginale, conditionnelle : en une phrase chacune.::Jointe : assignation complète de toutes les variables. Marginale : assignation partielle (on somme les autres). Conditionnelle : certaines variables étant donné une assignation des autres.
+
+#flashcards/IFT6269/01-probabilites
+
+Comment calcule-t-on $P(X=x)$ à partir de la jointe d'un couple discret $(X,Y)$ ?::Règle de somme : $P(X=x) = \sum_{y \in \Omega_Y} P(X=x, Y=y)$.
+
+Marginale en continu ?::$p(x) = \int p(x,y)\,dy$.
+
+Comment calcule-t-on $P((X,Y) \in S)$ pour $X$ continue et $Y$ discrète ?::On somme sur la composante discrète et on intègre sur la continue : $\sum_y \int_{x : (x,y) \in S} p(x,y)\,dx$.

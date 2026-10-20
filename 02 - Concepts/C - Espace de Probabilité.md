@@ -57,3 +57,9 @@ Deux axiomes (version discrète) d'une mesure de probabilité ?::$P(\{\omega\}) 
 
 Lancer d'un dé : probabilité de l'événement $\{1, 5\}$ ?::$2/6 = 1/3$.
 <!--SR:!2026-10-20,4,270-->
+
+#flashcards/IFT6269/01-probabilites
+
+En IFT6269, que représente l'espace échantillon $\Omega$ ?::L'ensemble des « événements élémentaires », c.-à-d. les résultats possibles de l'expérience (ex. $\Omega = \{1,\dots,6\}$ pour un dé).
+
+Quels sont les trois objets à définir pour construire formellement une probabilité ?::L'espace échantillon $\Omega$, l'ensemble des événements $\mathcal E$ (un σ-field) et la distribution $P : \mathcal E \to [0,1]$.

@@ -19,3 +19,12 @@ Pourquoi utilise-t-on les probabilités en science des données? Parce que la th
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Espace de probabilité]]
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Pourquoi utiliser la théorie des probabilités pour modéliser des données ?::C'est un cadre principié pour modéliser l'incertitude.
+
+Les trois sources d'incertitude vues en IFT6269 ?::(1) Incertitude intrinsèque (ex. mécanique quantique) ; (2) information partielle / observation incomplète (ex. conditions initiales d'un lancer de dé) ; (3) modélisation incomplète d'un phénomène complexe.
+
+« La plupart des oiseaux volent » illustre quelle source d'incertitude, et pourquoi l'accepter ?::La modélisation incomplète : une règle simple est avantageuse (calcul, simplicité) même si elle produit de l'incertitude via ses exceptions.

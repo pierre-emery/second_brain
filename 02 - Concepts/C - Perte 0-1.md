@@ -68,3 +68,13 @@ Pour minimiser $\rho(\pi,a\mid x)$, il faut alors maximiser $\pi(a\mid x)$. La m
 ## Vue "science des données"
 
 C'est l'évaluation naturelle d'un [[C - Classification|classificateur]] : elle compte simplement la proportion d'erreurs. Le problème est qu'elle n'est pas directement dérivable/optimisable (elle est plate presque partout), d'où l'usage de proxys différentiables comme la [[C - Perte Vraisemblance]] (via une probabilité $f(x)=P(y=1|x)\in[0,1]$) pour entraîner le modèle, quitte à revenir à la perte 0-1 pour l'évaluation finale.
+
+## Flashcards
+
+#flashcards/IFT6269/05-theorie-decision 
+
+Estimateur de Bayes sous la perte 0-1 pour un $\Theta$ discret ?::Le mode a posteriori : perte espérée $= 1 - \pi(a \mid x)$, minimisée en maximisant $\pi(a \mid x)$.
+
+Test d'hypothèse sous la perte 0-1 : quelle décision prend l'estimateur de Bayes ?::Rejeter $H_0$ ($a=0$) si $P(\theta \in \Theta_0 \mid x) < \tfrac12$, sinon rejeter $H_1$ : on choisit l'hypothèse la plus probable a posteriori.
+
+Pourquoi la perte 0-1 est-elle inadaptée à un $\Theta$ continu ?::La perte espérée a posteriori vaut 1 pour toute décision $a$ (un point a probabilité nulle) : aucune décision n'est préférée.

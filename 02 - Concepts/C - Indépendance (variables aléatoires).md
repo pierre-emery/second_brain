@@ -49,3 +49,9 @@ $\mathrm{Cov}(X,Y) = 0$ implique-t-il l'indépendance ?::Non. Contre-exemple : $
 <!--SR:!2026-10-17,1,230-->
 
 Structure « collision » $X \to Z \leftarrow Y$ : $X$ et $Y$ sont-elles indépendantes ? Et sachant $Z$ ?::Marginalement indépendantes, mais généralement **dépendantes** sachant $Z$ (« explaining away »).
+
+#flashcards/IFT6269/01-probabilites
+
+Définition de l'indépendance mutuelle de $X_1, \dots, X_n$ ?::$p(x_{1:n}) = \prod_{i=1}^n p(x_i)$ pour toutes les valeurs $x_{1:n}$.
+
+Structure « fourche » $X \leftarrow Z \rightarrow Y$ : quelles indépendances tiennent ?::$X \perp\!\!\!\perp Y \mid Z$, mais pas nécessairement $X \perp\!\!\!\perp Y$ marginalement.

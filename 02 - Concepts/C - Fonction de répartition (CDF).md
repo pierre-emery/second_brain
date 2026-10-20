@@ -18,3 +18,14 @@ Pour une variable discrète, la cdf est constante par morceaux, avec des sauts. 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Espace de Probabilité]]
 - [[C - Fonction de masse et de densité (pmf-pdf)]]
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Définition de la fonction de répartition $F_X$ ?::$F_X(x) \triangleq P(X \leq x)$.
+
+Trois propriétés d'une CDF ?::Non décroissante ; $\lim_{x\to-\infty} F_X(x) = 0$ ; $\lim_{x\to+\infty} F_X(x) = 1$.
+
+Allure de la CDF d'une variable discrète vs continue ?::Discrète : constante par morceaux avec des sauts. Continue : absolument continue, $F_X(x) = \int_{-\infty}^x f(u)\,du$.
+
+Lien entre CDF et densité ?::Là où $f$ est continue, $\dfrac{d}{dx}F_X(x) = f(x)$.

@@ -22,3 +22,12 @@ Après avoir observé $x$, on **met à jour** cette croyance en une [[C - Distri
 - [[C - Modèle Bayésien]]
 - [[C - Distribution à postériori]]
 - [[T - Théorème de Bayes]]
+## Flashcards
+
+#flashcards/IFT6269/03-frequentiste-vs-bayesien
+
+Que représente le prior $\pi(\theta)$ ?::Nos croyances sur $\theta$ avant d'observer les données.
+
+Exemple de prior non informatif pour $\theta \in [0,1]$ ?::L'uniforme : $\pi(\theta) = 1$ sur $[0,1]$ (soit $\mathrm{Beta}(1,1)$).
+
+Pourquoi peut-on écrire $\pi(\theta \mid x) \propto p(x \mid \theta)\,\pi(\theta)$ ?::Le dénominateur $p(x)$ ne dépend pas de $\theta$ : c'est une constante de normalisation qu'on retrouve en intégrant sur $\theta$.

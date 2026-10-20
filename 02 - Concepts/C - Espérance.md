@@ -13,3 +13,8 @@ Voir aussi [[C - Variance]] pour la dispersion autour de cette moyenne.
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Fonction de masse et de densité (pmf-pdf)]]
 - [[C - Variance]]
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Définition de $\mathbb E[X]$ (discret et continu) ?::$\mathbb E[X] = \sum_{x} x\,p(x)$ (discret) ou $\int x\,p(x)\,dx$ (continu).

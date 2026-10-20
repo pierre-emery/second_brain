@@ -32,3 +32,7 @@ Supposons que $x_1,\ldots,x_m \sim \mathcal{N}(\mu,\sigma)$ i.i.d., on veut esti
 Fonction de vraisemblance pour $n$ observations i.i.d. ?::$\mathcal{L}(\theta \mid x) = \prod_{i=1}^n f(x_i; \theta)$
 
 La vraisemblance est-elle une densité sur $\theta$ ? Pourquoi ?::Non : c'est une fonction de $\theta$ à données fixées, et $\int \mathcal{L}(\theta \mid x)\,d\theta$ n'est pas forcément 1 (peut même être infinie).
+
+#flashcards/IFT6269/04-maximum-vraisemblance
+
+Pour la vraisemblance $\mathcal L(\theta \mid x)$, qu'est-ce qui est fixé et qu'est-ce qui varie ?::Les données $x$ sont fixées ; c'est une fonction de $\theta$.

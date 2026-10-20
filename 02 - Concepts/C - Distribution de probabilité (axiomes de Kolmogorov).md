@@ -23,3 +23,12 @@ Notation : $P({X=x}) = p(x)$.
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Espace de probabilité]]
 - [[C - Variable Aléatoire]]
+## Flashcards
+
+#flashcards/IFT6269/01-probabilites
+
+Une distribution de probabilité $P$ est une application de quoi vers quoi ?::$P : \mathcal E \to [0,1]$, où $\mathcal E$ est l'ensemble des événements (en discret, $\mathcal E = 2^\Omega$, tous les sous-ensembles de $\Omega$).
+
+Énonce les trois axiomes de Kolmogorov.::(1) $P(E) \geq 0$ pour tout $E \in \mathcal E$ ; (2) $P(\Omega) = 1$ ; (3) $\sigma$-additivité : $P\big(\bigcup_i E_i\big) = \sum_i P(E_i)$ pour des $E_i$ mutuellement disjoints.
+
+Version simplifiée des axiomes quand $\Omega$ est dénombrable ?::$P(\{\omega\}) \geq 0$ pour tout $\omega \in \Omega$ et $\sum_{\omega \in \Omega} P(\{\omega\}) = 1$.

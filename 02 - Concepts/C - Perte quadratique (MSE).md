@@ -7,7 +7,6 @@ prerequis: []
 maj: 2026-08-06
 ---
 MSE pour Mean Squared Error est la variance des erreurs du modèle. Elle est sensible aux écarts importants entre les prévisions d'un modèle et les observations. $$\widehat R(\theta) = \frac 1 N \sum_{i=1}^N||y_i-f(x_i;\theta)||_2^2 $$
-
 ## Définition plus simple dans le cours de stats bayésienne
 
 La fonction de perte quadratique est la plus utilisée car c'est la plus facile à travailler.
@@ -35,3 +34,13 @@ Le deuxième terme est nul car $\mathbb{E}_{\theta\mid x}[\theta-\mathbb{E}[\the
 # Notes
 
 Quoique facile à évaluer, la fonction de perte quadratique a tendance à surévaluer les grandes pertes. De plus la sur et sous-estimation sont traitées de façon symétrique. La fonction de [[C - Perte Linéaire]] remédie à ces problèmes.
+
+## Flashcards
+
+#flashcards/IFT6269/05-theorie-decision
+
+Estimateur de Bayes sous la perte quadratique $L(\theta,a) = (\theta-a)^2$ ?::La moyenne a posteriori $E[\theta \mid x]$.
+
+Idée de la preuve que $E[\theta \mid x]$ minimise la perte quadratique espérée a posteriori ?::Ajouter et retrancher $E[\theta \mid x]$ : le terme croisé est nul, et il reste $E[(\theta - E[\theta\mid x])^2 \mid x] + (E[\theta\mid x] - a)^2$, minimal en $a = E[\theta \mid x]$.
+
+Deux défauts de la perte quadratique ?::Elle pénalise fortement les grandes erreurs et traite symétriquement sur- et sous-estimation.

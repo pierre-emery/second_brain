@@ -36,3 +36,19 @@ Quand $\Theta$ impose une contrainte d'égalité (ex. le [[C - Simplexe de proba
 - [[C - Vraisemblance]]
 - [[C - Points Critiques et Optima (local, global, point-selle)]]
 - [[C - Multiplicateurs de Lagrange]]
+
+## Flashcards
+
+#flashcards/IFT6269/04-maximum-vraisemblance
+
+Les étapes de la recherche du MLE ?::(1) Passer à la log-vraisemblance ; (2) chercher les points stationnaires ; (3) vérifier l'optimalité (Hessienne, concavité, bords) ; (4) si contrainte d'égalité, multiplicateurs de Lagrange.
+
+Pourquoi maximiser $\log p(x;\theta)$ donne-t-il le même $\widehat\theta$ que $p(x;\theta)$ ?::Le $\log$ est strictement croissant : il préserve l'$\arg\max$.
+
+Convention si $p(x;\theta) = 0$ pour certains $\theta$ ?::Poser $\ell(\theta) = -\infty$ ; cela ne change pas la maximisation.
+
+Quand $\nabla_\theta \ell(\theta) = 0$ est-il une condition nécessaire pour un maximum ?::Seulement si $\theta$ est à l'intérieur de $\Theta$.
+
+Quand un point stationnaire de $\ell$ est-il automatiquement un maximum global ?::Quand $\ell$ est concave sur tout $\Theta$ (Hessienne semi-définie négative partout).
+
+Que faire si l'optimum est sur la frontière de $\Theta$ ?::Il n'est en général pas stationnaire : on conclut en exploitant la monotonie de $\ell$.

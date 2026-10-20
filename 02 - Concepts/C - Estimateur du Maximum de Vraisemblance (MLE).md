@@ -77,3 +77,11 @@ Le MLE de la covariance gaussienne divise par $T$ ou $T-1$ ?::Par $T$ ; il est d
 <!--SR:!2026-10-15,0,230-->
 
 Deux propriétés asymptotiques du MLE (sous conditions) ?::Consistant (converge vers le vrai $\theta$) et efficace (variance asymptotique minimale parmi les estimateurs consistants).
+
+#flashcards/IFT6269/04-maximum-vraisemblance
+
+MLE de $\theta$ pour $X \sim \mathrm{Bin}(n,\theta)$ ?::$\widehat\theta_{\text{ML}} = x/n$.
+
+Le MLE binomial est-il sans biais ? Quel est son défaut sur peu de données ?::Sans biais ($E[X/n] = \theta$), mais il sur-apprend : avec $x = n$, il donne $\widehat\theta = 1$ sans aucune incertitude résiduelle.
+
+Le MLE est-il toujours sans biais ?::Non : exemple, la variance gaussienne du MLE divise par $n$ et est biaisée.

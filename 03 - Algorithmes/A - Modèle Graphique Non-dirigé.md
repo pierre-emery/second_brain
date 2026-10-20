@@ -27,3 +27,12 @@ Le non-dirigé est souvent plus naturel quand les interactions entre variables s
 - [[A - Modèle Graphique Probabiliste]]
 - [[C - Clique (graphe)]]
 - [[C - Factorisation d'une distribution jointe]]
+## Flashcards
+
+#flashcards/IFT6269/00-modeles-graphiques
+
+Factorisation d'un modèle graphique non dirigé ?::$p(x) = \dfrac1Z\prod_i \phi^{(i)}(C^{(i)})$, un facteur $\phi^{(i)} \geq 0$ par clique.
+
+Les facteurs $\phi$ d'un modèle non dirigé sont-ils des distributions ?::Non : ce sont des fonctions positives quelconques, d'où la constante de normalisation $Z$.
+
+Qu'est-ce que la fonction de partition $Z$ ?::La somme (ou intégrale) du produit des facteurs sur toutes les configurations, qui normalise $p$ à 1.

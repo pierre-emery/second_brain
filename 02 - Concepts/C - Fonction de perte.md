@@ -48,3 +48,15 @@ $$ L(\theta, a) = (\theta - a)^2. $$ ce qui est la [[C - Perte quadratique (MSE)
 ## Vue "science des données"
 
 Dans un cadre ML pur (hors bayésien), la fonction de perte sert directement à définir le [[C - Risque]] et le [[C - Risque Empirique]] qu'on cherche à minimiser lors de l'entraînement.
+
+## Flashcards
+
+#flashcards/IFT6269/05-theorie-decision
+
+Définition d'une fonction de perte en théorie de la décision ?::$L : \Theta \times \mathcal A \to [0,\infty)$ ; $L(\theta,a)$ mesure le coût de la décision $a$ quand le paramètre vaut $\theta$.
+
+Estimateur de Bayes sous la perte absolue $L(\theta,a) = k|\theta - a|$ ?::La médiane a posteriori.
+
+Pourquoi la perte quadratique est-elle plus utilisée que la perte absolue ?::Son estimateur de Bayes est une espérance, plus facile à calculer qu'un percentile (médiane).
+
+Estimateur de Bayes sous une perte quadratique pondérée $\omega(\theta)(\theta-a)^2$ ?::Une moyenne a posteriori sous le prior modifié $\pi^*(\theta) \propto \omega(\theta)\pi(\theta)$ : $\delta_\pi(x) = E^*[\theta \mid x]$.

@@ -111,3 +111,16 @@ Il faut cependant être prudent lorsqu’on travaille avec des distributions par
  - [[C - Distribution à priori]]
  - [[D - Beta]]
  - [[D - Gamma]]
+## Flashcards
+
+#flashcards/IFT6269/03-frequentiste-vs-bayesien
+
+Prior $\mathrm{Beta}(\alpha,\beta)$, $n$ Bernoulli avec $s$ succès : posterior ?::$\mathrm{Beta}(\alpha+s,\ \beta+n-s)$.
+
+Prior $\Gamma(\alpha,\lambda)$, $n$ observations $\mathrm{Exp}(\theta)$ de somme $S$ : posterior ?::$\Gamma(\alpha+n,\ \lambda+S)$.
+
+Truc pour identifier un posterior sans calculer l'intégrale $m(x)$ ?::Calculer $\mathcal L(\theta \mid x)\,\pi(\theta)$ à proportionnalité près et reconnaître le noyau d'une loi connue.
+
+Posterior discret : comment calculer $\pi(\theta \mid x)$ en pratique ?::Calculer les poids $w_\theta = P(x \mid \theta)\,\pi(\theta)$ pour chaque $\theta$, puis les normaliser par leur somme.
+
+Quand la méthode « reconnaître le noyau » est-elle risquée ?::Avec des mélanges ou des lois discrètes non identifiées : mieux vaut faire le calcul complet.

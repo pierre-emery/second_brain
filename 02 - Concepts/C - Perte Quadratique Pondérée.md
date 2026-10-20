@@ -17,7 +17,6 @@ $$
 $$
 
 implique que
-
 $$
 a = \frac{\mathbb{E}[\omega(\theta)\theta \mid x]}{\mathbb{E}[\omega(\theta)\mid x]}.
 $$

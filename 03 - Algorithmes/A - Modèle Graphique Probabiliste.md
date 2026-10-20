@@ -50,3 +50,18 @@ Elle est sur la représentation, pas sur la distribution : être dirigé ou non-
 - [[A - Modèle Graphique Non-dirigé]]
 - [[A - Passation de Messages]]
 - [[C - Séparation Directionnelle]]
+## Flashcards
+
+#flashcards/IFT6269/00-modeles-graphiques
+
+Qu'est-ce qu'un modèle graphique probabiliste ?::Un outil pour modéliser des données multivariées en combinant théorie des graphes et probabilités : nœuds = variables aléatoires, arêtes = dépendances potentielles.
+
+Nœud ombragé vs nœud vide dans un PGM ?::Ombragé : variable observée. Vide : variable latente (non observée).
+
+Que représente l'absence d'arête dans un PGM ?::Une hypothèse d'indépendance conditionnelle.
+
+Factorisation d'un modèle graphique dirigé ?::$p(x) = \prod_i p\big(x_i \mid \mathrm{Pa}_G(x_i)\big)$.
+
+« Dirigé » ou « non dirigé » : propriété de la distribution ou de sa description ?::De la description : toute distribution peut en principe être représentée des deux façons ; on choisit la plus naturelle.
+
+Quand préférer un modèle dirigé ou non dirigé ?::Dirigé : dépendances séquentielles ou génératives. Non dirigé : interactions symétriques (ex. contraintes entre pixels voisins).

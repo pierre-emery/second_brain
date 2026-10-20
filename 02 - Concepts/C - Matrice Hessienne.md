@@ -30,3 +30,7 @@ Courbure de $f$ dans la direction $\mathbf{v}$ ?::$\mathbf{v}^\top\nabla^2_\math
 
 À quoi sert la Hessienne en un point critique ?::À classer le point : définie positive → minimum local, définie négative → maximum local, signes mixtes → point-selle.
 <!--SR:!2026-10-19,3,250-->
+
+#flashcards/IFT6269/04-maximum-vraisemblance
+
+Condition sur la Hessienne de $\ell$ pour garantir qu'un point stationnaire est un maximum global ?::$\nabla^2 \ell(\theta) \preceq 0$ (semi-définie négative) pour tout $\theta \in \Theta$, c.-à-d. $\ell$ concave.
