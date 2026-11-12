@@ -2,9 +2,9 @@
 type: concept
 cours: [IFT6135]
 statut: brouillon
-maj: 2026-09-09
+maj: 2026-11-11
 ---
-Application de l'inférence bayésienne complète (voir [[C - Modèle Bayésien]]) au problème de la [[A - Régression Linéaire|régression linéaire]] : plutôt que d'estimer un seul vecteur de poids $\mathbf{w}$, on calcule une **distribution a posteriori** complète sur $\mathbf{w}$.
+Application de l'inférence bayésienne complète (voir [[C - Modèle Bayésien]]) au problème de la [[M - Régression Linéaire|régression linéaire]] : plutôt que d'estimer un seul vecteur de poids $\mathbf{w}$, on calcule une **distribution a posteriori** complète sur $\mathbf{w}$.
 
 ## Vraisemblance
 
@@ -36,7 +36,7 @@ L'estimation bayésienne complète fournit une **matrice de covariance** donnant
 
 - [[MOC - Inférence Statistique]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
-- [[A - Régression Linéaire]]
+- [[M - Régression Linéaire]]
 - [[C - Modèle Bayésien]]
 - [[C - Décroissance des poids (Weight Decay)]]
 - [[C - Estimation Maximum a Posteriori (MAP)]]

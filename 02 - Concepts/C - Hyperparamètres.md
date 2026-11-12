@@ -13,9 +13,9 @@ Paramètres d'un modèle qui ne sont pas appris directement à partir des donné
 
 ## Exemples
 
-- Nombre d'arbres et profondeur dans une [[A - Forêt Aléatoire]]
+- Nombre d'arbres et profondeur dans une [[M - Forêt Aléatoire]]
 - Nombre de "grappes" (clusters) dans [[A - K-Means]]
-- Nombre de paramètres/couches dans un [[A - Réseau de neurones]]
+- Nombre de paramètres/couches dans un [[M - Réseau de neurones]]
 
 ## Réglage
 

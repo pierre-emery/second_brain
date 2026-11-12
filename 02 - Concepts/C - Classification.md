@@ -67,19 +67,19 @@ L'estimation directe de $\mathbb P[C|x]$ est difficile / impraticable!
 
 # Algorithmes
 
-- Classification bayésienne : - [[A - Classification Naïve Bayésienne]] - [[A - Réseaux de croyances bayésiens (BBN)]]
+- Classification bayésienne : - [[M - Classification Naïve Bayésienne]] - [[M - Réseaux de croyances bayésiens (BBN)]]
     
-- Machine à vecteurs de support [[A - Machines à vecteurs de support (SVM)]]: - [[C - Classification Linéaire]] - [[C - Astuce du noyau]]
+- Machine à vecteurs de support [[M - Machines à vecteurs de support (SVM)]]: - [[C - Classification Linéaire]] - [[C - Astuce du noyau]]
     
-- [[A - Arbre de décision]] : - [[C - Mesure d'impureté]] - [[C - Gain d'information et d'impurité]]
+- [[M - Arbre de décision]] : - [[C - Mesure d'impureté]] - [[C - Gain d'information et d'impurité]]
     
-- [[A - Forêt Aléatoire]]
+- [[M - Forêt Aléatoire]]
     
-- [[A - Ruled-based classification]]
+- [[M - Ruled-based classification]]
     
 - [[C - Apprentissage profond (Deep Learning)]]
     
-- [[A - Régression Logistique (Multiclasse)]] ou binaire peut être appliquée à la classification en estimant la confiance de la classification.
+- [[M - Régression Logistique (Multiclasse)]] ou binaire peut être appliquée à la classification en estimant la confiance de la classification.
 
 ## Liens connexes
 

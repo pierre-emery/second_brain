@@ -9,7 +9,7 @@ statut: brouillon
 maj: 2026-10-15
 
 ---
-À l'inférence, un modèle [[A - Seq2Seq (Encodeur-Décodeur)|Seq2Seq]] doit trouver la séquence la plus probable :
+À l'inférence, un modèle [[M - Seq2Seq (Encodeur-Décodeur)|Seq2Seq]] doit trouver la séquence la plus probable :
 $$\arg\max_{\mathbf{w}}\, p(\mathbf{w} \mid \mathbf{x}) = \arg\max_{\mathbf{w}} \sum_{t=0}^{T-1} \log p(w_{t+1} \mid \mathbf{x}, w_1, \dots, w_t)$$
 
 La recherche exacte est intraitable (il y a $|V|^T$ séquences). La **recherche en faisceau** (beam search) l'approxime.
@@ -31,7 +31,7 @@ Morale : une hypothèse qui n'était **pas** en tête au début peut gagner au f
 Comme chaque log-probabilité est négative, le score favorise les séquences **courtes** ; on normalise souvent par la longueur ($\frac{1}{T^\alpha}\sum \log p$).
 ## Liens connexes
 
-- [[A - Seq2Seq (Encodeur-Décodeur)]]
+- [[M - Seq2Seq (Encodeur-Décodeur)]]
 - [[C - Modélisation du Langage]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards

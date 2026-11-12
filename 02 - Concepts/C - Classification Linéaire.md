@@ -29,20 +29,20 @@ Données 2D, deux classes bien séparées mais avec une frontière **non-linéai
 
 ## Lien avec la régression logistique
 
-La [[A - Régression Logistique (Binaire)]] cherche justement une frontière linéaire dans l'espace des scores (avant la sigmoïde) : $a = w^\top x + b$, puis $p(y=1|x) = \sigma(a)$. La frontière de décision ($p=0.5$) correspond à $a=0$, donc à un hyperplan.
+La [[M - Régression Logistique (Binaire)]] cherche justement une frontière linéaire dans l'espace des scores (avant la sigmoïde) : $a = w^\top x + b$, puis $p(y=1|x) = \sigma(a)$. La frontière de décision ($p=0.5$) correspond à $a=0$, donc à un hyperplan.
 
 ## Lien avec les SVM
 
-Les [[A - Machines à vecteurs de support (SVM)]] cherchent aussi un hyperplan séparateur, mais en maximisant la marge entre les classes plutôt qu'en modélisant une probabilité. Pour les cas non-linéairement séparables, on utilise l'[[C - Astuce du noyau]] pour projeter implicitement les données dans un espace où elles deviennent linéairement séparables.
+Les [[M - Machines à vecteurs de support (SVM)]] cherchent aussi un hyperplan séparateur, mais en maximisant la marge entre les classes plutôt qu'en modélisant une probabilité. Pour les cas non-linéairement séparables, on utilise l'[[C - Astuce du noyau]] pour projeter implicitement les données dans un espace où elles deviennent linéairement séparables.
 
 ## Liens connexes
 
 - [[C - Classification]]
 - [[C - Hyperplan]]
-- [[A - Régression Logistique (Binaire)]]
-- [[A - Machines à vecteurs de support (SVM)]]
+- [[M - Régression Logistique (Binaire)]]
+- [[M - Machines à vecteurs de support (SVM)]]
 - [[C - Fonction d'activation]]
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 
 ## Flashcards

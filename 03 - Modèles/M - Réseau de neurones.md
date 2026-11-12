@@ -1,4 +1,5 @@
 ---
+type: modele
 cours:
   - IFT6758
   - IFT6135
@@ -7,7 +8,7 @@ tags: []
 prerequis:
   - "[[C - Neurones Artificiels]]"
   - "[[C - Fonction d'activation]]"
-maj: 2026-09-26
+maj: 2026-11-11
 ---
 Un réseau de neurone est une fonction de la forme : $f(x;\theta)=f_L(f_{L-1}(...(f_1(x))...))$
 
@@ -44,7 +45,7 @@ Voir [[C - Neurone Biologique (analogie)]] pour la correspondance (et ses limite
 Voir [[A - Rétropropagation du gradient (gradient descent)]] pour le calcul du gradient et [[A - Initialisation de Glorot (Xavier)]] pour l'initialisation des paramètres.
 ## Motivation : apprendre les caractéristiques automatiquement
 
-En [[A - Régression Polynomiale]], il faut spécifier "à la main" les transformations de caractéristiques $\phi(x)$. L'idée d'un réseau de neurones est de rendre ces transformations elles-mêmes apprenables : $$f(x;\theta)=W\phi(x;\theta_2)+b, \quad \theta=(\theta_1,\theta_2),\ \theta_1=(W,b)$$ En répétant ce processus (composer plusieurs couches), on gagne en expressivité à condition d'ajouter de la non-linéarité entre les couches (voir [[C - Fonction d'activation]]).
+En [[M - Régression Polynomiale]], il faut spécifier "à la main" les transformations de caractéristiques $\phi(x)$. L'idée d'un réseau de neurones est de rendre ces transformations elles-mêmes apprenables : $$f(x;\theta)=W\phi(x;\theta_2)+b, \quad \theta=(\theta_1,\theta_2),\ \theta_1=(W,b)$$ En répétant ce processus (composer plusieurs couches), on gagne en expressivité à condition d'ajouter de la non-linéarité entre les couches (voir [[C - Fonction d'activation]]).
 ## [[C - Complexité d'un modèle (capacité)]]
 
 ATTENTION! ajouter des couches à une réseau de neurones n'est pas toujours la solution
@@ -56,7 +57,7 @@ ATTENTION! ajouter des couches à une réseau de neurones n'est pas toujours la 
 
 Changer la structure du réseau de neurones est souvent plus efficace
 
-- Le réseau ResNet surpasse les performances des [[A - Réseau de neuronnes convolutionnels (CNN)]] classiques
+- Le réseau ResNet surpasse les performances des [[M - Réseau de neuronnes convolutionnels (CNN)]] classiques
 - La structure de ResNet lui permet d'améliorer ses performances en ajoutant des couches.
 - Famille de modèles Resnet (18, 34, 50, 101, 152 couches)
 

@@ -18,7 +18,7 @@ $$\nabla_\theta l \Leftarrow C \times \frac{\nabla_\theta l}{\|\nabla_\theta l\|
 - Souvent appliqué avec $\theta$ = la **concaténation de tous les paramètres** du modèle (écrêtage par norme globale), ce qui préserve aussi la direction relative entre les blocs de paramètres.
 ## Ce que ça ne règle pas
 
-L'écrêtage empêche des pas démesurés, mais ne fait **rien** contre le gradient **évanescent** : voir [[A - Initialisation Orthogonale]] et [[A - LSTM (Long Short-Term Memory)]].
+L'écrêtage empêche des pas démesurés, mais ne fait **rien** contre le gradient **évanescent** : voir [[A - Initialisation Orthogonale]] et [[M - LSTM (Long Short-Term Memory)]].
 
 *(Complément, hors diapos : en PyTorch, `torch.nn.utils.clip_grad_norm_(model.parameters(), C)` entre `loss.backward()` et `optimizer.step()`.)*
 

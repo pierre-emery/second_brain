@@ -23,36 +23,36 @@ maj: 2026-09-26
 
 ### 3.1 Modèles linéaires (régression / classification)
 
-- [[A - Régression Linéaire]]
-- [[A - Régression Polynomiale]]
-- [[A - Régression Logistique (Binaire)]]
-- [[A - Régression Logistique (Multiclasse)]]
+- [[M - Régression Linéaire]]
+- [[M - Régression Polynomiale]]
+- [[M - Régression Logistique (Binaire)]]
+- [[M - Régression Logistique (Multiclasse)]]
 - [[C - Séparation Directionnelle]] _(séparabilité/marge → lien SVM, perceptron)_
 
 ### 3.2 Méthodes à noyau / marge
 
-- [[A - Machines à vecteurs de support (SVM)]]
-- [[A - Kernel SVM]]
-- [[A - Soft Margin SVM]]
+- [[M - Machines à vecteurs de support (SVM)]]
+- [[M - Kernel SVM]]
+- [[M - Soft Margin SVM]]
 - [[C - Hyperplan]]
 - [[C - Vecteur de Support]]
 
 ### 3.3 Méthodes à base d’instances
 
-- [[A - KNN]]
+- [[M - KNN]]
 
 ### 3.4 Arbres & ensembles
 
-- [[A - Arbre de décision]]
-- [[A - Forêt Aléatoire]]
-- [[A - Gradient Boosted Trees (XGBoost)]]
+- [[M - Arbre de décision]]
+- [[M - Forêt Aléatoire]]
+- [[M - Gradient Boosted Trees (XGBoost)]]
 - [[C - Mesure d'impureté]]
 - [[C - Gain d'information et d'impurité]]
 
 ### 3.5 Modèles bayésiens (classification)
 
-- [[A - Classificateur de Bayes]]
-- [[A - Classification Naïve Bayésienne]]
+- [[M - Classificateur de Bayes]]
+- [[M - Classification Naïve Bayésienne]]
 - [[C - Correction de Laplace]]
 - [[C - m-estimate]]
 - [[C - Taux d'Erreur Bayésien]]
@@ -61,7 +61,7 @@ maj: 2026-09-26
 
 - [[C - Neurones Artificiels]]
 - [[C - Fonction d'activation]]
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[T - Théorème d'approximation universelle]]
 - [[C - Neurone Biologique (analogie)]]
 - [[A - Réseau de neurones convolutionnels (CNN)]]
@@ -72,7 +72,7 @@ maj: 2026-09-26
 
 ### 3.6.1 Réseaux convolutionnels
 
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Connectivité Locale (Champ Récepteur)]]
 - [[C - Partage de Paramètres (Poids Partagés)]]
 - [[C - Équivariance vs Invariance]]
@@ -80,26 +80,26 @@ maj: 2026-09-26
 - [[C - Convolution Discrète (2D)]]
 - [[C - Terminologie de la Convolution (stride, padding, kernel)]]
 - [[C - Convolution Dilatée]]
-- [[A - Convolution Transposée (Déconvolution)]]
+- [[C - Convolution Transposée (Déconvolution)]]
 - [[C - Apprentissage Hiérarchique des Caractéristiques (CNN)]]
 - [[C - Augmentation de Données (Data Augmentation)]]
-- [[A - ResNet (Connexion Résiduelle)]]
+- [[M - ResNet (Connexion Résiduelle)]]
 
 ### 3.6.2 Réseaux récurrents & attention
 
-- [[A - Réseau de Neurones Récurrent (RNN)]]
-- [[A - Modèle de Langage Neuronal (Bengio 2003)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Modèle de Langage Neuronal (Bengio 2003)]]
 - [[C - RNN Profond (Empilé)]]
 - [[A - Rétropropagation à travers le temps (BPTT)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
-- [[A - LSTM (Long Short-Term Memory)]]
-- [[A - GRU (Gated Recurrent Unit)]]
-- [[A - RNN Bidirectionnel]]
-- [[A - Seq2Seq (Encodeur-Décodeur)]]
-- [[A - Attention Douce (Bahdanau)]]
+- [[M - LSTM (Long Short-Term Memory)]]
+- [[M - GRU (Gated Recurrent Unit)]]
+- [[M - RNN Bidirectionnel]]
+- [[M - Seq2Seq (Encodeur-Décodeur)]]
+- [[M - Attention Douce (Bahdanau)]]
 ### 3.7 Approches basées sur règles
 
-- [[A - Ruled-based classification]]
+- [[M - Ruled-based classification]]
 
 ## 4) Réglage & généralisation (pont vers MOC Évaluation)
 

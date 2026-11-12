@@ -14,9 +14,9 @@ La complexité d'un modèle est sa capacité à extraire de plus en plus d'infor
 ## Exemple
 
 Comment mesurer la complexité selon le type de modèle :
-- **[[A - Arbre de décision]]** : profondeur de l'arbre
-- **[[A - Forêt Aléatoire]]** : nombre d'arbres, profondeur des arbres
-- **[[A - Réseau de neurones]]** : nombre de paramètres, nombre de couches
+- **[[M - Arbre de décision]]** : profondeur de l'arbre
+- **[[M - Forêt Aléatoire]]** : nombre d'arbres, profondeur des arbres
+- **[[M - Réseau de neurones]]** : nombre de paramètres, nombre de couches
 ## Situation typique où il faut considérer la complexité
 
 - On peut améliorer les performances en augmentant les données d'entraînement

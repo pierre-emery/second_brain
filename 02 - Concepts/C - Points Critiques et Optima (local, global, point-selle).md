@@ -31,7 +31,7 @@ maj: 2026-10-15
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Matrice Hessienne]]
 - [[C - Gradient]]
-- [[A - Maximisation de la vraisemblance]]
+- [[C - Maximisation de la vraisemblance]]
 ## Flashcards
 
 #flashcards/IFT6135/00-revision

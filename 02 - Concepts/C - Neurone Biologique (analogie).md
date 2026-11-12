@@ -26,7 +26,7 @@ Cette analogie est utile pédagogiquement mais **ne doit pas être prise trop au
 ## Liens connexes
 
 - [[C - Neurones Artificiels]]
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 ## Flashcards
 

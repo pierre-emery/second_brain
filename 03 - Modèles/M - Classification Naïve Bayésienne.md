@@ -1,6 +1,11 @@
+---
+type: modele
+statut: brouillon
+maj: 2026-11-11
+---
 On l'appelle classificateur naïf parce qu'on suppose l'indépendance des attributs étant donné la classe C.
 
-Disons dans le même cadre que le [[A - Classificateur de Bayes]] mais avec plusieurs attributs, il faut donc estimer la [[C - Vraisemblance]] $P(x[1],x[2],...,x[n]|C)$.
+Disons dans le même cadre que le [[M - Classificateur de Bayes]] mais avec plusieurs attributs, il faut donc estimer la [[C - Vraisemblance]] $P(x[1],x[2],...,x[n]|C)$.
 Pour ce faire on va estimer chaque $P(x[j]|C)$ individuellement et les combiner ensuite en supposant leur indépendance par rapport à la classe C.
 
 Donc on suppose que $P(x[j_1] \mid C, x[j_2], ..., x[j_k])=P(x[j_1]|C)$ pour chaque ensemble $j_1,...,j_k, 1<k\leq n$ des attributs.

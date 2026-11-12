@@ -6,7 +6,7 @@ maj: 2026-09-09
 ---
 Presque tous les algorithmes d'apprentissage (deep learning inclus) peuvent être décrits comme une instance d'une recette assez simple : combiner un **jeu de données**, une **fonction de coût**, une **procédure d'optimisation** et un **modèle**.
 
-## Exemple : [[A - Régression Linéaire|régression linéaire]]
+## Exemple : [[M - Régression Linéaire|régression linéaire]]
 
 - **Jeu de données** : $\mathbf{X}$ et $\mathbf{y}$
 - **Fonction de coût** : $J(\mathbf{w},b) = -\mathbb{E}_{x,y\sim\widehat p_{\text{data}}}\log p_{\text{model}}(y\mid x)$
@@ -26,13 +26,13 @@ Cette recette supporte les deux cadres : l'apprentissage supervisé fournit $(\m
 
 ## Cas particuliers
 
-Certains modèles (ex. [[A - Arbre de décision|arbres de décision]], [[A - K-Means|k-means]]) nécessitent des optimiseurs spéciaux, car leur fonction de coût comporte des régions plates qui les rendent inadaptées aux optimiseurs basés sur le gradient. Reconnaître que la plupart des algorithmes suivent cette recette aide à voir les différents algorithmes comme une taxonomie de méthodes reliées plutôt qu'une longue liste de cas isolés.
+Certains modèles (ex. [[M - Arbre de décision|arbres de décision]], [[A - K-Means|k-means]]) nécessitent des optimiseurs spéciaux, car leur fonction de coût comporte des régions plates qui les rendent inadaptées aux optimiseurs basés sur le gradient. Reconnaître que la plupart des algorithmes suivent cette recette aide à voir les différents algorithmes comme une taxonomie de méthodes reliées plutôt qu'une longue liste de cas isolés.
 
 ## Liens connexes
 
 - [[MOC - Modèles ML (supervisé)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
-- [[A - Régression Linéaire]]
+- [[M - Régression Linéaire]]
 - [[C - Régularisation]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[C - Moindres Carrés Ordinaires (MCO)]]

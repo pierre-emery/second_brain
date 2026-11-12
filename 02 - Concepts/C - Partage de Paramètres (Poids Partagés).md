@@ -18,7 +18,7 @@ Les unités qui partagent leurs poids forment ensemble une **carte de caractéri
 Concrètement, ce partage de poids **est** l'opération de convolution : voir [[C - Convolution Discrète (2D)]].
 ## Liens connexes
 
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Connectivité Locale (Champ Récepteur)]]
 - [[C - Équivariance vs Invariance]]
 - [[C - Convolution Discrète (2D)]]

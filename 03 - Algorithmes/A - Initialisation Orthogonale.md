@@ -5,7 +5,7 @@ cours:
 statut: brouillon
 maj: 2026-10-15
 ---
-Stratégie d'initialisation de la matrice récurrente $\mathbf{U}$ d'un [[A - Réseau de Neurones Récurrent (RNN)|RNN]] pour contrer le [[C - Gradient Explosif et Évanescent (RNN)|gradient évanescent]] (et explosif) au début de l'entraînement.
+Stratégie d'initialisation de la matrice récurrente $\mathbf{U}$ d'un [[M - Réseau de Neurones Récurrent (RNN)|RNN]] pour contrer le [[C - Gradient Explosif et Évanescent (RNN)|gradient évanescent]] (et explosif) au début de l'entraînement.
 ## Recette
 
 - Initialiser $\mathbf{U}$ comme une **[[C - Matrice Orthogonale|matrice orthogonale]] aléatoire** : $\mathbf{U}^\top\mathbf{U} = \mathbf{U}\mathbf{U}^\top = \mathbf{I}$.

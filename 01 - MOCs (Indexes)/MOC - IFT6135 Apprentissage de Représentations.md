@@ -90,7 +90,7 @@ maj: 2026-09-28
 - [[C - Fonction d'activation]]
 - [[C - Neurone Biologique (analogie)]]
 ### Réseaux multicouches
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[T - Théorème d'approximation universelle]]
 ## 2) Entraînement des réseaux de neurones
 ### Perte et rétropropagation
@@ -124,28 +124,28 @@ maj: 2026-09-28
 - [[C - Convolution Discrète (2D)]]
 - [[C - Terminologie de la Convolution (stride, padding, kernel)]]
 - [[C - Convolution Dilatée]]
-- [[A - Convolution Transposée (Déconvolution)]]
+- [[C - Convolution Transposée (Déconvolution)]]
 ### Architecture et entraînement
 
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Apprentissage Hiérarchique des Caractéristiques (CNN)]]
 - [[C - Augmentation de Données (Data Augmentation)]]
-- [[A - ResNet (Connexion Résiduelle)]]
+- [[M - ResNet (Connexion Résiduelle)]]
 ## 4) Réseaux de neurones récurrents (Chapitre 05)
 
 ### Modélisation de séquences et du langage
 
 - [[C - Modélisation du Langage]]
 - [[C - n-grammes]]
-- [[A - Modèle de Langage Neuronal (Bengio 2003)]]
+- [[M - Modèle de Langage Neuronal (Bengio 2003)]]
 - [[C - Plongement de Mots (Word Embedding)]]
 ### RNN
 
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[C - RNN Profond (Empilé)]]
 - [[C - Étiquetage de Séquence]]
 - [[C - Classification de Séquence]]
-- [[A - RNN Bidirectionnel]]
+- [[M - RNN Bidirectionnel]]
 ### Entraînement et stabilité du gradient
 
 - [[A - Rétropropagation à travers le temps (BPTT)]]
@@ -155,14 +155,14 @@ maj: 2026-09-28
 - [[A - Initialisation Orthogonale]]
 ### Cellules à portes
 
-- [[A - LSTM (Long Short-Term Memory)]]
-- [[A - GRU (Gated Recurrent Unit)]]
+- [[M - LSTM (Long Short-Term Memory)]]
+- [[M - GRU (Gated Recurrent Unit)]]
 ### Séquence à séquence
-- [[A - Seq2Seq (Encodeur-Décodeur)]]
+- [[M - Seq2Seq (Encodeur-Décodeur)]]
 - [[A - Recherche en Faisceau (Beam Search)]]
 ## 5) Mécanismes d'attention
 
-- [[A - Attention Douce (Bahdanau)]]
+- [[M - Attention Douce (Bahdanau)]]
 ## Liens connexes
 
 - [[MOC - Algèbre linéaire]]

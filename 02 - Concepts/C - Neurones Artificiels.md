@@ -24,10 +24,10 @@ où $\mathbf{w}$ sont les poids de connexion, $b$ le biais, et $g(\cdot)$ la fon
 **Interprétation géométrique** : $\mathbf{w}$ détermine l'orientation de la frontière de décision (un demi-espace), tandis que le biais $b$ ne fait que déplacer la position de cette frontière (la « falaise » de la fonction d'activation), sans en changer l'orientation.
 ## Composition : la couche
 
-Une couche est un ensemble de neurones qui traitent tous les mêmes entrées (celles de la couche précédente) et produisent chacun une sortie. En empilant plusieurs couches connectées, on obtient un [[A - Réseau de neurones]] profond.
+Une couche est un ensemble de neurones qui traitent tous les mêmes entrées (celles de la couche précédente) et produisent chacun une sortie. En empilant plusieurs couches connectées, on obtient un [[M - Réseau de neurones]] profond.
 ## Liens connexes
 
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[C - Fonction d'activation]]
 - [[C - Neurone Biologique (analogie)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]

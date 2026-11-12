@@ -8,7 +8,7 @@ Exemple concret et le plus classique de [[C - Régularisation|régularisation]] 
 
 ## Critère
 
-Pour une [[A - Régression Linéaire|régression linéaire]], on minimise :
+Pour une [[M - Régression Linéaire|régression linéaire]], on minimise :
 
 $$J(\mathbf{w}) = \text{MSE}_{\text{train}} + \lambda,\mathbf{w}^\top\mathbf{w}$$
 

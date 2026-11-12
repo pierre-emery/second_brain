@@ -9,7 +9,7 @@ statut: brouillon
 maj: 2026-10-15
 
 ---
-La **rétropropagation à travers le temps** (BPTT, *backpropagation through time*) est simplement la [[A - Rétropropagation du gradient (gradient descent)|rétropropagation]] appliquée au [[C - Graphe de Calcul (Flow Graph)|graphe de calcul]] du [[A - Réseau de Neurones Récurrent (RNN)|RNN]] **déroulé dans le temps**.
+La **rétropropagation à travers le temps** (BPTT, *backpropagation through time*) est simplement la [[A - Rétropropagation du gradient (gradient descent)|rétropropagation]] appliquée au [[C - Graphe de Calcul (Flow Graph)|graphe de calcul]] du [[M - Réseau de Neurones Récurrent (RNN)|RNN]] **déroulé dans le temps**.
 - **Propagation avant** : le calcul suit les flèches du graphe, vers l'avant dans le temps.
 - **Propagation arrière** : on remonte le temps de $t = T-1$ à $0$, en accumulant les gradients des paramètres partagés à chaque pas.
 ## Objectif
@@ -49,7 +49,7 @@ Pour les séquences très longues ou infinies : [[A - BPTT Tronquée (Truncated 
 ## Liens connexes
 
 - [[A - Rétropropagation du gradient (gradient descent)]]
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[A - BPTT Tronquée (Truncated BPTT)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]

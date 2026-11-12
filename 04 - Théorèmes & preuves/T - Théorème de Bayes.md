@@ -6,7 +6,7 @@ maj: 2026-09-08
 ---
 La probabilité conditionnelle de la classe C sachant l'observation x peut être calculée comme $$\mathbb P(C\mid x) = \frac{\mathbb P(x\mid C)\mathbb P(C)}{\mathbb P(x)}$$ en utilisant la probabilité conditionnelle de x sachant C et les probabilités de x et de C.
 
-Dans le cadre de [[A - Classification Naïve Bayésienne]]
+Dans le cadre de [[M - Classification Naïve Bayésienne]]
 - $\mathbb P(C)$ est la probabilité a priori de C ([[C - Distribution à priori]])
 - $\mathbb P(x|C)$ est la [[C - Vraisemblance]] de C sachant x
 - $\mathbb P(x)$ $est la distribution d'observations 

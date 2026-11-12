@@ -27,9 +27,9 @@ maj: 2026-10-24
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Modèle Graphique Probabiliste]]
+- [[M - Modèle Graphique Probabiliste]]
 - [[A - Modèle Graphique Dirigé (DGM)]]
-- [[A - Modèle Graphique Non-dirigé]]
+- [[M - Modèle Graphique Non-dirigé]]
 - [[C - Moralisation]]
 ## Flashcards
 

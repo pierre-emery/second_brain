@@ -19,7 +19,7 @@ maj: 2026-10-15
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Maximisation de la vraisemblance]]
+- [[C - Maximisation de la vraisemblance]]
 - [[D - Binomiale]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[E - Exercice MLE Multinomiale]]

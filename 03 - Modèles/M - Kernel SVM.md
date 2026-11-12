@@ -1,9 +1,14 @@
+---
+type: modele
+statut: brouillon
+maj: 2026-11-11
+---
 ## En bref
-extensions du modèle [[A - Machines à vecteurs de support (SVM)]] pour des décisions non linéaires.
+extensions du modèle [[M - Machines à vecteurs de support (SVM)]] pour des décisions non linéaires.
 - La formation au SVM ne repose que sur les produits internes aux données, qui sont remplaces par un noyau de Mercer ([[T - Théorème de Mercer]])
 - Il est également possible de concevoir et d'apprendre des feature maps non linéaires (p.ex. via [[C - Apprentissage profond (Deep Learning)]])
 - Les noyaux sont choisis et réglés par validations croise de plusieurs alternatives
-des marges souples ([[A - Soft Margin SVM]]) peuvent être appliquées à la fois dans les cas linéaires et non linéaires pour permettre la robustesse au [[C - Bruit -- Variabilité non expliquée]]  et aux [[C - Valeurs Aberrantes]].
+des marges souples ([[M - Soft Margin SVM]]) peuvent être appliquées à la fois dans les cas linéaires et non linéaires pour permettre la robustesse au [[C - Bruit -- Variabilité non expliquée]]  et aux [[C - Valeurs Aberrantes]].
 # SVM non linéaire
 
 Lorsque les données ne sont pas séparable de manière linéaire, on utilise une transformation $x\rightarrow\Phi(x)$ des données en un nouvel espace de représentation ou elles sont linéairement séparables.
@@ -15,7 +20,7 @@ $$\begin{align*}
 &\arg\min_{\vec w,b} &&\frac{||\vec w||^2}2\\
 &s.t.\forall_{1\leq i\leq N}&&c_i(\langle\vec w,\Phi(x_i)\rangle-b)\geq1 
 \end{align*}$$
-L'optimisation suit les mêmes étapes que pour [[A - Machines à vecteurs de support (SVM)]] et la classification tient compte $\langle\vec w,\phi(y)\rangle-b$ pour un nouveau point y.
+L'optimisation suit les mêmes étapes que pour [[M - Machines à vecteurs de support (SVM)]] et la classification tient compte $\langle\vec w,\phi(y)\rangle-b$ pour un nouveau point y.
 
 Les transformations de représentation peuvent être conçus (p. ex. filter banks et scattering) ou apprises des données (p. ex., à [[C - Apprentissage profond (Deep Learning)]]). Cependant, l'extraction des caractéristiques ([[C - Ingénierie de Caractéristiques]]) appropriées n'est pas toujours claire ou pratique.
 
@@ -58,7 +63,7 @@ $$\begin{align*}
 Il faut noter que cette optimisation ne nécessite pas l'accès à des caractéristiques explicites mais seulements des [[C - Produit Scalaire]] $\langle\Phi(x_i),\Phi(x_j)\rangle$
 Ainsi, les [[C - Multiplicateurs de Lagrange]] $\lambda_1,...,\lambda_N$ peuvent être récupérés en utilisant uniquement les produits scalaires des caractéristiques.
 
-Rappelons que $\vec w=\sum_{i=1}^Nc_i\lambda_i\Phi(x)$ (vu dans [[A - Machines à vecteurs de support (SVM)]] classique, solution du primal), et par conséquent on peut reformuler l'extraction de $b$ comme:
+Rappelons que $\vec w=\sum_{i=1}^Nc_i\lambda_i\Phi(x)$ (vu dans [[M - Machines à vecteurs de support (SVM)]] classique, solution du primal), et par conséquent on peut reformuler l'extraction de $b$ comme:
 $$\begin{align*}
 &\lambda_j(c_j(\langle\vec w,\Phi(x_j)\rangle-b)-1)=0 \;\;\;\;\; \lambda_j\neq0\\
 &\implies c_j(\langle\vec w,\Phi(x_j)\rangle-b)=1\overset{c_j=\pm 1}{\implies}\langle\vec w,\Phi(x_j)\rangle-b=c_j\\

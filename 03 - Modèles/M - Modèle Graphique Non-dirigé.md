@@ -1,13 +1,13 @@
 ---
-type: algorithme
+type: modele
 cours:
   - IFT6269
 statut: à réviser
-maj: 2026-09-08
+maj: 2026-11-11
 ---
 
 
-Second grand formalisme de [[A - Modèle Graphique Probabiliste|modèle graphique probabiliste]] (avec le cas dirigé) : le graphe $G$ utilise des arêtes **non-orientées**. Contrairement au cas dirigé, il ne factorise pas la distribution en distributions conditionnelles, mais en un produit de fonctions plus générales associées aux [[C - Clique (graphe)|cliques]] du graphe.
+Second grand formalisme de [[M - Modèle Graphique Probabiliste|modèle graphique probabiliste]] (avec le cas dirigé) : le graphe $G$ utilise des arêtes **non-orientées**. Contrairement au cas dirigé, il ne factorise pas la distribution en distributions conditionnelles, mais en un produit de fonctions plus générales associées aux [[C - Clique (graphe)|cliques]] du graphe.
 
 ## Construction
 
@@ -24,7 +24,7 @@ Le non-dirigé est souvent plus naturel quand les interactions entre variables s
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Modèle Graphique Probabiliste]]
+- [[M - Modèle Graphique Probabiliste]]
 - [[C - Clique (graphe)]]
 - [[C - Factorisation d'une distribution jointe]]
 ## Flashcards

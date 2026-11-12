@@ -36,7 +36,7 @@ $V=\{1,\dots,5\}$, $E=\{(1,2),(2,4),(1,3),(3,4),(3,5)\}$ : DAG ; parent de 2 = $
 - [[C - Clique (graphe)]]
 - [[C - Matrice d'Adjacence]]
 - [[A - Modèle Graphique Dirigé (DGM)]]
-- [[A - Modèle Graphique Non-dirigé]]
+- [[M - Modèle Graphique Non-dirigé]]
 
 ## Flashcards
 

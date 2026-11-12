@@ -13,7 +13,7 @@ Chaque unité est connectée à **tous les canaux** de son patch (1 canal si ima
 
 ## Liens connexes
 
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Partage de Paramètres (Poids Partagés)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 

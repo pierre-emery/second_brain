@@ -14,7 +14,7 @@ Quand le pooling est effectué sur des voisinages **non chevauchants**, on parle
 - Réduit le nombre d'unités cachées dans la couche suivante (donc les calculs et le nombre de paramètres en aval)
 ## Liens connexes
 
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Équivariance vs Invariance]]
 - [[C - Connectivité Locale (Champ Récepteur)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]

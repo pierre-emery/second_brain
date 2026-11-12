@@ -8,7 +8,7 @@ Méthode qui trouve $\mathbf{x}$ minimisant l'erreur quadratique :
 
 $$f(\mathbf{x}) = \frac{1}{2}||\mathbf{A}\mathbf{x}-\mathbf{b}||_2^2$$
 
-C'est le problème résolu par exemple par la [[A - Régression Linéaire]] ($\mathbf{A}$ = matrice de caractéristiques, $\mathbf{b}$ = cibles).
+C'est le problème résolu par exemple par la [[M - Régression Linéaire]] ($\mathbf{A}$ = matrice de caractéristiques, $\mathbf{b}$ = cibles).
 
 ## Solution analytique (forme fermée)
 
@@ -41,7 +41,7 @@ On ajuste ensuite $\lambda$ par **ascension de gradient** : $\frac{\partial}{\pa
 
 - [[MOC - Optimisation & calcul matriciel]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
-- [[A - Régression Linéaire]]
+- [[M - Régression Linéaire]]
 - [[C - Pseudo-inverse de Moore-Penrose]]
 - [[A - Méthode de Newton (optimisation)]]
 - [[C - Multiplicateurs de Lagrange]]

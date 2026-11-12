@@ -19,16 +19,16 @@ maj: 2026-10-15
 - **Étiquetage de séquence en général** : reconnaissance de caractères manuscrits, où chaque $\mathbf{x}_t$ est un vecteur (p. ex. une image de lettre) plutôt qu'un mot.
 ## Limite d'un RNN unidirectionnel
 
-Pour prédire $y_2$, un RNN gauche → droite **ne peut pas utiliser l'information des pas suivants** ($x_3, \dots$), alors que l'entrée complète est disponible. Solution : [[A - RNN Bidirectionnel]].
+Pour prédire $y_2$, un RNN gauche → droite **ne peut pas utiliser l'information des pas suivants** ($x_3, \dots$), alors que l'entrée complète est disponible. Solution : [[M - RNN Bidirectionnel]].
 ## Cas où l'alignement n'existe pas
 
-Si la sortie n'a pas la même longueur que l'entrée ou n'est pas alignée (traduction), ce n'est plus un problème d'étiquetage : voir [[A - Seq2Seq (Encodeur-Décodeur)]].
+Si la sortie n'a pas la même longueur que l'entrée ou n'est pas alignée (traduction), ce n'est plus un problème d'étiquetage : voir [[M - Seq2Seq (Encodeur-Décodeur)]].
 
 ## Liens connexes
 
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Classification de Séquence]]
-- [[A - RNN Bidirectionnel]]
+- [[M - RNN Bidirectionnel]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards
 

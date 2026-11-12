@@ -13,14 +13,14 @@ Cette factorisation repose sur des hypothèses d'[[C - Indépendance Conditionne
 
 ### Deux façons de factoriser : dirigé vs. non-dirigé
 
-L'exemple ci-dessus factorise en distributions conditionnelles, c'est la forme d'une [[A - Modèle Graphique Probabiliste|modèle graphique dirigé]]. Il existe une seconde famille, les [[A - Modèle Graphique Non-dirigé|modèles graphiques non-dirigés]] qui factorisent plutôt en facteurs $\phi^{(i)}$ associés aux [[C - Clique (graphe)|cliques]] du graphe, sans que ces facteurs soient eux-mêmes des distributions (d'où le besoin d'une constante de normalisation $Z$)
+L'exemple ci-dessus factorise en distributions conditionnelles, c'est la forme d'une [[M - Modèle Graphique Probabiliste|modèle graphique dirigé]]. Il existe une seconde famille, les [[M - Modèle Graphique Non-dirigé|modèles graphiques non-dirigés]] qui factorisent plutôt en facteurs $\phi^{(i)}$ associés aux [[C - Clique (graphe)|cliques]] du graphe, sans que ces facteurs soient eux-mêmes des distributions (d'où le besoin d'une constante de normalisation $Z$)
 
 **Point important** : être dirigé ou non-dirigé n'est pas une propriété de la distribution $p$ elle-même mais d'une description particulière. N'importe quelle distribution peut en principe être décrite des deux façons.
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Modèle Graphique Probabiliste]]
-- [[A - Modèle Graphique Non-dirigé]] 
+- [[M - Modèle Graphique Probabiliste]]
+- [[M - Modèle Graphique Non-dirigé]] 
 - [[T - Règle de la chaîne (probabilité)]]
 - [[A - Passation de Messages]]
 - [[C - Thèmes clés de l'apprentissage statistique]]

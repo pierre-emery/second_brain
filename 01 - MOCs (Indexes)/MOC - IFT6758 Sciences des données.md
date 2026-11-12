@@ -79,16 +79,16 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 ## Modèles classiques d'apprentissage supervisé
 
-- [[A - Régression Linéaire]]
-- [[A - Régression Polynomiale]]
+- [[M - Régression Linéaire]]
+- [[M - Régression Polynomiale]]
 - [[C - Classification Linéaire]]
 - [[C - Neurones Artificiels]]
 - [[C - Fonction d'activation]]
-- [[A - Réseau de neurones]]
-- [[A - Régression Logistique (Binaire)]]
-- [[A - Régression Logistique (Multiclasse)]]
-- [[A - Arbre de décision]]
-- [[A - Forêt Aléatoire]]
+- [[M - Réseau de neurones]]
+- [[M - Régression Logistique (Binaire)]]
+- [[M - Régression Logistique (Multiclasse)]]
+- [[M - Arbre de décision]]
+- [[M - Forêt Aléatoire]]
 
 ## À venir (mentionnés, pas encore développés)
 

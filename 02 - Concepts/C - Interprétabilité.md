@@ -2,9 +2,9 @@ L'interprétabilité ou l'explicabilité est à quel point sommes nous capable d
 L'interprétabilité peut aider à détecter les [[C - Biais de sélection]] et [[C - Biais de mesure]].
 
 Les modèles interprétables permettent souvent d'indentifier les facteurs importants.
-- [[A - Régression Linéaire]]
-- [[A - Régression Logistique (Binaire)]]
-- [[A - Arbre de décision]]
+- [[M - Régression Linéaire]]
+- [[M - Régression Logistique (Binaire)]]
+- [[M - Arbre de décision]]
 
 ### Il existe des méthodes permettent d'expliquer les facteurs importants localement pour une données particulière 
 - [[A - LIME]]

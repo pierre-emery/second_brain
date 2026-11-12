@@ -1,3 +1,8 @@
+---
+type: modele
+statut: brouillon
+maj: 2026-11-11
+---
 C'est un Classificateur maximum a posteriori. Il utilise la [[C - Vraisemblance]] et la [[C - Distribution à priori]] de chaque classe pour estimer la [[C - Distribution à postériori]] et classer par probabilité a posteriori maximale. 
 
 ### Entraînement (ici dans un cas avec un seul attribut)

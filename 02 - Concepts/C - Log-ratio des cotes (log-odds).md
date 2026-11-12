@@ -19,12 +19,12 @@ $$f(x)=\log\frac{p(Y=1,X=x)}{p(Y=0,X=x)}=\underbrace{\log\frac{p(X=x\mid Y=1)}{p
 
 $$p(Y=1\mid X=x)=\frac{p(Y=1,x)}{p(Y=1,x)+p(Y=0,x)}=\frac{1}{1+\frac{p(Y=0,x)}{p(Y=1,x)}}=\frac{1}{1+e^{-f(x)}}=\sigma(f(x)).$$
 
-Aucune hypothèse sauf l'existence des densités $p(x\mid Y=1)$, $p(x\mid Y=0)$. La [[A - Régression Logistique (Binaire)|régression logistique]] suppose simplement que $f$ est **linéaire** en des caractéristiques $\phi(x)$.
+Aucune hypothèse sauf l'existence des densités $p(x\mid Y=1)$, $p(x\mid Y=0)$. La [[M - Régression Logistique (Binaire)|régression logistique]] suppose simplement que $f$ est **linéaire** en des caractéristiques $\phi(x)$.
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Fonction Sigmoïde]]
-- [[A - Régression Logistique (Binaire)]]
+- [[M - Régression Logistique (Binaire)]]
 - [[T - Classes conditionnelles exponentielles et régression logistique]]
 ## Flashcards
 

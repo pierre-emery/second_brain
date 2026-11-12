@@ -30,4 +30,4 @@ Les propriétés les plus étudiées d'un estimateur ponctuel sont son [[C - Bia
 - [[C - Compromis Biais-Variance]]
 - [[C - Consistance d'un Estimateur]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
-- [[A - Régression Linéaire]]
+- [[M - Régression Linéaire]]

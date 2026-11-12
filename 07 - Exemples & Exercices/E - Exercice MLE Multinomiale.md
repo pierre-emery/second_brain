@@ -25,7 +25,7 @@ Au point stationnaire, $\nabla f(\pi^\star) = -\lambda \nabla g(\pi^\star)$ : le
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Maximisation de la vraisemblance]]
+- [[C - Maximisation de la vraisemblance]]
 - [[D - Multinomiale (et Multinoulli)]]
 - [[C - Simplexe de probabilité]]
 - [[C - Multiplicateurs de Lagrange]]

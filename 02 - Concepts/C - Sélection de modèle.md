@@ -15,9 +15,9 @@ Le choix, parmi plusieurs familles de modèles possibles, de celle la mieux adap
 
 Pour un même problème de [[C - Classification]], plusieurs familles sont possibles, chacune avec ses compromis :
 
-- **[[A - Machines à vecteurs de support (SVM)]]** : théorie solide, mais difficile à appliquer en grande dimension
-- **[[A - Régression Linéaire]]** : simple à appliquer, mais suppose une relation linéaire entre les entrées et la sortie ce qui n'est pas toujours réaliste
-- **[[A - Réseau de neurones]]** : plus expressif, mais long/difficile à entraîner et peu interprétable
+- **[[M - Machines à vecteurs de support (SVM)]]** : théorie solide, mais difficile à appliquer en grande dimension
+- **[[M - Régression Linéaire]]** : simple à appliquer, mais suppose une relation linéaire entre les entrées et la sortie ce qui n'est pas toujours réaliste
+- **[[M - Réseau de neurones]]** : plus expressif, mais long/difficile à entraîner et peu interprétable
 
 # Sélection d'hyperparamètres
 

@@ -1,15 +1,15 @@
 ---
 
-type: algorithme
+type: modele
 
 cours: [IFT6135]
 
 statut: brouillon
 
-maj: 2026-10-15
+maj: 2026-11-11
 
 ---
-Un RNN ([[A - LSTM (Long Short-Term Memory)|LSTM]] ou [[A - GRU (Gated Recurrent Unit)|GRU]]) donne de bons modèles sur un espace de séquences cibles $\mathbf{w}$. L'apprentissage **séquence à séquence** (Seq2Seq) vise à prédire une séquence cible $\mathbf{w}$ **à partir d'une séquence d'entrée** $\mathbf{x}$ : modéliser $p(\mathbf{w} \mid \mathbf{x})$.
+Un RNN ([[M - LSTM (Long Short-Term Memory)|LSTM]] ou [[M - GRU (Gated Recurrent Unit)|GRU]]) donne de bons modèles sur un espace de séquences cibles $\mathbf{w}$. L'apprentissage **séquence à séquence** (Seq2Seq) vise à prédire une séquence cible $\mathbf{w}$ **à partir d'une séquence d'entrée** $\mathbf{x}$ : modéliser $p(\mathbf{w} \mid \mathbf{x})$.
 
 - Application type : **traduction automatique**.
 - On ne peut pas supposer que $\mathbf{w}$ a la même longueur que $\mathbf{x}$, ni qu'elles sont alignées → impossible de traiter le problème comme un simple [[C - Étiquetage de Séquence|étiquetage]].
@@ -43,16 +43,16 @@ Il faut trouver $\arg\max_{\mathbf{w}} p(\mathbf{w} \mid \mathbf{x})$, intraitab
 - **Dépendances très longues** : le gradient doit remonter ~50 pas sans s'évanouir → entraînement lent et gourmand en données.
 - Capturer les dépendances à long terme est **crucial** : le premier mot source $x_1$ peut déterminer le premier mot cible $w_1$, séparés par toute la séquence.
 
-Améliorations : encodeur [[A - RNN Bidirectionnel|bidirectionnel]], puis surtout l'[[A - Attention Douce (Bahdanau)|attention]].
+Améliorations : encodeur [[M - RNN Bidirectionnel|bidirectionnel]], puis surtout l'[[M - Attention Douce (Bahdanau)|attention]].
 ## Cas particulier
 
 [[C - Classification de Séquence]] = Seq2Seq avec une cible d'un seul symbole.
 ## Liens connexes
 
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[A - Recherche en Faisceau (Beam Search)]]
-- [[A - Attention Douce (Bahdanau)]]
-- [[A - RNN Bidirectionnel]]
+- [[M - Attention Douce (Bahdanau)]]
+- [[M - RNN Bidirectionnel]]
 - [[C - Modélisation du Langage]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards

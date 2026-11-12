@@ -25,7 +25,7 @@ $H_k$ étant la taille de la couche $k$ (nombre d'unités de $\mathbf{h}^{(k)}(\
 
 - [[MOC - Modèles ML (supervisé)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[C - Fonction d'activation]]
 ## Flashcards
 

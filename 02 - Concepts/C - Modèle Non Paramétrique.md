@@ -16,7 +16,7 @@ Modèle dont la capacité **augmente** avec la quantité de données d'entraîne
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[C - Modèle paramétrique]]
 - [[C - Complexité d'un modèle (capacité)]]
-- [[A - KNN]]
+- [[M - KNN]]
 ## Flashcards
 
 #flashcards/IFT6135/00-revision

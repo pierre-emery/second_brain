@@ -69,5 +69,5 @@ maj: 2026-09-09
 
 ## 8) (Optionnel) Modèles probabilistes sur graphes
 
-- [[A - Réseaux de croyances bayésiens (BBN)]]
+- [[M - Réseaux de croyances bayésiens (BBN)]]
 - [[C - Couverture de Markov]]

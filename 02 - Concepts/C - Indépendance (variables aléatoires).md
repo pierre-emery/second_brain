@@ -33,7 +33,7 @@ $$p(x_{1:n})=\prod_{i=1}^np(x_i)\;\;\;\forall x_{1:n}\in\bigtimes_{i=1}^n\Omega_
 - [[MOC - Probabilité]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Modèle Graphique Probabiliste]]
+- [[M - Modèle Graphique Probabiliste]]
 - [[C - Indépendance Conditionnelle]]
 - [[C - Covariance]]
 

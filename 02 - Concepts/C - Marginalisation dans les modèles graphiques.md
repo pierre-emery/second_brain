@@ -27,7 +27,7 @@ Si $p\in\mathcal L(G)$ (UGM), alors $p(x_1,\dots,x_{n-1})$ se factorise dans le 
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[A - Modèle Graphique Dirigé (DGM)]]
-- [[A - Modèle Graphique Non-dirigé]]
+- [[M - Modèle Graphique Non-dirigé]]
 - [[T - Propriété d'élagage des feuilles]]
 - [[A - Élimination de variables]]
 - [[C - Comparaison DGM vs UGM]]

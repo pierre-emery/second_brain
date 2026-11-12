@@ -1,10 +1,10 @@
 ---
-type: algorithme
+type: modele
 cours: [IFT6758]
 statut: complet
 tags: []
 prerequis: []
-maj: 2026-08-06
+maj: 2026-11-11
 ---
 
 # En bref
@@ -14,7 +14,7 @@ C'est un classificateur simple et populaire.
 
 Le surajustement et la variance élevée sont courants avec les arbres de décision mais peuvent être atténués par l'élagage et la randomisation
 
-Les [[A - Forêt Aléatoire]] sont un exemple populaire d'ensemble de classification
+Les [[M - Forêt Aléatoire]] sont un exemple populaire d'ensemble de classification
 - Ils utilisent des arbres multiples pour obtenir des frontières de décision solides et flexibles
 - La randomisation est réalisée par la sélection ou la projection d'éléments aléatoire avant la construction de chaque arbre
 # Définition 
@@ -40,7 +40,7 @@ La question est donc comment les entraîner? Il faut construire les arbres de ma
 - On cherche à chaque fois  à découper le jeu de données en deux selon un critère. 
 - Le critère sélectionné doit minimiser l'erreur
 Un arbre décisionnel gère implicitement les interactions entre les attributs x sans avoir à les spécifier comme dans un modèle multilinéaire.
-Tout pareil pour les autres modèles basés sur les arbres de décisions ([[A - Forêt Aléatoire]], [[A - Gradient Boosted Trees (XGBoost)]])
+Tout pareil pour les autres modèles basés sur les arbres de décisions ([[M - Forêt Aléatoire]], [[M - Gradient Boosted Trees (XGBoost)]])
 
 ## Construction
 Un arbre est construit de haut en bas en utilisant une approche de gloutonne récursive :
@@ -112,9 +112,9 @@ La taille de l'arbre de décision est réduite par l'élagage:
 - [[C - Pré-élagage]]
 - [[C - Post-élagage]]
 
-### Lien vers [[A - Forêt Aléatoire]]
+### Lien vers [[M - Forêt Aléatoire]]
 Alors que les arbres de décision sont simples et efficaces, ils sont égalements sensibles aux variations d'entraînement et au suréquipement. Pour réduire la variance et augmenter la stabilité, plusieurs arbres de décision peuvent être combinés ensemble pour former une forêt.
 
 ## Analogie (station de ski)
 
-Chaque skieur potentiel utilise "son propre arbre décisionnel" (météo, jour, congé, neige) pour décider de venir skier ou non. Les profits d'une station dépendent donc des décisions d'un grand nombre d'arbres et la foule décide comme une forêt aléatoire (voir [[A - Forêt Aléatoire]]).
+Chaque skieur potentiel utilise "son propre arbre décisionnel" (météo, jour, congé, neige) pour décider de venir skier ou non. Les profits d'une station dépendent donc des décisions d'un grand nombre d'arbres et la foule décide comme une forêt aléatoire (voir [[M - Forêt Aléatoire]]).

@@ -1,9 +1,9 @@
 ---
-type: algorithme
+type: modele
 cours:
   - IFT6269
 statut: à réviser
-maj: 2026-09-07
+maj: 2026-11-11
 ---
 Objectif : Modéliser des données multivariées. Un modèle graphique probabiliste (probabilistic graphical model, PGM) est un mélange de théorie des graphes et de théorie des probabilités à l'intersection de l'informatique (CS), des probabilités/statistiques et de l'apprentissage automatique (ML).
 
@@ -33,10 +33,10 @@ Un PGM se décline en deux foramlismes selon le type d'arête du graphe $G$ :
 #### Modèles dirigés
 
 Les arêtes sont orientées. Le graphe encode une factorisation en distribution conditionnelles : chaque variable $x_i$ possède un facteur correspondant à sa distribution conditionnelle sachant ses parents dans le grpahe, notés $Pa_G(x_i)$:$$p(x) = \prod_i p\big(x_i \mid \text{Pa}_G(x_i)\big)$$
-C'est la forme générale dont la [[T - Règle de la chaîne (probabilité)| chaîne markovienne]] utilisée dans le [[A - Modèle de Markov Caché (HMM)|HMM]] n'est qu'un cas particulier (chaque noeud n'a qu'un seul parent, le précédent dans la séquence).
+C'est la forme générale dont la [[T - Règle de la chaîne (probabilité)| chaîne markovienne]] utilisée dans le [[M - Modèle de Markov Caché (HMM)|HMM]] n'est qu'un cas particulier (chaque noeud n'a qu'un seul parent, le précédent dans la séquence).
 #### Modèles non-dirigés
 
-![[A - Modèle Graphique Non-dirigé]]
+![[M - Modèle Graphique Non-dirigé]]
 
 ## La distinction
 Elle est sur la représentation, pas sur la distribution : être dirigé ou non-dirigé n'est pas une propriété de la distribution de probabilité elle-même, mais une propriété d'une description particulière de cette distribution. N'importe quelle distribution peut en principe être décrite des deux façons. Le choix dépend de ce qui est le plus naturel et efficace à représenter pour le problème donné (ex. dépendances séquentielles -­­> dirigé; contraintes symétriques mutuelles (vision par ordinateur) -> non-dirigé).
@@ -44,10 +44,10 @@ Elle est sur la représentation, pas sur la distribution : être dirigé ou non-
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Modèle de Markov Caché (HMM)]]
+- [[M - Modèle de Markov Caché (HMM)]]
 - [[C - Factorisation d'une distribution jointe]]
 - [[C - Indépendance (variables aléatoires)]]
-- [[A - Modèle Graphique Non-dirigé]]
+- [[M - Modèle Graphique Non-dirigé]]
 - [[A - Passation de Messages]]
 - [[C - Séparation Directionnelle]]
 ## Flashcards

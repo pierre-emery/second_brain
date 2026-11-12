@@ -1,19 +1,19 @@
 ---
 
-type: algorithme
+type: modele
 
 cours: [IFT6135]
 
 statut: brouillon
 
-maj: 2026-10-15
+maj: 2026-11-11
 
 ---
 *Neural Machine Translation by Jointly Learning to Align and Translate*, Bahdanau, Cho, Bengio, ICLR 2015. Diapos de D. Bahdanau, éditées par A. Courville et A. Agrawal.
 
 ## Problème : le Seq2Seq « vanille »
 
-Dans un [[A - Seq2Seq (Encodeur-Décodeur)|encodeur-décodeur]] classique :
+Dans un [[M - Seq2Seq (Encodeur-Décodeur)|encodeur-décodeur]] classique :
 - **goulot d'étranglement** : toute la phrase source est compressée dans le dernier état caché de l'encodeur ; encoder 50 mots dans un vecteur demande de très gros modèles ;
 - **dépendances très longues** : les gradients doivent remonter ~50 pas sans s'évanouir → entraînement lent, beaucoup de données.
 ## Idée : l'attention douce
@@ -21,7 +21,7 @@ Dans un [[A - Seq2Seq (Encodeur-Décodeur)|encodeur-décodeur]] classique :
 - Le décodeur **se concentre sur les états cachés pertinents de l'encodeur** à chaque pas, au lieu de tout comprimer dans le dernier état → **plus de goulot**.
 - Cela crée **dynamiquement des raccourcis** dans le graphe de calcul, par lesquels le gradient circule librement → **dépendances plus courtes**.
 
-- Fonctionne le mieux avec un encodeur [[A - RNN Bidirectionnel|bidirectionnel]] : $\mathbf{h}_j = [\overrightarrow{\mathbf{h}}_j ; \overleftarrow{\mathbf{h}}_j]$ (« annotations »).
+- Fonctionne le mieux avec un encodeur [[M - RNN Bidirectionnel|bidirectionnel]] : $\mathbf{h}_j = [\overrightarrow{\mathbf{h}}_j ; \overleftarrow{\mathbf{h}}_j]$ (« annotations »).
 
 ## Équations — vecteur de contexte
 
@@ -58,10 +58,10 @@ Bonnes visualisations : distill.pub/2016/augmented-rnns (*Attentional interfaces
 (Le suffixe 30/50 = longueur maximale des phrases d'entraînement.)
 ## Liens connexes
 
-- [[A - Seq2Seq (Encodeur-Décodeur)]]
-- [[A - RNN Bidirectionnel]]
+- [[M - Seq2Seq (Encodeur-Décodeur)]]
+- [[M - RNN Bidirectionnel]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
-- [[A - GRU (Gated Recurrent Unit)]]
+- [[M - GRU (Gated Recurrent Unit)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards
 

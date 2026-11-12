@@ -1,8 +1,9 @@
 ---
+type: modele
 cours:
   - IFT6758
 statut: à réviser
-maj: 2026-09-09
+maj: 2026-11-11
 ---
 ## Définition / Formule
 
@@ -41,7 +42,7 @@ Voir [[C - Estimateur du Maximum de Vraisemblance (MLE)|MLE]] : minimiser l'erre
 - [[C - Moindres Carrés Ordinaires (MCO)]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[C - Biais]]
-- [[A - Régression Linéaire Bayésienne]]
+- [[M - Régression Linéaire Bayésienne]]
 - [[C - Recette de construction d'un algorithme ML]]
 
 

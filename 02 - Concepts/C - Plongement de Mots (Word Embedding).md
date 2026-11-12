@@ -20,14 +20,14 @@ En pratique on n'effectue pas le produit matriciel : on lit directement la ligne
 ## Pourquoi c'est utile
 
 - Les paramètres sont **partagés** : la même matrice $\mathbf{C}$ sert à toutes les positions du contexte (et à tous les pas de temps d'un RNN).
-- Des mots utilisés dans des contextes semblables obtiennent des vecteurs proches → généralisation à des combinaisons jamais vues (motivation du [[A - Modèle de Langage Neuronal (Bengio 2003)|modèle de Bengio et al.]]).
+- Des mots utilisés dans des contextes semblables obtiennent des vecteurs proches → généralisation à des combinaisons jamais vues (motivation du [[M - Modèle de Langage Neuronal (Bengio 2003)|modèle de Bengio et al.]]).
 ## Tokens spéciaux
 
 En modélisation de séquences on ajoute des plongements pour des symboles spéciaux, p. ex. `<BOS>` (début de phrase), utilisé en entrée mais jamais prédit en sortie.
 ## Liens connexes
 
-- [[A - Modèle de Langage Neuronal (Bengio 2003)]]
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Modèle de Langage Neuronal (Bengio 2003)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Partage de Paramètres (Poids Partagés)]]
 - [[C - Word 2 vec]]
 - [[C - Hypothèse de Variété (Manifold Hypothesis)]]

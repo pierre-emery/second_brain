@@ -1,8 +1,8 @@
 ---
-## type: algorithme
+type: concept
 cours: [IFT6269]
 statut: brouillon
-maj: 2026-10-15
+maj: 2026-11-11
 ---
 Méthode générale pour trouver l'[[C - Estimateur du Maximum de Vraisemblance (MLE)|estimateur du maximum de vraisemblance]] $\widehat\theta_{\text{ML}}(x) = \arg\max_{\theta\in\Theta} p(x;\theta)$.
 

@@ -25,7 +25,7 @@ Le MLE peut être vu comme la minimisation de la [[C - Divergence de Kullback-Le
 
 Le MLE se généralise directement à l'estimation d'une probabilité conditionnelle $P(y\mid \mathbf{x};\theta)$. La situation la plus courante en apprentissage supervisé :
 $$\theta_{\text{ML}} = \arg\max_\theta \sum_t \log P(y^{(t)}\mid \mathbf{x}^{(t)};\theta)$$
-**Exemple** : en supposant $p(y\mid\mathbf{x}) = \mathcal{N}(y;\widehat y(\mathbf{x};\mathbf{w}),\sigma^2)$, maximiser la log-vraisemblance conditionnelle par rapport à $\mathbf{w}$ donne exactement le même optimum que minimiser l'[[C - Perte quadratique (MSE)|erreur quadratique moyenne]] ce qui justifie l'usage de la MSE comme critère d'entraînement pour la [[A - Régression Linéaire|régression linéaire]] du point de vue du maximum de vraisemblance.
+**Exemple** : en supposant $p(y\mid\mathbf{x}) = \mathcal{N}(y;\widehat y(\mathbf{x};\mathbf{w}),\sigma^2)$, maximiser la log-vraisemblance conditionnelle par rapport à $\mathbf{w}$ donne exactement le même optimum que minimiser l'[[C - Perte quadratique (MSE)|erreur quadratique moyenne]] ce qui justifie l'usage de la MSE comme critère d'entraînement pour la [[M - Régression Linéaire|régression linéaire]] du point de vue du maximum de vraisemblance.
 ## Propriétés : pourquoi le MLE est souvent préféré
 
 Sous certaines conditions (la vraie distribution $p_{\text{data}}$ doit appartenir à la famille de modèles considérée, et correspondre à une unique valeur de $\theta$), le MLE est :
@@ -59,7 +59,7 @@ Sous des conditions de régularité suffisantes sur $\Theta$ et $p(x;\theta)$ :
 - [[C - Divergence de Kullback-Leibler]]
 - [[C - Consistance d'un Estimateur]]
 - [[C - Estimateur Ponctuel]]
-- [[A - Régression Linéaire]]
+- [[M - Régression Linéaire]]
 - [[C - Perte quadratique (MSE)]]
 
 ## Flashcards

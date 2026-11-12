@@ -29,7 +29,7 @@ Le modèle ne peut plus recevoir de signal de gradient pour des dépendances plu
 ## Liens connexes
 
 - [[A - Rétropropagation à travers le temps (BPTT)]]
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards

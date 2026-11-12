@@ -15,7 +15,7 @@ Cette hiérarchie émerge naturellement de l'empilement de couches de convolutio
 
 ## Liens connexes
 
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Connectivité Locale (Champ Récepteur)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 

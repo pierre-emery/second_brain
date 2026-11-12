@@ -1,4 +1,9 @@
-La formation au SVM ([[A - Machines à vecteurs de support (SVM)]]) à marge souple utilise le problème d'optimisation suivant, ou $\beta$ est une constante configurable par l'utilisateur (un [[C - Hyperparamètres]]) $$
+---
+type: modele
+statut: brouillon
+maj: 2026-11-11
+---
+La formation au SVM ([[M - Machines à vecteurs de support (SVM)]]) à marge souple utilise le problème d'optimisation suivant, ou $\beta$ est une constante configurable par l'utilisateur (un [[C - Hyperparamètres]]) $$
 \begin{align*}
 &\arg\min_{\vec w,b,\xi_1,...,\xi_N}&&\frac{||\vec w^2||}2+\beta\sum_{i=1}^N\xi_i\\
 &s.t.\forall_{1\leq1\leq N}&&c_i(\langle\vec w,\vec x_i\rangle-b)\geq1-\xi_i\\
@@ -34,4 +39,4 @@ Ensuite, on définit $\mu_i=\beta-\lambda_i$, $\vec w=\sum_{i=1}^Nc_i\lambda_ix_
 $\mu_i\xi_i=0$ and $\lambda_i(c_i(\langle\vec w,x_i\rangle -b)-1+\xi_i)=0$ and $\xi_i\geq 0$ 
 
 Les [[C - Vecteur de Support]] ici sont situés sur les frontièeres de marge ou des points avec $\xi_i>0$ (c-à-d mal classés & à l'intérieur de la marge).
-Notez que le classificateur résultant n'a pas besoin des variables slacks car il n'utilise que $\vec w$ et $b$ comme toujours avec le SVM linéaire ([[A - Machines à vecteurs de support (SVM)]]).
+Notez que le classificateur résultant n'a pas besoin des variables slacks car il n'utilise que $\vec w$ et $b$ comme toujours avec le SVM linéaire ([[M - Machines à vecteurs de support (SVM)]]).

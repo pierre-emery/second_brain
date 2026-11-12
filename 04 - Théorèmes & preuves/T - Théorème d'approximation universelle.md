@@ -17,7 +17,7 @@ Le résultat s'applique pour la sigmoïde, tanh, ReLU, et beaucoup d'autres [[C 
 C'est un résultat d'**existence**, pas de constructibilité : il ne garantit pas qu'un algorithme d'apprentissage (ex. [[A - Descente de Gradient Stochastique (SGD)]]) puisse effectivement trouver les valeurs de paramètres nécessaires.
 ## Liens connexes
 
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[C - Fonction d'activation]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[MOC - Modèles ML (supervisé)]]

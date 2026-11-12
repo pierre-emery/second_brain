@@ -22,7 +22,7 @@ C'est cette hypothèse structurelle qui donne au [[C - Modèle Graphique Probabi
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Conditionnement (probabilité conditionnelle)]]
 - [[C - Factorisation d'une distribution jointe]]
-- [[A - Modèle Graphique Probabiliste]]
+- [[M - Modèle Graphique Probabiliste]]
 ## Flashcards
 
 #flashcards/IFT6269/01-probabilites

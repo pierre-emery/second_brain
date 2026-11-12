@@ -28,7 +28,7 @@ Pour apprendre une fonction de prédiction $f:\mathcal X\to\mathcal Y$ (classifi
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[MOC - Modèles ML (supervisé)]]
-- [[A - Régression Logistique (Binaire)]]
+- [[M - Régression Logistique (Binaire)]]
 - [[A - Analyse Discriminante Linéaire (LDA)]]
 - [[T - Classes conditionnelles exponentielles et régression logistique]]
 ## Flashcards

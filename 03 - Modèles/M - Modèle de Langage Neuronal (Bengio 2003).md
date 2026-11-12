@@ -1,12 +1,12 @@
 ---
 
-type: algorithme
+type: modele
 
 cours: [IFT6135]
 
 statut: brouillon
 
-maj: 2026-10-15
+maj: 2026-11-11
 
 ---
 Modèle de Bengio, Ducharme, Vincent et Jauvin (2003) : modéliser la conditionnelle de Markov d'ordre $n$
@@ -23,14 +23,14 @@ avec un **réseau de neurones**, en apprenant des représentations de mots qui p
 Des mots qui apparaissent dans des contextes similaires obtiennent des plongements proches ; un contexte nouveau composé de mots « voisins » de contextes connus produit donc une prédiction raisonnable, au lieu d'une probabilité nulle.
 ## Limite
 
-La fenêtre de contexte est **fixe** ($n-1$ mots). Le [[A - Réseau de Neurones Récurrent (RNN)|RNN]] lève cette limite en conditionnant sur tout le passé.
+La fenêtre de contexte est **fixe** ($n-1$ mots). Le [[M - Réseau de Neurones Récurrent (RNN)|RNN]] lève cette limite en conditionnant sur tout le passé.
 ## Liens connexes
 
 - [[C - Modélisation du Langage]]
 - [[C - n-grammes]]
 - [[C - Plongement de Mots (Word Embedding)]]
-- [[A - Réseau de neurones]]
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - Réseau de neurones]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards
 

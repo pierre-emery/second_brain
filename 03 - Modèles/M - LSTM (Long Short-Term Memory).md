@@ -1,12 +1,12 @@
 ---
 
-type: algorithme
+type: modele
 
 cours: [IFT6135]
 
 statut: brouillon
 
-maj: 2026-10-15
+maj: 2026-11-11
 
 ---
 Le **LSTM** (Hochreiter & Schmidhuber, 1995 -> rapport technique ; article *Neural Computation* en 1997) est une cellule récurrente conçue pour apprendre des **dépendances à long terme** en contournant le [[C - Gradient Explosif et Évanescent (RNN)|gradient évanescent]]. L'état caché $\mathbf{h}_t$ y devient une fonction de **cellules mémoire** $\mathbf{c}_t$, dont le flux d'information est contrôlé par des **portes**.
@@ -54,17 +54,17 @@ $$\mathbf{o}_t = \mathrm{sigm}(\mathbf{b}_{[o]} + \mathbf{U}_{[o]}\mathbf{h}_{t-
 
 **Ablation empirique** : *LSTM: A Search Space Odyssey* (Greff, Srivastava, Koutník, Steunebrink, Schmidhuber, 2015) :
 - la **porte d'oubli** est cruciale, ainsi que la **porte de sortie** si l'état de cellule est non borné ;
-- **coupler** les portes d'entrée et d'oubli ($\mathbf{f}_t = 1 - \mathbf{i}_t$) fonctionne aussi bien → idée reprise par le [[A - GRU (Gated Recurrent Unit)|GRU]].
+- **coupler** les portes d'entrée et d'oubli ($\mathbf{f}_t = 1 - \mathbf{i}_t$) fonctionne aussi bien → idée reprise par le [[M - GRU (Gated Recurrent Unit)|GRU]].
 ## Coût *(complément, hors diapos)*
 
 4 blocs ($i, f, o, \widetilde{c}$) → environ $4 \times (d_h^2 + d_h d_x + d_h)$ paramètres, soit 4 fois un RNN simple de même taille.
 ## Liens connexes
 
-- [[A - Réseau de Neurones Récurrent (RNN)]]
-- [[A - GRU (Gated Recurrent Unit)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
+- [[M - GRU (Gated Recurrent Unit)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[C - Fonction d'activation]]
-- [[A - ResNet (Connexion Résiduelle)]]
+- [[M - ResNet (Connexion Résiduelle)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards
 

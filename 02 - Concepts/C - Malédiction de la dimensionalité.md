@@ -18,7 +18,7 @@ Imaginons l'espace des entrées organisé en grille, avec $v$ régions distincte
 - En **1 dimension**, il suffit de $v$ régions et donc au moins $v$ exemples pour bien généraliser (un exemple par région).
 - En **2 dimensions**, il faut distinguer $v\times v = v^2$ régions.
 - En **3 dimensions**, $v^3$ régions.
-- Plus généralement, pour $d$ dimensions, on a besoin de $O(v^d)$ régions et donc au moins autant d'exemples pour qu'une méthode reposant uniquement sur le voisinage local (ex. [[A - KNN|k plus proches voisins]]) ait au moins un exemple par région.
+- Plus généralement, pour $d$ dimensions, on a besoin de $O(v^d)$ régions et donc au moins autant d'exemples pour qu'une méthode reposant uniquement sur le voisinage local (ex. [[M - KNN|k plus proches voisins]]) ait au moins un exemple par région.
 
 C'est le cœur du problème statistique posé par la haute dimension : le nombre de configurations possibles de $\mathbf{x}$ devient rapidement bien plus grand que le nombre d'exemples d'entraînement disponibles, laissant la plupart des cellules de la grille **sans aucun exemple**.
 
@@ -35,6 +35,6 @@ Il est possible de représenter efficacement un très grand nombre de régions (
 - [[MOC - Non-supervisé & réduction de dimension]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 - [[C - Prétraitement]]
-- [[A - KNN]]
+- [[M - KNN]]
 - [[C - Hypothèse de Variété (Manifold Hypothesis)]]
 - [[C - Réduction de dimensions]]

@@ -1,4 +1,4 @@
-## Mesure d'impureté pour les [[A - Arbre de décision]]
+## Mesure d'impureté pour les [[M - Arbre de décision]]
 Concept standard de la théorie d'information qui mesure l'impureté d'un noeud en fonction du nombre de bits nécessaire pour y représenter les étiquettes de classe:
 $$\text{Entropy}(t)=-\sum_cp(c|t)\log_2p(c|t)$$
 où $p(c|t)$ est la fréquence de la classe $c$ dans le noeud $t$.

@@ -89,7 +89,7 @@ Sur des données non-linéairement séparables (2 classes en anneaux concentriqu
 
 ## Liens connexes
 
-- [[A - Réseau de neurones]]
+- [[M - Réseau de neurones]]
 - [[C - Classification Linéaire]]
 - [[T - Théorème d'approximation universelle]]
 - [[C - Perte d'Entropie Croisée (Cross-Entropy)]]

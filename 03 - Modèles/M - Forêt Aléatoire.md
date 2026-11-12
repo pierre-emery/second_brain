@@ -1,14 +1,14 @@
 ---
-type: algorithme
+type: modele
 cours: [IFT6758]
 statut: complet
 tags: []
-prerequis: ["[[A - Arbre de décision]]"]
-maj: 2026-08-06
+prerequis: ["[[M - Arbre de décision]]"]
+maj: 2026-11-11
 ---
 Une méthode d'ensemble qui combine plusieurs arbres de décision et agrège leurs résultats. Pour construire les arbres, plusieurs vecteurs aléatoires sont échantillonnés i.i.d. de la même distribution et chaque construction individuelle d'arbre de décision dépend des données et de l'un de ces vecteurs.
 $$f(y|x)=\frac{1}{|\mathrm M|}\sum_{m\in\mathrm M}f_m(y|x)$$ ici $f(y|x)$ est une forêt, M un ensemble d'arbre et m un arbre.
-Un des intérêt d'utiliser plusieurs arbres et de réduire la variance. Un [[A - Arbre de décision]] seul a souvent une variance élevée (il change beaucoup si tu changes un peu les données). Du coup en utilisant plusieurs arbres et en moyennant leurs prédictions (on peut aussi procéder par vote majoritaire) on réduit la variance et donc le [[C - Surapprentissage]].
+Un des intérêt d'utiliser plusieurs arbres et de réduire la variance. Un [[M - Arbre de décision]] seul a souvent une variance élevée (il change beaucoup si tu changes un peu les données). Du coup en utilisant plusieurs arbres et en moyennant leurs prédictions (on peut aussi procéder par vote majoritaire) on réduit la variance et donc le [[C - Surapprentissage]].
 
 ## Important
 Les forêts aléatoires sont plus efficaces en termes de calcul que les autres méthodes d'ensemble, tout en ayant une précision comparable.
@@ -17,7 +17,7 @@ Les forêts aléatoires sont plus efficaces en termes de calcul que les autres m
 Les entrées de l'arbre de décision peuvent être randomisées de deux façons:
 - Sélection aléatoire des entrées ([[C - Forest-RI]])
 - Combinaisons linéaires aléatoires ([[C - Forest-RC]])
-Ce dernier peut être lié à des projections aléatoires qui sont également utilisées dans d'autres tâches (p.ex., la recherche de kNN ([[A - KNN]]) et la réduction de la dimensionnalité)
+Ce dernier peut être lié à des projections aléatoires qui sont également utilisées dans d'autres tâches (p.ex., la recherche de kNN ([[M - KNN]]) et la réduction de la dimensionnalité)
 
 ## Projections aléatoires
 Les projections aléatoires (RP randomized projection) sont un moyen populaire et efficace de projeter des données (numériques) dans un espace de dimensions arbitraires, sans avoir à apprendre la fonction d'encastrement à partir des données.

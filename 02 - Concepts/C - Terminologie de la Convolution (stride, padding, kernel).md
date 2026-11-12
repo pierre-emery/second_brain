@@ -21,7 +21,7 @@ $$o = \left\lfloor \frac{i + 2p - k}{s} \right\rfloor + 1$$
 ## Liens connexes
 
 - [[C - Convolution Discrète (2D)]]
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Convolution Dilatée]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 ## Flashcards

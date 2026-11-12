@@ -1,4 +1,4 @@
-## Pour la mesure d'impureté d'un [[A - Arbre de décision]]
+## Pour la mesure d'impureté d'un [[M - Arbre de décision]]
 Un indice d'inégalité sociale (ou plus formellement, de dispersion statistique) développé par le statisticien/sociologue Corrado Gini :
 $$\text{Gini(t)}=1-\sum_c[p(c|t)]^2$$
 où $p(c|t)$ est la fréquence de la classe $c$ dans le noeud $t$.

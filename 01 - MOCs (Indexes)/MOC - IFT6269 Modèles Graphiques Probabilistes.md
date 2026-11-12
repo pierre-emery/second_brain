@@ -61,10 +61,10 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[T - Théorème central limite]]
 ## Modèles graphiques probabilistes
 
-- [[A - Modèle Graphique Probabiliste]]
-- [[A - Modèle Graphique Non-dirigé]]
+- [[M - Modèle Graphique Probabiliste]]
+- [[M - Modèle Graphique Non-dirigé]]
 - [[C - Clique (graphe)]]
-- [[A - Modèle de Markov Caché (HMM)]]
+- [[M - Modèle de Markov Caché (HMM)]]
 - [[C - Factorisation d'une distribution jointe]]
 - [[C - Séparation Directionnelle]]
 ### Théorie des graphes
@@ -122,7 +122,7 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[C - Distribution à postériori]]
 - [[C - Vraisemblance]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
-- [[A - Maximisation de la vraisemblance]]
+- [[C - Maximisation de la vraisemblance]]
 ## Théorie de la décision statistique
 
 - [[C - Fondements de la théorie de décision]]
@@ -150,9 +150,9 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 ## Régression et classification
 
 - [[C - Approches génératives, conditionnelles et discriminantes]]
-- [[A - Régression Linéaire]]
+- [[M - Régression Linéaire]]
 - [[A - Régression Ridge]]
-- [[A - Régression Logistique (Binaire)]]
+- [[M - Régression Logistique (Binaire)]]
 - [[C - Fonction Sigmoïde]]
 - [[C - Log-ratio des cotes (log-odds)]]
 - [[D - Famille exponentielle]]

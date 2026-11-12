@@ -19,7 +19,7 @@ Une convolution **causale** ne regarde que le passé (les positions précédente
 ## Liens connexes
 
 - [[C - Terminologie de la Convolution (stride, padding, kernel)]]
-- [[A - Réseau de neuronnes convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[MOC - IFT6135 Apprentissage de représentations]]
 ## Flashcards
 

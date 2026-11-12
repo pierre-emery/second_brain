@@ -1,15 +1,15 @@
 ---
 
-type: algorithme
+type: modele
 
 cours: [IFT6135]
 
 statut: brouillon
 
-maj: 2026-10-15
+maj: 2026-11-11
 
 ---
-Le **GRU** (Cho, van Merriënboer, Bahdanau, Bengio, 2014) est une simplification du [[A - LSTM (Long Short-Term Memory)|LSTM]] : moins de portes, pas de distinction entre état de cellule et état caché.
+Le **GRU** (Cho, van Merriënboer, Bahdanau, Bengio, 2014) est une simplification du [[M - LSTM (Long Short-Term Memory)|LSTM]] : moins de portes, pas de distinction entre état de cellule et état caché.
 ## Équations
 
 **Portes de mise à jour et de réinitialisation :**
@@ -37,8 +37,8 @@ $$\mathbf{h}_t = \mathbf{c}_t$$
 Le mécanisme anti-évanescence est le même : quand $\mathbf{z}_t \approx 0$, $\mathbf{c}_t \approx \mathbf{c}_{t-1}$ et le gradient traverse le pas de temps presque intact.
 ## Liens connexes
 
-- [[A - LSTM (Long Short-Term Memory)]]
-- [[A - Réseau de Neurones Récurrent (RNN)]]
+- [[M - LSTM (Long Short-Term Memory)]]
+- [[M - Réseau de Neurones Récurrent (RNN)]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]
 - [[MOC - IFT6135 Apprentissage de Représentations]]
 ## Flashcards

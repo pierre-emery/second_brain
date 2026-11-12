@@ -1,9 +1,14 @@
+---
+type: modele
+statut: brouillon
+maj: 2026-11-11
+---
 ## En bref
 Le SVM linéaire définit un modèle de [[C - Classification]] basé sur un [[C - Hyperplan]] et la marge qui l'entour.
 - L'entraînement se fait par l'optimisation pour maximiser la largeur de la marge
 - Le classificateur formé ne dépend que d'un petit nombre de [[C - Vecteur de Support]]
-Le [[A - Kernel SVM]] étend ce modèle aux frontieres de décision non linéaires
-Et des marges souples ([[A - Soft Margin SVM]]) peuvent être appliquées à la fois dans les cas linéaires et non linéaires pour permettre la robustesse au [[C - Bruit -- Variabilité non expliquée]]  et aux [[C - Valeurs Aberrantes]].
+Le [[M - Kernel SVM]] étend ce modèle aux frontieres de décision non linéaires
+Et des marges souples ([[M - Soft Margin SVM]]) peuvent être appliquées à la fois dans les cas linéaires et non linéaires pour permettre la robustesse au [[C - Bruit -- Variabilité non expliquée]]  et aux [[C - Valeurs Aberrantes]].
 
 ## Entraînement 
 Entrées :
@@ -74,7 +79,7 @@ Les frontières des marges sont données par $\langle\vec w,\vec x_i\rangle-b=c_
 Les $\vec w$ et le $b$ ne dépendent que des vecteurs de support identifiés. Toutefois, en raison d'erreurs numériques, ces vecteurs peuvent doner plusieurs estimations de b, de sorte qu'en pratique, c'est lestimation moyenne qui utilisée.
 
 
-## Marge souple [[A - Soft Margin SVM]]
+## Marge souple [[M - Soft Margin SVM]]
 
 On peut assouplir le modèle SVM en ajoutant des variables ressort $\xi_1,...,\xi_N\geq0$ et reformuler les contraintes comme:
 $$\forall_{1\leq i\leq N}c_i(\langle\vec w,\vec x_i\rangle-b)\geq1-\xi_i$$
@@ -93,7 +98,7 @@ L'objectif initial d'optimisation de la marge maximale est insuffisant avec ces 
 #### Pour y remédier
 On adapte la fonction cible pour minimiser également les valeurs de relâchement.
 
-# [[A - Kernel SVM]]
+# [[M - Kernel SVM]]
 Lorsque les données ne sont pas séparable de manière linéaire, on utilise une transformation $x\rightarrow\Phi(x)$ des données en un nouvel espace de représentation ou elles sont linéairement séparables.
 
 Typiquement [[C - Augmentation de la dimensionnalité]] des données non linéairement séparables peut les transformer en une représentation linéairement séparable.

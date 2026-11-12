@@ -1,10 +1,15 @@
-La [[A - Classification Naïve Bayésienne]] suppose une indépendance de classe pour simplifier les estimations de probabilité mais ça n'est pas toujours applicable
+---
+type: modele
+statut: brouillon
+maj: 2026-11-11
+---
+La [[M - Classification Naïve Bayésienne]] suppose une indépendance de classe pour simplifier les estimations de probabilité mais ça n'est pas toujours applicable
 On doit parfoit considérer également les dépendances $P(x[j]|x[i],C)$.
 
 On va donc faire un graphe de réseau de dépendance et pour ce faire un utilise [[G - Graphes Acycliques Directs (DAG)]] pour ce faire. Chaque noeud ne devrait a priori dépendre que de ses parents.
 
 La structure de DAG fournit des informations qualitatives sur les dépendances conditionelles qui devraient être prises en compte. Ceci est généralement donné par conception (p. ex. de connaissances préalables ou d'experts). La partie quantitative du réseau est donnée par des [[C - Tables de dépendances conditionnelle (CDT)]].
-Étant donné une structure de réseau les entrées CDT de chaque noeud sachant ses parents sont estimées de façon similaire à la [[A - Classification Naïve Bayésienne]] pour les attributs observables et par optimisation pour les cachés.
+Étant donné une structure de réseau les entrées CDT de chaque noeud sachant ses parents sont estimées de façon similaire à la [[M - Classification Naïve Bayésienne]] pour les attributs observables et par optimisation pour les cachés.
 ### Construction gloutonne de l'algo [[C - Greedy Algorithm]]
 Afin que l'estimation des probabilités de CDT soit faisable, il faudrait que le nombdre de parents pour chaque noeud soit le plus petit possible, tout en maintenant l'interprétabilité des causes-effets.
 Un simple algorithme glouton d'inférence de  la structure du réseau est le suivant :
