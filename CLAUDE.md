@@ -135,9 +135,9 @@ Les PDF sources ne sont pas commités dans le vault, sauf demande explicite.
 ## 7. Flashcards (plugin Spaced Repetition)
 
 - Chaque nouvelle note contient une section `## Flashcards`. Quand tu enrichis une note existante, ajoute des cartes pour le nouveau contenu.
-- Tag : `#flashcards/<CODE>/<thème>`.
-  - Thèmes IFT6269 : `probabilites`, `modeles-parametriques`, `frequentiste-vs-bayesien`, `maximum-vraisemblance`, `theorie-decision`, `proprietes-estimateurs`, `regression-lineaire`, `regression-logistique`, `modeles-graphiques`, `inference`. Ajoute un thème quand le cours avance.
-  - IFT6135 : un thème par chapitre (`ch00-revision`, `ch01-...`).
+- Tag : `#flashcards/<CODE>/<NN>-<thème>`. **Réutilise les tags existants** (`grep -rhoE "#flashcards/IFT6269/[a-z0-9-]+" --include=*.md . | sort -u`) ; pour un nouveau thème, prends le numéro suivant.
+  - IFT6269 (existants) : `00-modeles-graphiques`, `01-probabilites`, `02-modeles-parametriques`, `03-frequentiste-vs-bayesien`, `04-maximum-vraisemblance`, `05-theorie-decision`, `06-proprietes-estimateurs`, `07-regression-lineaire`, `08-regression-logistique`, `09-lda-calcul-matriciel`, `11-modeles-diriges`, `12-modeles-non-diriges`, `13-inference`.
+  - IFT6135 (existants, un par chapitre) : `00-revision`, `01-neurone`, `02-entrainement`, `03-cnn`, `05-rnn-attention`.
 - Entre 3 et 6 cartes par note. Privilégie les questions qui forcent à **reconstruire ou expliquer** : « Pourquoi… ? », « Dérive… », « Que se passe-t-il si… ? », « Différence entre X et Y ? ». Évite les cartes de pure récitation.
 - Une ligne : `Question::Réponse`. Plusieurs lignes : question, ligne `?`, réponse.
 
