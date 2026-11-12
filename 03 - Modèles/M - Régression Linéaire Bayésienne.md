@@ -2,7 +2,7 @@
 type: concept
 cours: [IFT6135]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 Application de l'inférence bayésienne complète (voir [[C - Modèle Bayésien]]) au problème de la [[M - Régression Linéaire|régression linéaire]] : plutôt que d'estimer un seul vecteur de poids $\mathbf{w}$, on calcule une **distribution a posteriori** complète sur $\mathbf{w}$.
 
@@ -26,7 +26,7 @@ $$\boldsymbol\Lambda_m = (\mathbf{X}^\top\mathbf{X}+\boldsymbol\Lambda_0^{-1})^{
 
 ## Lien avec la décroissance des poids
 
-Si $\boldsymbol\mu_0 = \mathbf{0}$ et $\boldsymbol\Lambda_0 = \frac{1}{\alpha}\mathbf{I}$, alors $\boldsymbol\mu_m$ donne exactement la même estimation de $\mathbf{w}$ que la régression linéaire fréquentiste avec une pénalité de [[C - Décroissance des poids (Weight Decay)|décroissance des poids]] $\alpha\mathbf{w}^\top\mathbf{w}$.
+Si $\boldsymbol\mu_0 = \mathbf{0}$ et $\boldsymbol\Lambda_0 = \frac{1}{\alpha}\mathbf{I}$, alors $\boldsymbol\mu_m$ donne exactement la même estimation de $\mathbf{w}$ que la régression linéaire fréquentiste avec une pénalité de [[C - Régularisation L2 (Weight Decay)|décroissance des poids]] $\alpha\mathbf{w}^\top\mathbf{w}$.
 
 ## Différence essentielle avec l'approche fréquentiste/MAP
 
@@ -35,10 +35,10 @@ L'estimation bayésienne complète fournit une **matrice de covariance** donnant
 ## Liens connexes
 
 - [[MOC - Inférence Statistique]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[M - Régression Linéaire]]
 - [[C - Modèle Bayésien]]
-- [[C - Décroissance des poids (Weight Decay)]]
+- [[C - Régularisation L2 (Weight Decay)]]
 - [[C - Estimation Maximum a Posteriori (MAP)]]
 - [[C - Distribution à priori]]
 - [[C - Distribution à postériori]]

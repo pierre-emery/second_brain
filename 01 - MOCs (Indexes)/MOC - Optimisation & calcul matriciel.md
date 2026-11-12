@@ -1,6 +1,7 @@
 ---
+type: moc-theme
 sujet: optimisation-calcul-matriciel
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## 1) Calcul différentiel
 
@@ -20,6 +21,7 @@ maj: 2026-11-11
 - [[C - Erreur d'arrondi et Dépassement de capacité (Overflow-Underflow)]]
 - [[C - Nombre de Conditionnement (matrice)]]
 - [[C - Continuité de Lipschitz]]
+- [[T - Théorème du point fixe de Banach]]
 - [[C - Optimisation Convexe]]
 
 ## 3) Optimisation pour l'apprentissage
@@ -30,10 +32,21 @@ maj: 2026-11-11
 - [[A - Descente de Gradient Stochastique (SGD)]]
 - [[A - Descente de Gradient par Mini-lot (Mini-batch)]]
 - [[C - Momentum]]
+- [[A - Momentum de Nesterov]]
+- [[A - AdaGrad]]
+- [[A - RMSProp]]
+- [[A - Adam]]
 - [[C - Taux d'apprentissage]]
 - [[A - Initialisation de Glorot (Xavier)]]
 - [[C - Régularisation]]
 - [[A - SAG et SAGA]]
+
+### Normalisation des activations
+
+- [[C - Normalisation par lot (Batch Normalization)]]
+- [[C - Normalisation de couche (Layer Normalization)]]
+- [[C - Normalisation d'instance (Instance Normalization)]]
+- [[C - Normalisation de groupe (Group Normalization)]]
 
 ## 4) Optimisation classique
 

@@ -6,7 +6,7 @@ cours: [IFT6135]
 
 statut: brouillon
 
-maj: 2026-11-11
+maj: 2026-11-12
 
 ---
 *Neural Machine Translation by Jointly Learning to Align and Translate*, Bahdanau, Cho, Bengio, ICLR 2015. Diapos de D. Bahdanau, éditées par A. Courville et A. Agrawal.
@@ -58,6 +58,8 @@ Bonnes visualisations : distill.pub/2016/augmented-rnns (*Attentional interfaces
 (Le suffixe 30/50 = longueur maximale des phrases d'entraînement.)
 ## Liens connexes
 
+- [[C - Auto-attention (Self-Attention)]]
+- [[M - Transformer]]
 - [[M - Seq2Seq (Encodeur-Décodeur)]]
 - [[M - RNN Bidirectionnel]]
 - [[C - Gradient Explosif et Évanescent (RNN)]]

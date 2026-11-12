@@ -2,7 +2,7 @@
 type: concept
 cours: [IFT6135]
 statut: brouillon
-maj: 2026-09-09
+maj: 2026-11-12
 ---
 Presque tous les algorithmes d'apprentissage (deep learning inclus) peuvent être décrits comme une instance d'une recette assez simple : combiner un **jeu de données**, une **fonction de coût**, une **procédure d'optimisation** et un **modèle**.
 
@@ -17,7 +17,7 @@ Presque tous les algorithmes d'apprentissage (deep learning inclus) peuvent êtr
 
 Ces quatre composantes peuvent être remplacées indépendamment les unes des autres, ce qui permet d'obtenir une grande variété d'algorithmes :
 
-- Ajouter un terme de [[C - Régularisation|régularisation]] (ex. [[C - Décroissance des poids (Weight Decay)|décroissance des poids]]) à la fonction de coût.
+- Ajouter un terme de [[C - Régularisation|régularisation]] (ex. [[C - Régularisation L2 (Weight Decay)|décroissance des poids]]) à la fonction de coût.
 - Remplacer un modèle linéaire par un modèle non linéaire, dans ce cas, la plupart des fonctions de coût ne peuvent plus être optimisées en forme fermée, ce qui impose une procédure itérative comme la [[A - Rétropropagation du gradient (gradient descent)|descente de gradient]].
 
 ## Apprentissage supervisé vs non-supervisé
@@ -31,7 +31,7 @@ Certains modèles (ex. [[M - Arbre de décision|arbres de décision]], [[A - K-M
 ## Liens connexes
 
 - [[MOC - Modèles ML (supervisé)]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[M - Régression Linéaire]]
 - [[C - Régularisation]]
 - [[A - Rétropropagation du gradient (gradient descent)]]

@@ -1,9 +1,9 @@
 ---
-## type: moc-theme
+type: moc-theme
 sujet: evaluation-generalisation
-maj: 2026-08-06
+maj: 2026-11-12
 ---
-# # 1) Fondations : perte, risque, généralisation
+## 1) Fondations : perte, risque, généralisation
 
 - [[C - Fonction de perte]]
 - [[C - Risque]]
@@ -11,15 +11,23 @@ maj: 2026-08-06
 - [[C - Régularisation]]
 - [[C - Régularisation L1]]
 - [[C - Régularisation L2 (Weight Decay)]]
-- [[C - Décroissance des poids (Weight Decay)]]
 - [[C - Théorème du No Free Lunch]]
 - [[C - Erreur de généralisation]]
+
+### Méthodes de régularisation (IFT6135)
+
+- [[T - Équivalence early stopping et régularisation L2]]
+- [[C - Bagging]]
+- [[C - Dropout]]
+- [[A - Préentraînement glouton couche par couche]]
+- [[C - Apprentissage multitâche (Multi-task Learning)]]
 
 ## 2) Biais–variance, complexité, over/underfitting
 
 - [[C - Biais]]
 - [[C - Variance (expliquée)]]
 - [[C - Compromis Biais-Variance]]
+- [[C - Double descente]]
 - [[C - Complexité d'un modèle (capacité)]]
 - [[C - Surapprentissage]]
 - [[C - Sous-apprentissage]]

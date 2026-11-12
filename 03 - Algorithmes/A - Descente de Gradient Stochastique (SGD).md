@@ -2,7 +2,7 @@
 type: algorithme
 cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 Variante de la descente de gradient qui effectue une mise à jour des paramètres après chaque exemple d'entraînement plutôt qu'après avoir parcouru tout l'ensemble :
 1. Initialiser $\theta \equiv \{\mathbf{W}^{(1)}, \mathbf{b}^{(1)}, \ldots, \mathbf{W}^{(L+1)}, \mathbf{b}^{(L+1)}\}$
@@ -20,6 +20,24 @@ Pour appliquer cet algorithme à un réseau de neurones, il faut : la fonction d
 - [[A - Descente de Gradient par Mini-lot (Mini-batch)]] : met à jour à partir d'un lot d'exemples plutôt qu'un seul
 - [[C - Momentum]] : utilise une moyenne des gradients passés plutôt que le gradient courant seul
 - Voir [[C - Taux d'apprentissage]] pour les conditions de convergence et stratégies de décroissance de $\alpha$
+
+## IFT6135 — Chap. 08 : méthodes du premier ordre
+Les méthodes d'optimisation pratiques se divisent en méthodes du **premier ordre** (gradient seulement) et du **second ordre** (courbure, via l'approximation de Taylor $\hat J(\theta) = J(a) + \nabla_\theta J(a)(\theta - a) + \tfrac12 (\theta - a)^\top H (\theta - a)$, voir [[A - Méthode de Newton (optimisation)]]). Le chapitre 08 porte sur le premier ordre.
+
+Notation du cours (Goodfellow, algo. 8.1), à l'itération $k$ :
+- **Requis** : taux d'apprentissage $\epsilon_k$, paramètres initiaux $\theta$.
+- Tant que le critère d'arrêt n'est pas atteint :
+  - tirer un mini-lot de $m$ exemples $\{x^{(1)},\dots,x^{(m)}\}$ et leurs cibles $y^{(i)}$ ;
+  - estimer le gradient : $\hat h \leftarrow \frac1m \nabla_\theta \sum_i L(f(x^{(i)};\theta), y^{(i)})$ ;
+  - mettre à jour : $\theta \leftarrow \theta - \epsilon_k\, \hat h$.
+
+**(+)** fonctionne sur un seul exemple ou un mini-lot, et reste probablement la méthode la plus utilisée pour les modèles profonds. **(−)** peut converger lentement (oscillations dans les ravins, plateaux). Améliorations : [[C - Momentum]], [[A - Momentum de Nesterov]], taux adaptatifs ([[A - AdaGrad]], [[A - RMSProp]], [[A - Adam]]).
+
+#flashcards/IFT6135/08-optimisation
+
+Mise à jour SGD sur mini-lot (notation du chap. 08) ?::$\hat h = \frac1m \nabla_\theta \sum_i L(f(x^{(i)};\theta),y^{(i)})$, puis $\theta \leftarrow \theta - \epsilon_k \hat h$.
+
+Différence entre méthodes du premier et du second ordre ?::Premier ordre : seulement le gradient (SGD, Adam…). Second ordre : courbure via la hessienne, approximation quadratique de Taylor (Newton), coûteuse en grande dimension.
 
 ## SGD pour le « big data » (IFT6269, lecture 8)
 

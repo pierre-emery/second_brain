@@ -1,7 +1,7 @@
 ---
 type: moc-theme
 sujet: probabilite
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## 1) Fondations
 
@@ -42,6 +42,18 @@ maj: 2026-11-11
 
 - [[C - Estimation Monte Carlo]]
 - [[C - Échantillonnage Préférentiel]]
+
+## 5 bis) Modèles génératifs profonds (densités)
+
+- [[C - Familles de modèles génératifs profonds]]
+- [[C - Modèle génératif autorégressif]]
+- [[M - MADE (Masked Autoencoder for Distribution Estimation)]]
+- [[T - Formule du changement de variable (densités)]]
+- [[M - Flot normalisant (Normalizing Flow)]]
+- [[M - Couche de couplage (NICE, RealNVP)]]
+- [[M - Flot planaire]]
+- [[M - Flot de Sylvester]]
+- [[M - ResNet inversible (i-ResNet)]]
 
 ## 6) Modèles graphiques probabilistes
 

@@ -10,7 +10,7 @@ jours:
   - 1
   - 3
 évaluations: "- {nom: A1 théorie, poids: 10, echeance: , note: } - {nom: A1 pratique, poids: 15, echeance: , note: } - {nom: A2 théorie, poids: 10, echeance: , note: } - {nom: A2 pratique, poids: 15, echeance: , note: } - {nom: A3 théorie, poids: 10, echeance: , note: } - {nom: A3 pratique, poids: 15, echeance: , note: } - {nom: Examen final, poids: 25, echeance: , note: }"
-maj: 2026-09-28
+maj: 2026-11-12
 ---
 # MOC - IFT6135 : Apprentissage de représentations
 ## 0) Prérequis / Révision (Chapitre 00 - intro & review)
@@ -160,9 +160,88 @@ maj: 2026-09-28
 ### Séquence à séquence
 - [[M - Seq2Seq (Encodeur-Décodeur)]]
 - [[A - Recherche en Faisceau (Beam Search)]]
-## 5) Mécanismes d'attention
+## 5) Mécanismes d'attention et Transformers (Chapitre 06)
 
+### Attention
 - [[M - Attention Douce (Bahdanau)]]
+- [[C - Auto-attention (Self-Attention)]]
+- [[C - Attention multi-têtes (Multi-Head Attention)]]
+- [[C - Attention masquée (causale)]]
+- [[C - Encodage positionnel (Positional Encoding)]]
+### Architectures
+- [[M - Transformer]]
+- [[M - BERT]]
+- [[M - GPT (GPT-1, GPT-2, GPT-3)]]
+- [[M - Vision Transformer (ViT)]]
+### Préentraînement, transfert et limites
+- [[C - Préentraînement et affinage (Pre-training, Fine-tuning)]]
+## 6) Régularisation (Chapitre 07)
+
+### Pourquoi régulariser
+- [[C - Régularisation]]
+- [[C - Compromis Biais-Variance]]
+- [[C - Double descente]]
+### Pénalités sur les paramètres
+- [[C - Régularisation L2 (Weight Decay)]]
+- [[C - Régularisation L1]]
+### Early stopping
+- [[C - Early stopping]]
+- [[T - Équivalence early stopping et régularisation L2]]
+### Ensembles et dropout
+- [[C - Bagging]]
+- [[C - Dropout]]
+### Tâches auxiliaires comme régularisation
+- [[A - Préentraînement glouton couche par couche]]
+- [[C - Apprentissage multitâche (Multi-task Learning)]]
+## 7) Optimisation et normalisation (Chapitre 08)
+
+### Méthodes du premier ordre
+- [[A - Descente de Gradient Stochastique (SGD)]]
+- [[C - Momentum]]
+- [[A - Momentum de Nesterov]]
+### Taux d'apprentissage adaptatifs
+- [[A - AdaGrad]]
+- [[A - RMSProp]]
+- [[A - Adam]]
+### Normalisation
+- [[C - Normalisation par lot (Batch Normalization)]]
+- [[C - Normalisation de couche (Layer Normalization)]]
+- [[C - Normalisation d'instance (Instance Normalization)]]
+- [[C - Normalisation de groupe (Group Normalization)]]
+## 8) Autoencodeurs (Chapitre 09)
+
+- [[M - Autoencodeur]]
+- [[C - Représentation sous-complète et sur-complète]]
+- [[T - Optimalité de l'autoencodeur linéaire (ACP)]]
+- [[T - Théorème d'Eckart-Young]]
+- [[M - Autoencodeur débruiteur (Denoising Autoencoder)]]
+- [[M - Autoencodeur contractif]]
+## 9) Modèles génératifs : autorégressifs et flots normalisants (Chapitre 10)
+
+### Vue d'ensemble
+- [[C - Familles de modèles génératifs profonds]]
+### Modèles autorégressifs
+- [[C - Modèle génératif autorégressif]]
+- [[M - MADE (Masked Autoencoder for Distribution Estimation)]]
+- [[M - PixelCNN]]
+- [[M - WaveNet]]
+### Flots normalisants
+- [[T - Formule du changement de variable (densités)]]
+- [[M - Flot normalisant (Normalizing Flow)]]
+- [[M - Flot planaire]]
+- [[M - Flot de Sylvester]]
+- [[T - Identité du déterminant de Sylvester]]
+- [[M - ResNet inversible (i-ResNet)]]
+- [[T - Théorème du point fixe de Banach]]
+- [[C - Estimateur de trace de Hutchinson]]
+- [[M - Couche de couplage (NICE, RealNVP)]]
+## À venir (mentionnés, pas encore développés)
+
+- NADE (Larochelle & Murray 2011), PixelRNN, LSTM spatial : mentionnés dans le cours sur les modèles autorégressifs
+- Flots autorégressifs IAF / MAF, NAF / BNAF, FFJORD, Glow : à revoir avec les VAE
+- VAE, GAN, modèles de diffusion (chapitres suivants)
+- Autoencodeur parcimonieux (sparse autoencoder)
+- ViLBERT, Flamingo, MAPL (modèles vision-langage) : survolés au chap. 06
 ## Liens connexes
 
 - [[MOC - Algèbre linéaire]]
@@ -171,3 +250,4 @@ maj: 2026-09-28
 - [[MOC - Inférence Statistique]]
 - [[MOC - Modèles ML (supervisé)]]
 - [[MOC - Évaluation & généralisation]]
+- [[MOC - Non-supervisé & réduction de dimension]]

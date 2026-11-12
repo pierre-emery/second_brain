@@ -1,6 +1,7 @@
 ---
+type: moc-theme
 sujet: non-supervise-reduction-dimension
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 - [[C - Fonction de Base Radiale (RBF)]]
 - [[C - Noyau Polynomial]]
@@ -37,6 +38,15 @@ maj: 2026-11-11
 - [[A - Diffusion Maps]]
 - [[A - Positionnement multidimensionnel]]
 - [[A - Projections aléatoires]]
+
+### Autoencodeurs
+
+- [[M - Autoencodeur]]
+- [[C - Représentation sous-complète et sur-complète]]
+- [[T - Optimalité de l'autoencodeur linéaire (ACP)]]
+- [[M - Autoencodeur débruiteur (Denoising Autoencoder)]]
+- [[M - Autoencodeur contractif]]
+- [[A - Préentraînement glouton couche par couche]]
 
 ## 4) Représentations, distances, noyaux et graphes
 

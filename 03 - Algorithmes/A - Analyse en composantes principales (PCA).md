@@ -2,7 +2,7 @@
 type: algorithme
 cours: [IFT6135]
 statut: brouillon
-maj: 2026-09-09
+maj: 2026-11-12
 ---
 ## Quelle serait la meilleure projection?
 
@@ -42,8 +42,10 @@ Cette capacité de l'ACP à transformer les données vers une représentation do
 
 ## Liens connexes
 
+- [[T - Optimalité de l'autoencodeur linéaire (ACP)]]
+- [[M - Autoencodeur]]
 - [[MOC - Non-supervisé & réduction de dimension]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[C - Valeurs et Vecteurs propres]]
 - [[C - Matrice de Variance-Covariance]]
 - [[C - Projection Orthogonale]]

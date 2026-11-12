@@ -1,7 +1,7 @@
 ---
-type: moc-thème
+type: moc-theme
 sujet: algèbre linéaire
-maj: 2026-09-08
+maj: 2026-11-12
 ---
 
 ## Fondations : objets et notation
@@ -34,6 +34,9 @@ maj: 2026-09-08
 - [[C - Espace Nul (Null Space) d'une matrice]]
 - [[C - Valeurs et Vecteurs propres]]
 - [[C - Nombre de Conditionnement (matrice)]]
+- [[T - Théorème d'Eckart-Young]]
+- [[T - Identité du déterminant de Sylvester]]
+- [[C - Estimateur de trace de Hutchinson]]
 
 ## Types de matrices particulières
 
@@ -60,4 +63,4 @@ maj: 2026-09-08
 
 - [[MOC - Optimisation & calcul matriciel]]
 - [[MOC - Non-supervisé & réduction de dimension]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]

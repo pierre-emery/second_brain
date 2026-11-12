@@ -1,6 +1,7 @@
 ---
+type: moc-theme
 sujet: modeles-supervises
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 - [[C - Ingénierie de Caractéristiques]]
 - [[C - Augmentation de la dimensionnalité]]
@@ -50,6 +51,7 @@ maj: 2026-11-11
 
 - [[M - Arbre de décision]]
 - [[M - Forêt Aléatoire]]
+- [[C - Bagging]]
 - [[M - Gradient Boosted Trees (XGBoost)]]
 - [[C - Mesure d'impureté]]
 - [[C - Gain d'information et d'impurité]]
@@ -103,6 +105,23 @@ maj: 2026-11-11
 - [[M - RNN Bidirectionnel]]
 - [[M - Seq2Seq (Encodeur-Décodeur)]]
 - [[M - Attention Douce (Bahdanau)]]
+
+### 3.6.3 Transformers et modèles préentraînés
+
+- [[C - Auto-attention (Self-Attention)]]
+- [[C - Attention multi-têtes (Multi-Head Attention)]]
+- [[C - Encodage positionnel (Positional Encoding)]]
+- [[M - Transformer]]
+- [[M - BERT]]
+- [[M - GPT (GPT-1, GPT-2, GPT-3)]]
+- [[M - Vision Transformer (ViT)]]
+- [[C - Préentraînement et affinage (Pre-training, Fine-tuning)]]
+
+### 3.6.4 Modèles génératifs profonds
+
+- [[C - Familles de modèles génératifs profonds]]
+- [[M - PixelCNN]]
+- [[M - WaveNet]]
 ### 3.7 Approches basées sur règles
 
 - [[M - Ruled-based classification]]
