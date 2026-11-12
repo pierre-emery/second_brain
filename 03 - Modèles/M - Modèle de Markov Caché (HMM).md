@@ -23,10 +23,11 @@ Cas particulier du système de contrôle : $$y_{t+1} = Ay_{t} + Bv_t + \epsilon_
 - [[A - Algorithme de Baum-Welch]]
 - [[A - Algorithme de Viterbi]]
 - [[C - Variable latente]]
+- [[M - Mélange de gaussiennes (GMM)]]
 
 ## IFT6269 — formalisation (notation $Z_t$, $X_t$)
 
-Le cours note les états cachés $Z_t$ (et non $Y_t$). Le HMM généralise un **modèle à variables latentes** (comme le mélange de gaussiennes, où les $Z_t$ sont indépendants) en ajoutant une **dépendance temporelle** $Z_{t-1}\to Z_t$.
+Le cours note les états cachés $Z_t$ (et non $Y_t$). Le HMM généralise un **modèle à variables latentes** (comme le [[M - Mélange de gaussiennes (GMM)|mélange de gaussiennes]], où les $Z_t$ sont indépendants) en ajoutant une **dépendance temporelle** $Z_{t-1}\to Z_t$.
 - Latentes : $Z_t\in\{1,\dots,k\}$ discrètes (si $Z_t$ est gaussienne, on obtient le filtre de Kalman ci-dessus).
 - Observées : $X_t$ continues (signal de parole) ou discrètes (séquence d'ADN).
 

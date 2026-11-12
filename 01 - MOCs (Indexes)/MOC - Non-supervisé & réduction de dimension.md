@@ -30,6 +30,9 @@ maj: 2026-11-12
 - [[A - DBScan]]
 - [[A - Regroupement hiérarchique]]
 - [[A - K-Means++]]
+- [[M - Mélange de gaussiennes (GMM)]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[E - Algorithme EM pour un mélange de gaussiennes]]
 
 ### Réduction de dimension
 

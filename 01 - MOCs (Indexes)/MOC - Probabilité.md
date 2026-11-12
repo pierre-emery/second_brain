@@ -19,6 +19,7 @@ maj: 2026-11-12
 - [[C - Covariance]]
 - [[C - Corrélation]]
 - [[C - Matrice de Variance-Covariance]]
+- [[T - Inégalité de Jensen]]
 
 ## 3) Inférence bayésienne
 

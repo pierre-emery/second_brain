@@ -4,7 +4,7 @@ cours: [IFT6269]
 statut: brouillon
 maj: 2026-11-12
 ---
-Estimation par **maximum de vraisemblance** des paramètres d'un [[M - Modèle de Markov Caché (HMM)|HMM]] à partir de séquences observées seulement. Comme les états $z$ sont latents, on utilise l'algorithme EM : l'étape E est la [[A - Récursion alpha-bêta (avant-arrière)|récursion alpha-bêta]], l'étape M donne des estimateurs en forme fermée à partir de **comptes souples**.
+Estimation par **maximum de vraisemblance** des paramètres d'un [[M - Modèle de Markov Caché (HMM)|HMM]] à partir de séquences observées seulement. Comme les états $z$ sont latents, on utilise l'[[A - Algorithme EM (espérance-maximisation)|algorithme EM]] : l'étape E est la [[A - Récursion alpha-bêta (avant-arrière)|récursion alpha-bêta]], l'étape M donne des estimateurs en forme fermée à partir de **comptes souples**.
 $$\hat\theta^{(s+1)}=\arg\max_\theta\ \mathbb E_{q_{s+1}}\big[\log p(x,z\mid\theta)\big],\qquad q_{s+1}=p(z\mid x,\theta^{(s)})$$
 
 ## Intuition
@@ -31,7 +31,7 @@ Tous deux sortent de la récursion alpha-bêta.
 
 **Étape M** (maximiser sous contraintes de normalisation, comme le MLE multinoulli) :
 $$\hat\pi_k^{(s+1)}=\frac{\sum_{i=1}^N\tau^{(i)}_{1,k}}{\sum_l\sum_{i=1}^N\tau^{(i)}_{1,l}}=\frac1N\sum_{i=1}^N\tau^{(i)}_{1,k},\qquad\hat A^{(s+1)}_{l,m}=\frac{\sum_{i=1}^N\sum_{t=2}^{T_i}\tau^{(i)}_{t,l,m}}{\sum_u\sum_{i=1}^N\sum_{t=2}^{T_i}\tau^{(i)}_{t,u,m}}.$$
-$\hat\eta_k$ dépend du modèle d'émission : MLE pondéré par les comptes souples, comme pour un mélange de gaussiennes. Pour des émissions gaussiennes, moyenne empirique pondérée : $\hat\mu_k=\frac{\sum_i\sum_t\tau^{(i)}_{t,k}\bar x^{(i)}_t}{\sum_i\sum_t\tau^{(i)}_{t,k}}$ *(formule explicite ajoutée, cas standard)*.
+$\hat\eta_k$ dépend du modèle d'émission : MLE pondéré par les comptes souples, comme pour un [[M - Mélange de gaussiennes (GMM)|mélange de gaussiennes]] ([[E - Algorithme EM pour un mélange de gaussiennes]]). Pour des émissions gaussiennes, moyenne empirique pondérée : $\hat\mu_k=\frac{\sum_i\sum_t\tau^{(i)}_{t,k}\bar x^{(i)}_t}{\sum_i\sum_t\tau^{(i)}_{t,k}}$ *(formule explicite ajoutée, cas standard)*.
 
 ## Algorithme (étapes)
 
@@ -52,7 +52,7 @@ Par itération : $O\big(\sum_iT_i\,k^2\big)$ (coût de la récursion alpha-bêta
 
 ## IFT6269 — remarques
 
-Baum-Welch = forward-backward (récursion α-β / somme-produit) + EM. Pour décoder la séquence d'états la plus probable une fois $\theta$ appris, on utilise l'[[A - Algorithme de Viterbi]] (max-produit). EM et le mélange de gaussiennes figurent dans la section « À venir » du MOC.
+Baum-Welch = forward-backward (récursion α-β / somme-produit) + EM. Pour décoder la séquence d'états la plus probable une fois $\theta$ appris, on utilise l'[[A - Algorithme de Viterbi]] (max-produit).
 
 ## Flashcards
 #flashcards/IFT6269/15-hmm
@@ -70,6 +70,7 @@ La log-vraisemblance complète est linéaire en $z_{t,k}$ et en $z_{t,l}z_{t-1,m
 Baum-Welch trouve-t-il le MLE global ?::Non, seulement un maximum local (comme tout EM) : le résultat dépend de l'initialisation.
 
 ## Liens connexes
+
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[MOC - Non-supervisé & réduction de dimension]]
 - [[M - Modèle de Markov Caché (HMM)]]
@@ -78,3 +79,5 @@ Baum-Welch trouve-t-il le MLE global ?::Non, seulement un maximum local (comme t
 - [[C - Variable latente]]
 - [[D - Multinomiale (et Multinoulli)]]
 - [[A - Algorithme de Viterbi]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[M - Mélange de gaussiennes (GMM)]]

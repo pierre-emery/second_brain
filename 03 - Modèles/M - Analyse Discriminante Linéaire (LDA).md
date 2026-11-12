@@ -2,7 +2,7 @@
 type: modele
 cours: [IFT6269]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Intuition
 
@@ -36,6 +36,10 @@ En [[C - Notation en plaques|notation en plaques]] : $\pi\to Y_i\to X_i\leftarro
 
 **Limites** : hypothèse gaussienne à covariance partagée potentiellement fausse → moins robuste que la régression logistique pour la prédiction.
 
+## Lien avec le mélange de gaussiennes
+
+LDA est le cas **supervisé** : les étiquettes $y_i$ sont observées, et le MLE est en forme fermée. Si on retire les étiquettes, on obtient un [[M - Mélange de gaussiennes (GMM)|mélange de gaussiennes]] ; l'[[A - Algorithme EM (espérance-maximisation)|EM]] « remplit » alors les étiquettes manquantes par des valeurs souples (étape E), puis refait le MLE de type LDA avec ces poids (étape M).
+
 ## Flashcards
 
 #flashcards/IFT6269/09-lda-calcul-matriciel
@@ -48,6 +52,8 @@ LDA vs QDA ?::LDA : covariance partagée → frontière linéaire. QDA : covaria
 
 LDA vs régression logistique ?::LDA est générative (modélise $p(x,y)$, MLE en forme fermée) ; la logistique est conditionnelle (modélise $p(y\mid x)$, plus robuste, optimisation itérative).
 
+Lien entre LDA et l'EM pour un GMM ?::LDA = MLE avec étiquettes observées. Sans étiquettes, l'EM les remplace par des responsabilités souples (E), puis refait le même MLE pondéré (M).
+
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
@@ -57,3 +63,5 @@ LDA vs régression logistique ?::LDA est générative (modélise $p(x,y)$, MLE e
 - [[D - Loi Gaussienne (Normale)]]
 - [[D - Bernoulli]]
 - [[C - Approches génératives, conditionnelles et discriminantes]]
+- [[M - Mélange de gaussiennes (GMM)]]
+- [[A - Algorithme EM (espérance-maximisation)]]

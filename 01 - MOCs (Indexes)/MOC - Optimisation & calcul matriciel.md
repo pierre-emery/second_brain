@@ -64,6 +64,7 @@ maj: 2026-11-12
 - [[A - IRLS (moindres carrés repondérés itératifs)]]
 - [[C - Lagrangien]]
 - [[C - Condition de Slater]]
+- [[C - Montée par blocs de coordonnées]]
 
 ## MOC thématiques liés
 

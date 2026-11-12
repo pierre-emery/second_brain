@@ -195,6 +195,12 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[C - Variable latente]]
 - [[A - K-Means]]
 - [[A - K-Means++]]
+- [[M - Mélange de gaussiennes (GMM)]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[C - Borne inférieure de la log-vraisemblance (ELBO)]]
+- [[T - Inégalité de Jensen]]
+- [[C - Montée par blocs de coordonnées]]
+
 ## Optimisation
 
 - [[C - Points Critiques et Optima (local, global, point-selle)]]
@@ -226,10 +232,8 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[C - Thèmes clés de l'apprentissage statistique]]
 ## À venir (mentionnés, pas encore développés)
 
-- Inférence approximative : échantillonnage, méthodes variationnelles
+- Inférence approximative : échantillonnage, méthodes variationnelles (inférence variationnelle, EM variationnel)
 - Paradoxe de Borel-Kolmogorov (propriétés contre-intuitives du conditionnement continu)
-- Mélange de gaussiennes et algorithme EM (espérance-maximisation) — utilisés par Baum-Welch
-- Inégalité de Jensen (positivité de la KL)
 - Échantillonnage de Gibbs, champ moyen (inférence approximative sur grilles)
 
 ## Exercices
@@ -239,6 +243,8 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[E - Estimateur de Bayes sous perte quadratique]]
 - [[E - Différentielles usuelles (forme quadratique et Mahalanobis)]]
 - [[E - Élimination de variables sur un cycle à 4 nœuds]]
+- [[E - Algorithme EM pour un mélange de gaussiennes]]
+
 ## MOC thématiques liés
 
 - [[MOC - Probabilité]]

@@ -2,7 +2,7 @@
 type: concept
 cours: [IFT6269]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Définition
 
@@ -20,8 +20,12 @@ Les deux décrivent la même $p(x)$ (on marginalise $Z$), mais la vue latente ex
 ## Exemples
 
 - [[A - K-Means]] : $z_{i,k}$ = indicatrice « $x_i$ appartient au groupe $k$ » (assignation dure).
-- Mélange de gaussiennes : assignation probabiliste ; EM calcule $p(z\mid x)$ à l'étape E (voir [[C - Inférence dans les modèles graphiques]]).
+- [[M - Mélange de gaussiennes (GMM)|Mélange de gaussiennes]] : assignation probabiliste ; l'[[A - Algorithme EM (espérance-maximisation)|EM]] calcule $p(z\mid x)$ à l'étape E (voir [[C - Inférence dans les modèles graphiques]]).
 - [[M - Modèle de Markov Caché (HMM)|HMM]] : états cachés.
+
+## MLE avec variables latentes
+
+$\log p(x;\theta)=\sum_i\log\sum_{z_i}p(x_i,z_i;\theta)$ : le log d'une somme rend l'objectif multimodal et non concave. Options : montée de gradient sur cet objectif non concave, ou [[A - Algorithme EM (espérance-maximisation)|EM]], qui maximise l'[[C - Borne inférieure de la log-vraisemblance (ELBO)|ELBO]].
 
 ## Flashcards
 
@@ -33,6 +37,8 @@ Deux vues des données non étiquetées ?::Distribution de mélange ($p(x)$ mél
 
 Dans K-Means, quelle est la variable latente ?::Les indicatrices $z_{i,k}$ d'appartenance de $x_i$ au groupe $k$ (assignation dure), jamais observées.
 
+Pourquoi le MLE est-il difficile avec des variables latentes ?::$\log p(x;\theta)=\sum_i\log\sum_{z_i}p(x_i,z_i;\theta)$ : le log d'une somme donne un objectif multimodal et non concave.
+
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
@@ -40,3 +46,6 @@ Dans K-Means, quelle est la variable latente ?::Les indicatrices $z_{i,k}$ d'app
 - [[C - Notation en plaques]]
 - [[A - K-Means]]
 - [[C - Méthode des moments]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[M - Mélange de gaussiennes (GMM)]]
+- [[C - Borne inférieure de la log-vraisemblance (ELBO)]]

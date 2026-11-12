@@ -37,7 +37,7 @@ Si $\Omega_X$ est discret, $p(x;\eta)$ est une pmf ; s'il est continu, une densi
 **Propriétés de $A$** : $\nabla A=\mathbb E[T(x)]$, $\nabla^2A=\mathrm{Cov}[T(x)]$, donc $A$ et $\Omega$ sont convexes → [[T - Dérivées de la fonction de log-partition]].
 
 **Familles qui ne sont PAS exponentielles.**
-- **Mélanges** : le produit de familles exponentielles en est une, mais pas le mélange $\alpha h_1e^{\eta_1^\top T_1-A_1}+(1-\alpha)h_2e^{\eta_2^\top T_2-A_2}$, qui ne se factorise pas en $h_3e^{\eta_3^\top T_3-A_3}$ (ex. classique : le mélange de gaussiennes).
+- **Mélanges** : le produit de familles exponentielles en est une, mais pas le mélange $\alpha h_1e^{\eta_1^\top T_1-A_1}+(1-\alpha)h_2e^{\eta_2^\top T_2-A_2}$, qui ne se factorise pas en $h_3e^{\eta_3^\top T_3-A_3}$ (ex. classique : le [[M - Mélange de gaussiennes (GMM)|mélange de gaussiennes]]).
 - **Uniforme$(0,\theta)$** : dans une famille exponentielle, le support est $\{x:h(x)>0\}$, indépendant du paramètre (l'exponentielle ne s'annule pas). Ici le support dépend de $\theta$ : contradiction.
 
 **Exemples détaillés** (multinoulli minimale, gaussiennes 1D et multivariée, UGM discret) : [[E - Mise sous forme de famille exponentielle]].
@@ -87,3 +87,4 @@ Quand l'appariement de moments donne-t-il le MLE dans une famille exponentielle 
 - [[C - Loi de maximum d'entropie]]
 - [[C - Statistique Exhaustive]]
 - [[C - Estimation des paramètres dans les modèles graphiques]]
+- [[M - Mélange de gaussiennes (GMM)]]

@@ -48,6 +48,8 @@ maj: 2026-11-12
 - [[T - Borne de Cramér-Rao]]
 - [[T - Invariance du MLE (estimateur plug-in)]]
 - [[C - Estimation des paramètres dans les modèles graphiques]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[C - Borne inférieure de la log-vraisemblance (ELBO)]]
 
 ## 4) Estimation bayésienne ponctuelle
 

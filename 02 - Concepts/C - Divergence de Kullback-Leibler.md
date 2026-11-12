@@ -38,7 +38,7 @@ $$L(p,\hat q)-\min_qL(p,q)=L(p,\hat q)-L(p,p)=-\sum_xp(x)\log\frac{\hat q(x)}{p(
 **Motivation 2 : théorie du codage.** La longueur optimale du code d'un symbole $x$ est $-\log_2p(x)$ bits ; la longueur moyenne est $\sum_xp(x)(-\log_2p(x))$ (entropie en bits ; en base $e$, en **nats**). La KL est le **surcoût moyen de longueur de code** quand on code avec $q$ au lieu de la loi optimale $p$.
 
 **Propriétés.**
-1. $D_{KL}(p\,\|\,q)\ge0$ (inégalité de Jensen).
+1. $D_{KL}(p\,\|\,q)\ge0$ ([[T - Inégalité de Jensen|inégalité de Jensen]]).
 2. Strictement convexe en chacun de ses arguments.
 3. **Non symétrique** : $D_{KL}(p\,\|\,q)\ne D_{KL}(q\,\|\,p)$ en général. Ce n'est pas une distance.
 4. $D_{KL}(p\,\|\,p)=0$, et $D_{KL}(p\,\|\,q)>0$ si $p\ne q$.
@@ -48,6 +48,10 @@ $$D_{KL}(\hat p_n\,\|\,p_\theta)=H(\hat p_n)-\sum_x\hat p_n(x)\log p_\theta(x)=H
 Minimiser en $\theta$ revient à maximiser la log-vraisemblance moyenne. $\blacksquare$
 
 **Ordre des arguments** : le MLE minimise $D_{KL}(\hat p_n\,\|\,p_\theta)$ (données en premier) ; le [[C - Loi de maximum d'entropie|maximum d'entropie]] minimise $D_{KL}(q\,\|\,u)$ (modèle en premier).
+
+## IFT6269 — écart de l'EM
+
+Pour un modèle à variables latentes : $\log p(x;\theta)=\mathcal L(q,\theta)+D_{KL}\big(q(\cdot)\,\|\,p(\cdot\mid x;\theta)\big)$. L'écart entre la log-vraisemblance et l'[[C - Borne inférieure de la log-vraisemblance (ELBO)|ELBO]] est une KL ; l'étape E de l'[[A - Algorithme EM (espérance-maximisation)|EM]] l'annule en prenant $q=p(z\mid x;\theta)$.
 
 ## Flashcards
 
@@ -67,6 +71,8 @@ $D_{KL}(\hat p_n\,\|\,p_\theta)=H(\hat p_n)-\sum_x\hat p_n(x)\log p_\theta(x)=\t
 
 Dans l'équivalence ML ⇔ KL, quel argument est la loi empirique ?::Le premier : $\min_\theta D_{KL}(\hat p_n\,\|\,p_\theta)$.
 
+Quel écart la KL mesure-t-elle dans l'EM ?::$\log p(x;\theta)-\mathcal L(q,\theta)=D_{KL}(q\,\|\,p(\cdot\mid x;\theta))$ ; l'étape E l'annule.
+
 ## Liens connexes
 
 - [[MOC - Inférence Statistique]]
@@ -79,3 +85,6 @@ Dans l'équivalence ML ⇔ KL, quel argument est la loi empirique ?::Le premier 
 - [[C - Loi de maximum d'entropie]]
 - [[T - Équivalence maximum de vraisemblance et maximum d'entropie]]
 - [[C - Perte d'Entropie Croisée (Cross-Entropy)]]
+- [[T - Inégalité de Jensen]]
+- [[C - Borne inférieure de la log-vraisemblance (ELBO)]]
+- [[A - Algorithme EM (espérance-maximisation)]]

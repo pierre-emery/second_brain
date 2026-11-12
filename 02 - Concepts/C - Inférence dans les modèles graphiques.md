@@ -22,7 +22,7 @@ C'est le thème (B) du cours, entre (A) la **représentation/paramétrisation** 
 | Prédiction         | $p(x_{\text{futur}}\mid x_{\text{passé}})$   | série temporelle                  |
 | Cause latente      | $p(x_{\text{cause}}\mid x_{\text{obs.}})$    | modèle QMR (maladies ↔ symptômes) |
 | Décodage (lié)     | $\arg\max_{x_F}p(x_F\mid x_E)$               | reconnaissance de la parole       |
-| Estimation         | $p(z\mid x)$                                 | étape E de l'algorithme EM        |
+| Estimation         | $p(z\mid x)$                                 | étape E de l'[[A - Algorithme EM (espérance-maximisation)\|algorithme EM]] |
 ## Remarques
 
 - On présente les algorithmes pour les **UGM** (plus simples et plus généraux) ; un DGM s'y ramène par [[C - Moralisation|moralisation]] : $\psi_{C_i}(x_{C_i})=p(x_i\mid x_{\pi_i})$ sur $C_i=\{i\}\cup\pi_i$, $Z=1$.
@@ -38,6 +38,7 @@ C'est le thème (B) du cours, entre (A) la **représentation/paramétrisation** 
 - [[A - Algorithme somme-produit (propagation de croyances)]]
 - [[A - Algorithme de l'arbre de jonction]]
 - [[C - Filtrage, lissage et prédiction (HMM)]]
+- [[A - Algorithme EM (espérance-maximisation)]]
 
 ## Flashcards
 

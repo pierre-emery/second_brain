@@ -2,7 +2,7 @@
 type: algorithme
 cours: [IFT6269]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Intuition
 
@@ -32,13 +32,17 @@ K-Means = **minimisation alternée** (descente par blocs de coordonnées) de $J$
 
 - **$K$** : heuristique de régularisation $J(\mu,z,K)=\sum_{i,j}z_{i,j}\|x_i-\mu_j\|^2+\lambda K$, avec $\lambda$ à régler. (Plus tard : modèles **non paramétriques**, ex. mélange par processus de Dirichlet, où l'on obtient $p(K\mid\text{données})$.)
 - **Initialisation** : cruciale → redémarrages aléatoires multiples (garder la partition de distorsion minimale) ou [[A - K-Means++]].
-- **Distance** : avec $L_2$, groupes **sphériques** ; le « bon » regroupement dépend du problème et donc de la distance choisie. Les limites du K-Means sont corrigées par le **mélange de gaussiennes**.
+- **Distance** : avec $L_2$, groupes **sphériques** ; le « bon » regroupement dépend du problème et donc de la distance choisie. Les limites du K-Means sont corrigées par le **[[M - Mélange de gaussiennes (GMM)|mélange de gaussiennes]]**.
 
 ## Avantages / Limites
 
 **Avantages** : simple, très rapide, convergence finie garantie.
 
 **Limites** : minimum local ; sensible à l'initialisation, à $K$ et à la distance ; groupes sphériques ; sans K-Means++, la solution peut être arbitrairement mauvaise par rapport à l'optimum.
+
+## Lien avec l'EM
+
+K-Means est une version **dure** de l'[[A - Algorithme EM (espérance-maximisation)|EM]] : son étape « E » assigne chaque point à **un** groupe (au lieu d'une postérieure souple), et son étape « M » recalcule les centres. C'est exactement la limite de l'EM pour un [[M - Mélange de gaussiennes (GMM)|GMM]] à covariances $\sigma^2I$ fixées quand $\sigma^2\to0$ (voir [[E - Algorithme EM pour un mélange de gaussiennes]]). Les deux sont des [[C - Montée par blocs de coordonnées|méthodes par blocs de coordonnées]] (descente sur la distorsion ici, montée sur l'ELBO pour EM).
 
 ## Flashcards
 
@@ -54,6 +58,8 @@ Pourquoi les groupes de K-Means sont-ils sphériques ?::À cause de la distance 
 
 Heuristique pour choisir $K$ ?::Pénaliser la distorsion : $J+\lambda K$, avec $\lambda$ à régler.
 
+Comment K-Means s'obtient-il comme cas limite de l'EM pour un GMM ?::Avec $\Sigma_j=\sigma^2I$ fixé et $\sigma^2\to0$, les responsabilités deviennent des assignations dures au centre le plus proche, et l'étape M recalcule des moyennes.
+
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
@@ -62,3 +68,6 @@ Heuristique pour choisir $K$ ?::Pénaliser la distorsion : $J+\lambda K$, avec $
 - [[C - Variable latente]]
 - [[A - Regroupement hiérarchique]]
 - [[A - DBScan]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[M - Mélange de gaussiennes (GMM)]]
+- [[C - Montée par blocs de coordonnées]]

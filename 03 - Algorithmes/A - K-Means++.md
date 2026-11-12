@@ -2,7 +2,7 @@
 type: algorithme
 cours: [IFT6269]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Intuition
 
@@ -27,6 +27,10 @@ Avec cette initialisation, la solution est **$O(\log K)$-compétitive** par rapp
 
 Arthur & Vassilvitskii (2007), *k-means++: the advantages of careful seeding*, SODA.
 
+## Usage pour initialiser l'EM
+
+L'initialisation est cruciale pour l'[[A - Algorithme EM (espérance-maximisation)|EM]] d'un [[M - Mélange de gaussiennes (GMM)|GMM]] : on prend les centres K-Means++ comme moyennes initiales $\mu^{(0)}_j$, les proportions des groupes comme $\pi^{(0)}_j$, et de larges covariances sphériques $\sigma^2I$.
+
 ## Flashcards
 
 #flashcards/IFT6269/10-non-supervise
@@ -37,8 +41,12 @@ Garantie de K-Means++ ?::Solution $O(\log K)$-compétitive par rapport à l'opti
 
 Pourquoi tirer les centres avec probabilité $\propto D(x)^2$ plutôt qu'uniformément ?::Les points loin des centres déjà choisis ont plus de chances d'être pris : les centres initiaux s'étalent et couvrent les groupes, ce qui évite des solutions arbitrairement mauvaises.
 
+À quoi sert K-Means++ pour un mélange de gaussiennes ?::À initialiser l'EM : moyennes $\mu_j^{(0)}$ et proportions $\pi_j^{(0)}$ prises des groupes de K-Means++.
+
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[MOC - Non-supervisé & réduction de dimension]]
 - [[A - K-Means]]
+- [[A - Algorithme EM (espérance-maximisation)]]
+- [[M - Mélange de gaussiennes (GMM)]]
