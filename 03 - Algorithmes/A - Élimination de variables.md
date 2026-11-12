@@ -2,7 +2,7 @@
 type: algorithme
 cours: [IFT6269]
 statut: brouillon
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Intuition
 
@@ -50,6 +50,10 @@ Tout dépend de la taille de la plus grande **clique d'élimination** $\{i\}\cup
 
 **Limites** : une requête à la fois (refaire tout le calcul pour chaque marginale → somme-produit réutilise les messages) ; exponentiel en la largeur arborescente (ex. grille, Ising).
 
+## Sur un arbre
+
+Bon ordre : éliminer **les feuilles d'abord**. Aucune arête n'est ajoutée (largeur arborescente 1, cliques de taille 2). En prenant la requête $F$ comme racine, chaque élimination envoie un message enfant → parent, $m_{i\to j}(x_j)=\sum_{x_i}\psi_i(x_i)\psi_{i,j}(x_i,x_j)\prod_{k\in\mathrm{children}(i)}m_{k\to i}(x_i)$. En mémorisant ces messages dans les deux sens, on obtient l'[[A - Algorithme somme-produit (propagation de croyances)|algorithme somme-produit]], qui donne **toutes** les marginales au prix de deux passes. L'élimination reste nécessaire pour une marginale jointe de nœuds **non adjacents**.
+
 ## Flashcards
 
 #flashcards/IFT6269/13-inference
@@ -64,6 +68,8 @@ Coût en temps de l'élimination de variables ?::$\approx k^{\max_i|S_i|+1}\cdot
 
 Exemple d'ordre d'élimination catastrophique ?::Éliminer le centre d'un graphe en étoile d'abord : crée une clique de taille $n$.
 
+Quel ordre d'élimination utiliser sur un arbre, et pourquoi ?::Les feuilles d'abord : aucune arête n'est ajoutée, les cliques restent de taille 2 (largeur arborescente 1).
+
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
@@ -74,3 +80,5 @@ Exemple d'ordre d'élimination catastrophique ?::Éliminer le centre d'un graphe
 - [[C - Graphe triangulé]]
 - [[C - Largeur arborescente (treewidth)]]
 - [[C - Marginalisation dans les modèles graphiques]]
+- [[A - Algorithme somme-produit (propagation de croyances)]]
+- [[A - Algorithme de l'arbre de jonction]]

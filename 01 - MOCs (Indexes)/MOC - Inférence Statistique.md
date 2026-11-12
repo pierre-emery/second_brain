@@ -1,7 +1,7 @@
 ---
 type: moc-theme
 sujet: inference-statistique
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## 0) Prérequis de base
 
@@ -25,6 +25,8 @@ maj: 2026-11-11
 - [[C - Principe d'exhaustivité]]
 - [[C - Statistique Exhaustive]]
 - [[C - Statistique exhaustive minimale]]
+- [[C - Loi de maximum d'entropie]]
+- [[T - Équivalence maximum de vraisemblance et maximum d'entropie]]
 
 ### Résultats / critères
 
@@ -45,6 +47,7 @@ maj: 2026-11-11
 - [[C - Information de Fisher]]
 - [[T - Borne de Cramér-Rao]]
 - [[T - Invariance du MLE (estimateur plug-in)]]
+- [[C - Estimation des paramètres dans les modèles graphiques]]
 
 ## 4) Estimation bayésienne ponctuelle
 

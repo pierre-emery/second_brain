@@ -2,7 +2,7 @@
 type: concept
 cours: [IFT6269]
 statut: à réviser
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Définition
 
@@ -28,6 +28,15 @@ Ici l'estimateur MM **coïncide avec le [[C - Estimateur du Maximum de Vraisembl
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[D - Loi Gaussienne (Normale)]]
 - [[C - Variable latente]]
+- [[D - Famille exponentielle]]
+- [[T - Équivalence maximum de vraisemblance et maximum d'entropie]]
+
+## Lien avec le MLE dans la famille exponentielle (IFT6269)
+
+Dans une [[D - Famille exponentielle|famille exponentielle]] de statistique suffisante $T(x)$, le MLE fait exactement de l'**appariement de moments sur $T$** : $\mu(\hat\eta)=\frac1n\sum_iT(x^{(i)})$ ; c'est aussi le dual du maximum d'entropie ([[T - Équivalence maximum de vraisemblance et maximum d'entropie]]). D'où la coïncidence MM = MLE pour la gaussienne.
+
+**Mais** apparier d'autres moments donne en général un autre estimateur : pour la Gamma, $T(x)=(\log x,\,x)$, et apparier $(x,\,x^2)$ ne donne pas le MLE. Hors de la famille exponentielle (ex. mélanges), MM et MLE diffèrent aussi.
+
 ## Flashcards
 
 #flashcards/IFT6269/06-proprietes-estimateurs
@@ -37,3 +46,5 @@ Principe de la méthode des moments ?::Trouver une bijection $h(\theta)=(\mathbb
 Estimateurs des moments de $\mu,\sigma^2$ pour une gaussienne ?::$\widehat\mu=\frac1n\sum x_i$, $\widehat\sigma^2=\frac1n\sum x_i^2-\widehat\mu^2$ ; identiques au MLE (famille exponentielle).
 
 Domaine moderne où la méthode des moments est utile ?::Les modèles à variables latentes (mélanges) via méthodes spectrales / décomposition tensorielle.
+
+Pourquoi MM et MLE coïncident-ils pour la gaussienne, mais pas pour la Gamma avec $(x,x^2)$ ?::Dans une famille exponentielle, le MLE apparie les moments de $T(x)$. Pour la gaussienne, $T=(x,-x^2/2)$ : ce sont les mêmes moments. Pour la Gamma, $T=(\log x,x)$, différent de $(x,x^2)$.

@@ -84,4 +84,5 @@ maj: 2026-11-12
 - [[M - Réseaux de croyances bayésiens (BBN)]]
 - [[C - Couverture de Markov]]
 - [[M - Modèle Graphique Probabiliste]]
+- [[A - Algorithme de Baum-Welch]]
 

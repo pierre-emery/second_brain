@@ -15,7 +15,7 @@ couleur: "#7c5cff"
   - {nom: Devoir 5, poids: 4, echeance: 2026-12-23, note: }
   - {nom: Projet (rapport + poster), poids: 30, echeance: 2026-12-21, note: }
   - {nom: Examen final, poids: 50, echeance: 2026-12-16, note: }
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ```dataview 
 
@@ -103,6 +103,21 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[A - Élimination de variables]]
 - [[C - Graphe triangulé]]
 - [[C - Largeur arborescente (treewidth)]]
+- [[A - Algorithme somme-produit (propagation de croyances)]]
+- [[A - Algorithme max-produit]]
+- [[A - Algorithme de Viterbi]]
+- [[A - Propagation de croyances à boucles (loopy BP)]]
+- [[A - Algorithme de l'arbre de jonction]]
+- [[T - Arbre de jonction et graphes triangulés]]
+- [[T - Reparamétrisation d'un UGM en arbre par ses marginales]]
+
+### Modèles de Markov cachés (HMM)
+
+- [[C - Filtrage, lissage et prédiction (HMM)]]
+- [[A - Récursion alpha-bêta (avant-arrière)]]
+- [[C - Astuce log-somme-exponentielle (log-sum-exp)]]
+- [[A - Algorithme de Baum-Welch]]
+
 ## Modèles paramétriques et distributions
 
 - [[C - Modèle paramétrique]]
@@ -124,6 +139,21 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[C - Maximisation de la vraisemblance]]
 
+
+## Théorie de l'information et maximum d'entropie
+
+- [[C - Entropie]]
+- [[C - Perte d'Entropie Croisée (Cross-Entropy)]]
+- [[C - Divergence de Kullback-Leibler]]
+- [[C - Loi de maximum d'entropie]]
+- [[T - Équivalence maximum de vraisemblance et maximum d'entropie]]
+
+## Famille exponentielle et estimation dans les MGP
+
+- [[C - Statistique Exhaustive]]
+- [[T - Dérivées de la fonction de log-partition]]
+- [[E - Mise sous forme de famille exponentielle]]
+- [[C - Estimation des paramètres dans les modèles graphiques]]
 
 ## Théorie de la décision statistique
 
@@ -179,6 +209,11 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[A - Descente de Gradient Stochastique (SGD)]]
 - [[A - Descente de Gradient par Mini-lot (Mini-batch)]]
 - [[A - SAG et SAGA]]
+- [[C - Lagrangien]]
+- [[C - Dualité]]
+- [[C - Condition de Slater]]
+- [[C - Conditions KKT]]
+
 ## Calcul matriciel
 
 - [[C - Différentielle (calcul matriciel)]]
@@ -192,11 +227,9 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 ## À venir (mentionnés, pas encore développés)
 
 - Inférence approximative : échantillonnage, méthodes variationnelles
-- Estimation : maximum d'entropie, appariement de moments
 - Paradoxe de Borel-Kolmogorov (propriétés contre-intuitives du conditionnement continu)
-- Conditions KKT (contraintes d'inégalité), dualité
-- Algorithme somme-produit (propagation de croyances), arbre de jonction
-- Mélange de gaussiennes et EM
+- Mélange de gaussiennes et algorithme EM (espérance-maximisation) — utilisés par Baum-Welch
+- Inégalité de Jensen (positivité de la KL)
 - Échantillonnage de Gibbs, champ moyen (inférence approximative sur grilles)
 
 ## Exercices

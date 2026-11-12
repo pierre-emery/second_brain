@@ -2,7 +2,7 @@
 type: algorithme
 cours: [IFT6269]
 statut: brouillon 
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 Façon organisée et efficace de calculer une marginale, ex. $p(x_1) = \sum_{x_2,\dots,x_T} p(x_{1:T})$, en exploitant la [[C - Factorisation d'une distribution jointe|factorisation]] de $p(x_{1:T})$.
 ## Dérivation
@@ -21,9 +21,9 @@ $$x_1 \to x_2 \to x_3 \to \cdots \to x_{T-1} \to x_T$$$$\longleftarrow M_T(x_{T-
 
 Cet algorithme sera revu plus formellement plus tard dans le cours; on y reviendra aussi pour l'**inférence approximative** (échantillonnage, méthodes variationnelles) quand le calcul exact n'est plus tractable.
 
-## Lien avec l'élimination de variables (lecture 13)
+## Lien avec l'élimination de variables
 
-La passation de messages sur une chaîne est un cas particulier de l'[[A - Élimination de variables|élimination de variables]] avec l'ordre « de la fin vers la requête » : chaque message $M_t$ est un facteur $m_i(x_{S_i})$ avec $|S_i|=1$. Sur un arbre (largeur arborescente 1), le coût est linéaire ; l'algorithme **somme-produit** (propagation de croyances, lecture 14) généralise ceci pour obtenir **toutes** les marginales en réutilisant les messages.
+La passation de messages sur une chaîne est un cas particulier de l'[[A - Élimination de variables|élimination de variables]] avec l'ordre « de la fin vers la requête » : chaque message $M_t$ est un facteur $m_i(x_{S_i})$ avec $|S_i|=1$. Sur un arbre (largeur arborescente 1), le coût est linéaire ; l'[[A - Algorithme somme-produit (propagation de croyances)|algorithme somme-produit]] (propagation de croyances) généralise ceci pour obtenir **toutes** les marginales en réutilisant les messages.
 
 ## Liens connexes
 
@@ -35,6 +35,8 @@ La passation de messages sur une chaîne est un cas particulier de l'[[A - Élim
 - [[A - Élimination de variables]]
 - [[C - Inférence dans les modèles graphiques]]
 - [[C - Largeur arborescente (treewidth)]]
+- [[A - Algorithme somme-produit (propagation de croyances)]]
+- [[A - Récursion alpha-bêta (avant-arrière)]]
 
 ## Flashcards
 

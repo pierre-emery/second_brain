@@ -2,7 +2,7 @@
 type: concept
 cours: [IFT6135, IFT6269]
 statut: à réviser
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 Estimateur des paramètres $\theta$ qui maximise la vraisemblance des données observées :
 
@@ -66,6 +66,14 @@ Sous des conditions de régularité suffisantes sur $\Theta$ et $p(x;\theta)$ :
 - [[T - Borne de Cramér-Rao]]
 - [[T - Invariance du MLE (estimateur plug-in)]]
 - [[C - Estimateur de James-Stein]]
+- [[T - Équivalence maximum de vraisemblance et maximum d'entropie]]
+- [[C - Estimation des paramètres dans les modèles graphiques]]
+
+## MLE, divergence KL et maximum d'entropie (IFT6269)
+
+- ML $\iff\min_\theta D_{KL}(\hat p_n\,\|\,p_\theta)$ (preuve dans [[C - Divergence de Kullback-Leibler]]).
+- Dans la famille exponentielle : MLE = maximum d'entropie sous contraintes de moments = appariement de moments → [[T - Équivalence maximum de vraisemblance et maximum d'entropie]].
+- Dans les modèles graphiques : découplage nœud par nœud (DGM), inférence à chaque pas de gradient (UGM) → [[C - Estimation des paramètres dans les modèles graphiques]].
 
 ## Flashcards
 
@@ -97,3 +105,5 @@ Le MLE est-il toujours sans biais ?::Non : exemple, la variance gaussienne du ML
 Quatre propriétés du MLE (sous régularité) ?::Consistant ; asymptotiquement normal $\sqrt n(\widehat\theta-\theta)\to\mathcal N(0,I^{-1})$ ; asymptotiquement optimal (Cramér-Rao) ; invariant par reparamétrisation.
 
 Le MLE est-il toujours admissible ?::Non : James-Stein le domine pour la moyenne gaussienne en dimension $d\ge3$.
+
+Quelle divergence le MLE minimise-t-il ?::$D_{KL}(\hat p_n\,\|\,p_\theta)$, la KL de la loi empirique vers le modèle.

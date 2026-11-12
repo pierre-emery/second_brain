@@ -1,7 +1,7 @@
 ---
-## type: moc-theme
+type: moc-theme
 sujet: methodes-numeriques
-maj: 2026-08-06
+maj: 2026-11-12
 ---
 [[T - Master Theorem]]
 [[C - Big Data]]
@@ -15,3 +15,5 @@ maj: 2026-08-06
 
 - [[C - Complexité Algorithmique]]
 - [[C - Parallélisation]]
+- [[C - Astuce log-somme-exponentielle (log-sum-exp)]]
+

@@ -2,10 +2,9 @@
 type: concept
 cours: [IFT6269]
 statut: à réviser
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Définition
-
 
 **Inférence** = utiliser un modèle graphique pour calculer :
 
@@ -27,7 +26,7 @@ C'est le thème (B) du cours, entre (A) la **représentation/paramétrisation** 
 ## Remarques
 
 - On présente les algorithmes pour les **UGM** (plus simples et plus généraux) ; un DGM s'y ramène par [[C - Moralisation|moralisation]] : $\psi_{C_i}(x_{C_i})=p(x_i\mid x_{\pi_i})$ sur $C_i=\{i\}\cup\pi_i$, $Z=1$.
-- Algorithmes : [[A - Élimination de variables]] (lecture 13), somme-produit / propagation de croyances ([[A - Passation de Messages]], lecture 14), arbre de jonction pour les graphes généraux.
+- Algorithmes : [[A - Élimination de variables]], [[A - Algorithme somme-produit (propagation de croyances)]] (arbres), [[A - Algorithme max-produit]] et [[A - Algorithme de Viterbi]] (arg max), [[A - Algorithme de l'arbre de jonction]] (graphes triangulés), [[A - Propagation de croyances à boucles (loopy BP)]] (approximatif) ; cas des HMM : [[A - Récursion alpha-bêta (avant-arrière)]].
 - **Mauvaise nouvelle** : l'inférence exacte est NP-difficile en général → inférence **approximative** (Gibbs, champ moyen). **Bonne nouvelle** : temps linéaire sur les arbres, efficace à faible [[C - Largeur arborescente (treewidth)|largeur arborescente]].
 ## Liens connexes
 
@@ -36,6 +35,10 @@ C'est le thème (B) du cours, entre (A) la **représentation/paramétrisation** 
 - [[A - Passation de Messages]]
 - [[C - Largeur arborescente (treewidth)]]
 - [[C - Thèmes clés de l'apprentissage statistique]]
+- [[A - Algorithme somme-produit (propagation de croyances)]]
+- [[A - Algorithme de l'arbre de jonction]]
+- [[C - Filtrage, lissage et prédiction (HMM)]]
+
 ## Flashcards
 
 #flashcards/IFT6269/13-inference

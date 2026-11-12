@@ -37,6 +37,14 @@ maj: 2026-11-12
 - [[D - Exponentielle]]
 - [[D - Binomiale Négative]]
 - [[D - Famille exponentielle]]
+- [[T - Dérivées de la fonction de log-partition]]
+- [[E - Mise sous forme de famille exponentielle]]
+
+### Théorie de l'information
+
+- [[C - Entropie]]
+- [[C - Divergence de Kullback-Leibler]]
+- [[C - Loi de maximum d'entropie]]
 
 ## 5) Échantillonnage
 
@@ -88,8 +96,23 @@ maj: 2026-11-12
 - [[T - La factorisation UGM implique la propriété de Markov globale]]
 - [[T - Théorème de Hammersley-Clifford]]
 
+### Modèles de Markov cachés (HMM)
+
+- [[M - Modèle de Markov Caché (HMM)]]
+- [[C - Filtrage, lissage et prédiction (HMM)]]
+- [[A - Récursion alpha-bêta (avant-arrière)]]
+- [[A - Algorithme de Baum-Welch]]
+
 ### Inférence
 - [[C - Inférence dans les modèles graphiques]]
 - [[A - Élimination de variables]]
 - [[A - Passation de Messages]]
 - [[E - Élimination de variables sur un cycle à 4 nœuds]]
+- [[A - Algorithme somme-produit (propagation de croyances)]]
+- [[A - Algorithme max-produit]]
+- [[A - Algorithme de Viterbi]]
+- [[A - Propagation de croyances à boucles (loopy BP)]]
+- [[A - Algorithme de l'arbre de jonction]]
+- [[T - Arbre de jonction et graphes triangulés]]
+- [[T - Reparamétrisation d'un UGM en arbre par ses marginales]]
+

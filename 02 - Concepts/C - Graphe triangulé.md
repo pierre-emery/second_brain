@@ -2,7 +2,7 @@
 type: concept
 cours: [IFT6269]
 statut: à réviser
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 ## Définition
 
@@ -22,6 +22,13 @@ Lors de l'[[A - Élimination de variables|élimination de variables]], éliminer
 - [[A - Élimination de variables]]
 - [[C - Largeur arborescente (treewidth)]]
 - [[C - Clique (graphe)]]
+- [[T - Arbre de jonction et graphes triangulés]]
+- [[A - Algorithme de l'arbre de jonction]]
+
+## Arbre de jonction
+
+Un graphe est triangulé (aussi dit **décomposable**) **ssi** il admet un arbre de jonction → [[T - Arbre de jonction et graphes triangulés]]. C'est ce qui permet l'inférence exacte par l'[[A - Algorithme de l'arbre de jonction]].
+
 ## Flashcards
 
 #flashcards/IFT6269/13-inference
@@ -31,3 +38,5 @@ Qu'est-ce qu'un graphe triangulé ?::Un graphe sans cycle de longueur $\ge4$ dé
 Qu'est-ce qu'une corde ?::Une arête entre deux nœuds non consécutifs d'un cycle.
 
 Quel lien entre élimination de variables et graphes triangulés ?::Le graphe augmenté par les arêtes ajoutées pendant l'élimination est toujours triangulé.
+
+Pourquoi les graphes triangulés sont-ils importants pour l'inférence exacte ?::Ce sont exactement les graphes qui admettent un arbre de jonction, sur lequel on peut faire du somme-produit exact entre cliques.

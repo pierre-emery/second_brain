@@ -62,6 +62,8 @@ maj: 2026-11-12
 - [[C - Coupe Minimale]]
 - [[A - Méthode de Newton (optimisation)]]
 - [[A - IRLS (moindres carrés repondérés itératifs)]]
+- [[C - Lagrangien]]
+- [[C - Condition de Slater]]
 
 ## MOC thématiques liés
 

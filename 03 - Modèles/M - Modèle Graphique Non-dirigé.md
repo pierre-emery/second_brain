@@ -2,7 +2,7 @@
 type: modele
 cours: [IFT6269]
 statut: à réviser
-maj: 2026-11-11
+maj: 2026-11-12
 ---
 Second grand formalisme de [[M - Modèle Graphique Probabiliste|modèle graphique probabiliste]] (avec le cas dirigé) : le graphe $G$ utilise des arêtes **non-orientées**. Contrairement au cas dirigé, il ne factorise pas la distribution en distributions conditionnelles, mais en un produit de fonctions plus générales associées aux [[C - Clique (graphe)|cliques]] du graphe.
 
@@ -54,6 +54,15 @@ $\sum_C\log\psi_C$ est l'**énergie négative** : $p$ est une [[D - Famille expo
 - [[C - Moralisation]]
 - [[M - Modèle d'Ising]]
 - [[C - Marginalisation dans les modèles graphiques]]
+- [[T - Reparamétrisation d'un UGM en arbre par ses marginales]]
+- [[A - Algorithme somme-produit (propagation de croyances)]]
+- [[C - Estimation des paramètres dans les modèles graphiques]]
+
+## Arbres, inférence et apprentissage
+
+- Sur un **arbre**, la loi se reparamètre par ses marginales : $p(x)=\prod_ip(x_i)\prod_{\{i,j\}\in E}\frac{p(x_i,x_j)}{p(x_i)p(x_j)}$ → [[T - Reparamétrisation d'un UGM en arbre par ses marginales]].
+- Inférence : [[A - Algorithme somme-produit (propagation de croyances)]] (arbres), [[A - Algorithme de l'arbre de jonction]] (graphes triangulés), [[A - Propagation de croyances à boucles (loopy BP)]] (approximatif).
+- Apprentissage : gradient $\hat\mu_C-\mu_C(\eta)$, qui demande de l'inférence → [[C - Estimation des paramètres dans les modèles graphiques]].
 
 ## Flashcards
 
@@ -76,3 +85,5 @@ Un potentiel $\psi_C$ est-il la marginale $p(x_C)$ ?::Non, aucun lien direct ; i
 UGM à potentiels strictement positifs : quelle famille ?::Une famille exponentielle : $p=\exp\{\sum_C\log\psi_C(x_C)-\log Z\}$ (énergie négative).
 
 UGM sur le graphe sans arête vs le graphe complet ?::Sans arête : indépendance mutuelle. Complet : toutes les distributions.
+
+Comment se reparamètre un UGM en arbre avec ses marginales ?::$p(x)=\prod_ip(x_i)\prod_{\{i,j\}\in E}p(x_i,x_j)/(p(x_i)p(x_j))$, avec $Z=1$.

@@ -1,9 +1,8 @@
 ---
 type: concept
-cours:
-  - IFT6135
+cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-09-27
+maj: 2026-11-12
 ---
 Fonction de perte standard pour la classification (avec sortie softmax), correspondant à la négative log-vraisemblance d'une distribution multinomiale :
 
@@ -23,10 +22,20 @@ $$\nabla_{\mathbf{a}^{(L+1)}(\mathbf{x})} \left[-\log f(\mathbf{x})_y\right] = -
 C'est ce résultat simple qui initie la [[A - Rétropropagation du gradient (gradient descent)|rétropropagation]].
 ## Liens connexes
 
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[C - Fonction de perte]]
 - [[C - Fonction d'activation]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
+- [[C - Entropie]]
+- [[C - Divergence de Kullback-Leibler]]
+
+## IFT6269 — entropie croisée comme perte statistique
+
+Dans le cadre de la [[C - Fondements de la théorie de décision|théorie de la décision]] pour l'estimation de densité, la perte logarithmique donne la perte statistique de l'action $\hat q$ quand la vraie loi est $p_\theta$ :
+$$L(p_\theta,\hat q)=\mathbb E_{X\sim p_\theta}[-\log\hat q(X)]=H(p_\theta)+D_{KL}(p_\theta\,\|\,\hat q).$$
+C'est l'**entropie croisée** de $p_\theta$ vers $\hat q$. Elle est minimisée en $\hat q=p_\theta$, où elle vaut l'[[C - Entropie|entropie]] $H(p_\theta)$ ; l'excès est la [[C - Divergence de Kullback-Leibler|divergence KL]]. La perte de classification ci-dessus est le cas où $p$ est le one-hot de la vraie classe (entropie nulle).
+
 ## Flashcards
 
 #flashcards/IFT6135/02-entrainement
@@ -38,3 +47,7 @@ Gradient de l'entropie croisée par rapport à la pré-activation de sortie (ava
 Interprète intuitivement le gradient $f(\mathbf{x}) - \mathbf{e}(y)$.::Il pousse vers le bas la probabilité de chaque mauvaise classe proportionnellement à sa probabilité prédite, et vers le haut la vraie classe de $1 - f(\mathbf{x})_y$.
 
 Gradient de $-\log f(\mathbf{x})_y$ par rapport à la sortie $f(\mathbf{x})$ ?::$-\mathbf{e}(y) / f(\mathbf{x})_y$
+
+#flashcards/IFT6269/16-theorie-information
+
+Décomposition de l'entropie croisée $\mathbb E_p[-\log\hat q]$ ?::$H(p)+D_{KL}(p\,\|\,\hat q)$ : l'entropie (irréductible) plus la KL (excès dû à $\hat q$).
