@@ -23,4 +23,4 @@ La moyenne empirique $\frac1n\sum_i X_i$ (avec $\sum_i X_i \sim \mathrm{Bin}(n,\
 - [[MOC - Probabilité]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[D - Bernoulli]]
-- [[C - Interprétations de la probabilité (fréquentiste vs bayésienne)]]
+- [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]
