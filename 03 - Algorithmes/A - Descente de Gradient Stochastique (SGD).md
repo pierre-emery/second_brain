@@ -1,9 +1,8 @@
 ---
 type: algorithme
-cours:
-  - IFT6135
+cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-09-26
+maj: 2026-11-11
 ---
 Variante de la descente de gradient qui effectue une mise à jour des paramètres après chaque exemple d'entraînement plutôt qu'après avoir parcouru tout l'ensemble :
 1. Initialiser $\theta \equiv \{\mathbf{W}^{(1)}, \mathbf{b}^{(1)}, \ldots, \mathbf{W}^{(L+1)}, \mathbf{b}^{(L+1)}\}$
@@ -21,14 +20,24 @@ Pour appliquer cet algorithme à un réseau de neurones, il faut : la fonction d
 - [[A - Descente de Gradient par Mini-lot (Mini-batch)]] : met à jour à partir d'un lot d'exemples plutôt qu'un seul
 - [[C - Momentum]] : utilise une moyenne des gradients passés plutôt que le gradient courant seul
 - Voir [[C - Taux d'apprentissage]] pour les conditions de convergence et stratégies de décroissance de $\alpha$
+
+## SGD pour le « big data » (IFT6269, lecture 8)
+
+Avec $n$ et $d$ grands : Newton coûte $O(d^3)$ par itération, et la descente de gradient plein lot $w_{t+1}=w_t-\gamma_t\frac1n\sum_i\nabla f_i(w_t)$ coûte $O(nd)$ par itération. SGD tire un indice $i_t$ au hasard et fait
+$$w_{t+1}=w_t-\gamma\,\nabla f_{i_t}(w_t)\qquad(O(d)\ \text{par itération}).$$
+**Défaut** : grande **variance** (un exemple au gradient anormalement grand dévie fortement la mise à jour) → convergence lente, $O(1/t)$, et pas décroissant nécessaire. Variantes : [[A - Descente de Gradient par Mini-lot (Mini-batch)|mini-lot]], méthodes à variance réduite [[A - SAG et SAGA|SAG/SAGA]]. SGD est un exemple de **méthode de gradient incrémental**.
+
 ## Liens connexes
 
 - [[MOC - Modèles ML (supervisé)]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[A - Descente de Gradient par Mini-lot (Mini-batch)]]
 - [[C - Momentum]]
 - [[C - Taux d'apprentissage]]
+- [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
+- [[A - SAG et SAGA]]
+
 ## Flashcards
 
 #flashcards/IFT6135/00-revision
@@ -42,3 +51,9 @@ Qu'est-ce qu'une époque ?::Un passage complet sur tous les exemples d'entraîne
 Quatre ingrédients pour entraîner un réseau par SGD ?::La perte $l$, une procédure de calcul des gradients (rétropropagation), le régularisateur $\Omega$ et son gradient, une méthode d'initialisation.
 
 Différence entre descente de gradient (batch) et SGD ?::Batch : une mise à jour après avoir moyenné le gradient sur tout l'ensemble. SGD : une mise à jour après chaque exemple (gradient bruité mais beaucoup plus de pas).
+
+#flashcards/IFT6269/08-regression-logistique
+
+Coût par itération : GD plein lot vs SGD ?::Plein lot : $O(nd)$. SGD : $O(d)$.
+
+Principal défaut de SGD ?::Sa forte variance (gradient d'un seul exemple) : convergence lente $O(1/t)$, pas décroissant requis.

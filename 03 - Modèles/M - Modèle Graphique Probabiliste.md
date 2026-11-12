@@ -1,7 +1,6 @@
 ---
 type: modele
-cours:
-  - IFT6269
+cours: [IFT6269]
 statut: à réviser
 maj: 2026-11-11
 ---
@@ -23,7 +22,7 @@ b. **Étiquetage grammatical (POS tagging)** : $X_t$ = mot, $Y_t$ = catégorie g
 
 c. **Recherche de gènes** : $X_t$ = base nitrogénée (ADN), $Y_t$ = codant ou non-codant ($Y_t \in \{0,1\}$)
 
-d. **Système de contrôle** : $y_{t+1} = Ay_t + Bv_t + \epsilon_t$ (état latent continu, $v_t$ = commande de contrôle), $x_t = Cy_t + \epsilon_t'$ (observation, ex. lecture de capteur). Si $\epsilon_t, \epsilon_t'$ sont gaussiens, ce HMM devient un [[C - Modèle de Markov Caché (HMM)#Filtre de Kalman|filtre de Kalman]].
+d. **Système de contrôle** : $y_{t+1} = Ay_t + Bv_t + \epsilon_t$ (état latent continu, $v_t$ = commande de contrôle), $x_t = Cy_t + \epsilon_t'$ (observation, ex. lecture de capteur). Si $\epsilon_t, \epsilon_t'$ sont gaussiens, ce HMM devient un [[M - Modèle de Markov Caché (HMM)#Filtre de Kalman|filtre de Kalman]].
 
 e. **GPT / RNN** (analogie) : $Y_t \to h_t$ (état latent caché du réseau), $X_t \to$ mots. La même intuition « état latent → observation » que le HMM sous-tend les réseaux récurrents.
 
@@ -41,6 +40,13 @@ C'est la forme générale dont la [[T - Règle de la chaîne (probabilité)| cha
 ## La distinction
 Elle est sur la représentation, pas sur la distribution : être dirigé ou non-dirigé n'est pas une propriété de la distribution de probabilité elle-même, mais une propriété d'une description particulière de cette distribution. N'importe quelle distribution peut en principe être décrite des deux façons. Le choix dépend de ce qui est le plus naturel et efficace à représenter pour le problème donné (ex. dépendances séquentielles -­­> dirigé; contraintes symétriques mutuelles (vision par ordinateur) -> non-dirigé).
 
+## Formalisation (lectures 11–13)
+
+- Dirigé : [[M - Modèle Graphique Dirigé (DGM)]] — définition $\mathcal L(G)$, d-séparation, renversement d'arête.
+- Non dirigé : [[M - Modèle Graphique Non-dirigé]] — potentiels, Hammersley-Clifford.
+- Comparaison et conversion : [[C - Comparaison DGM vs UGM]], [[C - Moralisation]].
+- Inférence : [[C - Inférence dans les modèles graphiques]], [[A - Élimination de variables]].
+
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
@@ -50,6 +56,10 @@ Elle est sur la représentation, pas sur la distribution : être dirigé ou non-
 - [[M - Modèle Graphique Non-dirigé]]
 - [[A - Passation de Messages]]
 - [[C - Séparation Directionnelle]]
+- [[M - Modèle Graphique Dirigé (DGM)]]
+- [[C - Comparaison DGM vs UGM]]
+- [[C - Inférence dans les modèles graphiques]]
+
 ## Flashcards
 
 #flashcards/IFT6269/00-modeles-graphiques

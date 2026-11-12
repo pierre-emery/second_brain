@@ -1,13 +1,8 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 ## Définition
 
@@ -23,7 +18,7 @@ Mesure à quel point un graphe est « loin d'un arbre ». Le coût en temps et e
 | ------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | Arbre (chaîne, HMM, étoile avec bon ordre)                                                              | 1                              |
 | Cycle                                                                                                   | 2                              |
-| Grille $\sqrt{\lvert V\rvert}\times\sqrt{\lvert V\rvert}$ (ex. [[A - Modèle d'Ising\|Ising]] en vision) | $\approx\sqrt{\lvert V\rvert}$ |
+| Grille $\sqrt{\lvert V\rvert}\times\sqrt{\lvert V\rvert}$ (ex. [[M - Modèle d'Ising\|Ising]] en vision) | $\approx\sqrt{\lvert V\rvert}$ |
 | Graphe complet $K_n$                                                                                    | $n-1$                          |
 ## Propriétés
 
@@ -36,7 +31,7 @@ Mesure à quel point un graphe est « loin d'un arbre ». Le coût en temps et e
 - [[A - Élimination de variables]]
 - [[C - Graphe triangulé]]
 - [[C - Inférence dans les modèles graphiques]]
-- [[A - Modèle d'Ising]]
+- [[M - Modèle d'Ising]]
 ## Flashcards
 
 #flashcards/IFT6269/13-inference

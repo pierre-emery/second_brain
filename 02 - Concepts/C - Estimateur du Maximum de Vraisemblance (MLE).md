@@ -1,10 +1,8 @@
 ---
 type: concept
-cours:
-  - IFT6135
-  - IFT6269
+cours: [IFT6135, IFT6269]
 statut: à réviser
-maj: 2026-09-09
+maj: 2026-11-11
 ---
 Estimateur des paramètres $\theta$ qui maximise la vraisemblance des données observées :
 
@@ -39,6 +37,9 @@ C'est pour ces deux raisons (consistance et efficacité) que le MLE est souvent 
 Pour $X \sim \mathrm{Bin}(n,\theta)$ observé, $x$ succès sur $n$ essais : $$\widehat\theta_{\text{MLE}}(x) = \frac{x}{n}$$ Le MLE est **non biaisé** ($E[\widehat\theta_{\text{MLE}}]=\theta$), mais il a tendance à sur-apprendre (overfitting) sur peu de données : si toutes les observations sont des succès ($x=n$), le MLE donne $\widehat\theta=1$ avec une confiance totale, sans encoder d'incertitude résiduelle. Comparer avec l'estimateur bayésien (voir [[C - Interprétation de la probabilité (fréquentiste vs bayésienne)]]).
 
 ## Propriétés du MLE
+
+## Propriétés du MLE (IFT6269, lecture 5)
+
 Sous des conditions de régularité suffisantes sur $\Theta$ et $p(x;\theta)$ :
 
 1. **Consistant** : $\widehat\theta_{\text{MLE}}\xrightarrow{p}\theta$ (voir [[C - Consistance d'un Estimateur]]).
@@ -50,7 +51,7 @@ Sous des conditions de régularité suffisantes sur $\Theta$ et $p(x;\theta)$ :
 ## Liens connexes
 
 - [[MOC - Inférence Statistique]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Vraisemblance]]
 - [[C - Hypothèse i.i.d.]]
@@ -61,6 +62,10 @@ Sous des conditions de régularité suffisantes sur $\Theta$ et $p(x;\theta)$ :
 - [[C - Estimateur Ponctuel]]
 - [[M - Régression Linéaire]]
 - [[C - Perte quadratique (MSE)]]
+- [[C - Information de Fisher]]
+- [[T - Borne de Cramér-Rao]]
+- [[T - Invariance du MLE (estimateur plug-in)]]
+- [[C - Estimateur de James-Stein]]
 
 ## Flashcards
 
@@ -86,3 +91,9 @@ MLE de $\theta$ pour $X \sim \mathrm{Bin}(n,\theta)$ ?::$\widehat\theta_{\text{M
 Le MLE binomial est-il sans biais ? Quel est son défaut sur peu de données ?::Sans biais ($E[X/n] = \theta$), mais il sur-apprend : avec $x = n$, il donne $\widehat\theta = 1$ sans aucune incertitude résiduelle.
 
 Le MLE est-il toujours sans biais ?::Non : exemple, la variance gaussienne du MLE divise par $n$ et est biaisée.
+
+#flashcards/IFT6269/06-proprietes-estimateurs
+
+Quatre propriétés du MLE (sous régularité) ?::Consistant ; asymptotiquement normal $\sqrt n(\widehat\theta-\theta)\to\mathcal N(0,I^{-1})$ ; asymptotiquement optimal (Cramér-Rao) ; invariant par reparamétrisation.
+
+Le MLE est-il toujours admissible ?::Non : James-Stein le domine pour la moyenne gaussienne en dimension $d\ge3$.

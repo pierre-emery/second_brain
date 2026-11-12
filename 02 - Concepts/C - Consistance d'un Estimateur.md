@@ -1,9 +1,8 @@
 ---
 type: concept
-cours:
-  - IFT6135
+cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-10-24
+maj: 2026-11-11
 ---
 Propriété souhaitable d'un [[C - Estimateur Ponctuel|estimateur ponctuel]] : à mesure que le nombre de points de données $m$ augmente, l'estimé converge vers la vraie valeur du paramètre :
 
@@ -24,13 +23,13 @@ La consistance garantit que le [[C - Biais|biais]] induit par l'estimateur dimin
 ## Liens connexes
 
 - [[MOC - Inférence Statistique]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[C - Estimateur Ponctuel]]
 - [[C - Biais]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[C - Convergence de variables aléatoires]]
-- [[E - Décomposition biais-variance]]
+- [[T - Décomposition biais-variance]]
 ## Flashcards
 
 #flashcards/IFT6269/06-proprietes-estimateurs

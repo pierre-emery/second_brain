@@ -1,6 +1,6 @@
 ---
 sujet: modeles-supervises
-maj: 2026-09-26
+maj: 2026-11-11
 ---
 - [[C - Ingénierie de Caractéristiques]]
 - [[C - Augmentation de la dimensionnalité]]
@@ -18,6 +18,7 @@ maj: 2026-09-26
 - [[C - Modèle paramétrique]]
 - [[C - Vraisemblance]]
 - [[C - Bruit -- Variabilité non expliquée]]
+- [[C - Approches génératives, conditionnelles et discriminantes]]
 
 ## 3) Grandes familles de modèles (A -)
 
@@ -28,6 +29,10 @@ maj: 2026-09-26
 - [[M - Régression Logistique (Binaire)]]
 - [[M - Régression Logistique (Multiclasse)]]
 - [[C - Séparation Directionnelle]] _(séparabilité/marge → lien SVM, perceptron)_
+- [[M - Régression Ridge]]
+- [[C - Fonction Sigmoïde]]
+- [[C - Log-ratio des cotes (log-odds)]]
+- [[T - Classes conditionnelles exponentielles et régression logistique]]
 
 ### 3.2 Méthodes à noyau / marge
 
@@ -56,6 +61,7 @@ maj: 2026-09-26
 - [[C - Correction de Laplace]]
 - [[C - m-estimate]]
 - [[C - Taux d'Erreur Bayésien]]
+- [[M - Analyse Discriminante Linéaire (LDA)]]
 
 ### 3.6 Réseaux de neurones
 
@@ -64,7 +70,7 @@ maj: 2026-09-26
 - [[M - Réseau de neurones]]
 - [[T - Théorème d'approximation universelle]]
 - [[C - Neurone Biologique (analogie)]]
-- [[A - Réseau de neurones convolutionnels (CNN)]]
+- [[M - Réseau de neuronnes convolutionnels (CNN)]]
 - [[C - Perte d'Entropie Croisée (Cross-Entropy)]]
 - [[A - Rétropropagation du gradient (gradient descent)]]
 - [[A - Initialisation de Glorot (Xavier)]]

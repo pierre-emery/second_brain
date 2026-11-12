@@ -1,13 +1,8 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 Nous cherchons des façons d'évaluer les performances de procédures statistiques
 Posons :
@@ -16,7 +11,7 @@ Posons :
 - $\mathcal A$: espace décisionnel.
  $\mathcal A$ contient l'ensemble des décisions ou actions possibles lorsque nous faisons de l'inférence sur $\theta$ ([[C - Inférence Statistique]])
 ### Exemple:
-- [[C - Estimation ponctuelle]]:  $\mathcal A=\Theta$
+- [[C - Estimateur Ponctuel]]:  $\mathcal A=\Theta$
 - [[C - Test d'hypothèse]]:  $\mathcal A=\{0,1\}$ où $0$ signifie rejeter $H_0$ et $1$ signifie rejeter $H_1$;
 - [[C - Intervalle de Confiance]]: $\mathcal A=\{[\theta_0,\theta_1]\mid\theta_0<\theta_1,\theta_0,\theta_1\in\Theta\}$ 
 

@@ -1,13 +1,8 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 ## Définition
 
@@ -15,9 +10,9 @@ Pour apprendre une fonction de prédiction $f:\mathcal X\to\mathcal Y$ (classifi
 
 | Perspective                                | Ce qu'on modélise                          | Hypothèses | Robustesse                          | Exemples                                                                                               |
 | ------------------------------------------ | ------------------------------------------ | ---------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Générative**                             | la jointe $p(x,y)=p(y)\,p(x\mid y)$        | le plus    | la moins robuste pour la prédiction | [[A - Analyse Discriminante Linéaire (LDA)\|LDA]], [[A - Classification Naïve Bayésienne\|Bayes naïf]] |
-| **Conditionnelle** (ex-« discriminative ») | seulement $p(y\mid x)$                     | moyennes   | robuste                             | [[A - Régression Linéaire\|régression linéaire]], [[A - Régression Logistique (Binaire)\|logistique]]  |
-| **Pleinement discriminante**               | $f$ directement, via la perte $\ell(y,y')$ | le moins   | la plus robuste                     | [[A - Machines à vecteurs de support (SVM)\|SVM]], ERM                                                 |
+| **Générative**                             | la jointe $p(x,y)=p(y)\,p(x\mid y)$        | le plus    | la moins robuste pour la prédiction | [[M - Analyse Discriminante Linéaire (LDA)\|LDA]], [[M - Classification Naïve Bayésienne\|Bayes naïf]] |
+| **Conditionnelle** (ex-« discriminative ») | seulement $p(y\mid x)$                     | moyennes   | robuste                             | [[M - Régression Linéaire\|régression linéaire]], [[M - Régression Logistique (Binaire)\|logistique]]  |
+| **Pleinement discriminante**               | $f$ directement, via la perte $\ell(y,y')$ | le moins   | la plus robuste                     | [[M - Machines à vecteurs de support (SVM)\|SVM]], ERM                                                 |
 
 ## Intuition
 
@@ -29,7 +24,7 @@ Pour apprendre une fonction de prédiction $f:\mathcal X\to\mathcal Y$ (classifi
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[MOC - Modèles ML (supervisé)]]
 - [[M - Régression Logistique (Binaire)]]
-- [[A - Analyse Discriminante Linéaire (LDA)]]
+- [[M - Analyse Discriminante Linéaire (LDA)]]
 - [[T - Classes conditionnelles exponentielles et régression logistique]]
 ## Flashcards
 

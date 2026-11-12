@@ -1,13 +1,8 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 ## Définition
 
@@ -25,17 +20,17 @@ Un chemin peut aussi être vu comme la suite de ses arêtes.
 
 **Cycle** : suite $v_1,\dots,v_k,v_1$ de nœuds distincts ($v_1\ne v_k$) avec une arête (dirigée / non dirigée) de $v_i$ à $v_{i+1}$ pour tout $i<k$ et de $v_k$ à $v_1$. Équivalent : un chemin de $v$ à $v$ pour un certain $v$.
 
-Un graphe dirigé sans cycle est un [[G - Graphes Acycliques Directs (DAG)|DAG]].
+Un graphe dirigé sans cycle est un [[C - Graphe acyclique dirigé (DAG)|DAG]].
 ## Exemple
 
 $V=\{1,\dots,5\}$, $E=\{(1,2),(2,4),(1,3),(3,4),(3,5)\}$ : DAG ; parent de 2 = $\{1\}$, enfants de 3 = $\{4,5\}$, chemin dirigé $1\to3\to4$. Sa version non dirigée contient le cycle $1-3-4-2-1$ ; voisins de 4 = $\{2,3\}$.
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[G - Graphes Acycliques Directs (DAG)]]
+- [[C - Graphe acyclique dirigé (DAG)]]
 - [[C - Clique (graphe)]]
 - [[C - Matrice d'Adjacence]]
-- [[A - Modèle Graphique Dirigé (DGM)]]
+- [[M - Modèle Graphique Dirigé (DGM)]]
 - [[M - Modèle Graphique Non-dirigé]]
 
 ## Flashcards

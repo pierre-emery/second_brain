@@ -1,13 +1,12 @@
 ---
-cours:
-  - IFT6758
-  - IFT6269
+type: concept
+cours: [IFT6758, IFT6269]
 statut: complet
 tags: []
 prerequis:
   - "[[C - Risque]]"
   - "[[C - Risque Empirique]]"
-maj: 2026-10-24
+maj: 2026-11-11
 ---
 L'écart entre le [[C - Risque]] et le [[C - Risque Empirique]] est appelé l'erreur de généralisation. $R(\theta) - \widehat R(\theta; D_{train})$
 

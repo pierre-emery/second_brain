@@ -1,17 +1,12 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 ## Tableau récapitulatif
 
-|                                                                          | [[A - Modèle Graphique Dirigé (DGM)\|Modèle dirigé (DGM)]]                                                      | [[A - Modèle Graphique Non-dirigé\|Modèle non dirigé (UGM)]]                        |
+|                                                                          | [[M - Modèle Graphique Dirigé (DGM)\|Modèle dirigé (DGM)]]                                                      | [[M - Modèle Graphique Non-dirigé\|Modèle non dirigé (UGM)]]                        |
 | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | **Factorisation**                                                        | $p(x)=\prod_{i=1}^np(x_i\mid x_{\pi_i})$                                                                        | $p(x)=\frac1Z\prod_{C\in\mathcal C}\psi_C(x_C)$                                     |
 | **Facteurs**                                                             | conditionnelles normalisées ($Z=1$)                                                                             | potentiels $\ge0$ quelconques                                                       |
@@ -28,7 +23,7 @@ maj: 2026-10-24
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[M - Modèle Graphique Probabiliste]]
-- [[A - Modèle Graphique Dirigé (DGM)]]
+- [[M - Modèle Graphique Dirigé (DGM)]]
 - [[M - Modèle Graphique Non-dirigé]]
 - [[C - Moralisation]]
 ## Flashcards

@@ -1,13 +1,8 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 ## Définition
 
@@ -26,7 +21,7 @@ Si $p\in\mathcal L(G)$ (UGM), alors $p(x_1,\dots,x_{n-1})$ se factorise dans le 
 ## Liens connexes
 
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[A - Modèle Graphique Dirigé (DGM)]]
+- [[M - Modèle Graphique Dirigé (DGM)]]
 - [[M - Modèle Graphique Non-dirigé]]
 - [[T - Propriété d'élagage des feuilles]]
 - [[A - Élimination de variables]]

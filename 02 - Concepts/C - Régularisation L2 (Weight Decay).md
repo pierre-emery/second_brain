@@ -1,9 +1,8 @@
 ---
 type: concept
-cours:
-  - IFT6135
+cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-09-27
+maj: 2026-11-11
 ---
 Forme la plus courante de [[C - Régularisation]], pénalisant la norme au carré des poids (pas des biais) :
 
@@ -11,13 +10,20 @@ $$\Omega(\theta) = \sum_k \sum_i \sum_j \left(W^{(k)}_{i,j}\right)^2 = \sum_k ||
   **Gradient** : $\nabla_{\mathbf{W}^{(k)}} \Omega(\theta) = 2\mathbf{W}^{(k)}$
 
   **Interprétation** : équivaut à placer un **a priori gaussien** sur les poids. Aussi appelée « weight decay » car elle tire les poids vers 0 à chaque mise à jour.
+
+## En régression linéaire (IFT6269)
+
+La version linéaire est la [[M - Régression Ridge]] : MAP avec $p(w)=\mathcal N(0,I/\lambda)$, solution $(X^\top X+\lambda I)^{-1}X^\top y$.
+
 ## Liens connexes
 
 - [[MOC - Évaluation & généralisation]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[C - Régularisation]]
 - [[C - Régularisation L1]]
 - [[C - Norme]]
+- [[M - Régression Ridge]]
+
 ## Flashcards
 
 #flashcards/IFT6135/02-entrainement

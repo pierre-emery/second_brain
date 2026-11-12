@@ -15,7 +15,7 @@ couleur: "#7c5cff"
   - {nom: Devoir 5, poids: 4, echeance: 2026-12-23, note: }
   - {nom: Projet (rapport + poster), poids: 30, echeance: 2026-12-21, note: }
   - {nom: Examen final, poids: 50, echeance: 2026-12-16, note: }
-maj: 2026-09-25
+maj: 2026-11-11
 ---
 ```dataview 
 
@@ -44,7 +44,7 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 - [[C - Espace de Probabilité]]
 - [[C - Sources d'incertitude]]
-- [[C - Espace de probabilité]]
+- [[C - Espace de Probabilité]]
 - [[C - Variable Aléatoire]]
 - [[C - Distribution de probabilité (axiomes de Kolmogorov)]]
 - [[C - Fonction de masse et de densité (pmf-pdf)]]
@@ -70,11 +70,11 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 ### Théorie des graphes
 
 - [[C - Graphe dirigé et non dirigé]]
-- [[G - Graphes Acycliques Directs (DAG)]]
+- [[C - Graphe acyclique dirigé (DAG)]]
 - [[T - Caractérisation des DAG par ordre topologique]]
 ### Modèles dirigés (réseaux bayésiens)
 
-- [[A - Modèle Graphique Dirigé (DGM)]]
+- [[M - Modèle Graphique Dirigé (DGM)]]
 - [[T - Propriété d'élagage des feuilles]]
 - [[T - Les facteurs d'un DGM sont les conditionnelles]]
 - [[C - Structures canoniques à trois nœuds]]
@@ -89,7 +89,7 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[T - La factorisation UGM implique la propriété de Markov globale]]
 - [[T - Théorème de Hammersley-Clifford]]
 - [[C - Couverture de Markov]]
-- [[A - Modèle d'Ising]]
+- [[M - Modèle d'Ising]]
 ### DGM ↔ UGM
 
 - [[C - Moralisation]]
@@ -123,6 +123,8 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 - [[C - Vraisemblance]]
 - [[C - Estimateur du Maximum de Vraisemblance (MLE)]]
 - [[C - Maximisation de la vraisemblance]]
+
+
 ## Théorie de la décision statistique
 
 - [[C - Fondements de la théorie de décision]]
@@ -151,13 +153,13 @@ WHERE type != "moc-cours" AND statut AND statut != "complet" AND cours AND conta
 
 - [[C - Approches génératives, conditionnelles et discriminantes]]
 - [[M - Régression Linéaire]]
-- [[A - Régression Ridge]]
+- [[M - Régression Ridge]]
 - [[M - Régression Logistique (Binaire)]]
 - [[C - Fonction Sigmoïde]]
 - [[C - Log-ratio des cotes (log-odds)]]
 - [[D - Famille exponentielle]]
 - [[T - Classes conditionnelles exponentielles et régression logistique]]
-- [[A - Analyse Discriminante Linéaire (LDA)]]
+- [[M - Analyse Discriminante Linéaire (LDA)]]
 ## Apprentissage non supervisé
 
 - [[C - Variable latente]]

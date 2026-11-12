@@ -1,6 +1,6 @@
 ---
 sujet: non-supervise-reduction-dimension
-maj: 2026-09-09
+maj: 2026-11-11
 ---
 - [[C - Fonction de Base Radiale (RBF)]]
 - [[C - Noyau Polynomial]]
@@ -10,6 +10,7 @@ maj: 2026-09-09
 - [[C - Méthodes prédictives vs descriptives]]
 - [[C - Data Mining]]
 - [[C - Hypothèse de Variété (Manifold Hypothesis)]]
+- [[C - Variable latente]]
 
 ## 2) Grandes tâches (problèmes)
 
@@ -27,6 +28,7 @@ maj: 2026-09-09
 - [[A - K-Means]]
 - [[A - DBScan]]
 - [[A - Regroupement hiérarchique]]
+- [[A - K-Means++]]
 
 ### Réduction de dimension
 
@@ -71,3 +73,5 @@ maj: 2026-09-09
 
 - [[M - Réseaux de croyances bayésiens (BBN)]]
 - [[C - Couverture de Markov]]
+- [[M - Modèle Graphique Probabiliste]]
+

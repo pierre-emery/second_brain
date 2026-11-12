@@ -1,13 +1,8 @@
 ---
-
 type: concept
-
 cours: [IFT6269]
-
 statut: à réviser
-
-maj: 2026-10-24
-
+maj: 2026-11-11
 ---
 ## Définition
 
@@ -27,7 +22,7 @@ Distance euclidienne **après « blanchiment »** : on mesure l'écart à la moy
 - [[D - Loi Gaussienne (Normale)]]
 - [[C - Matrice de Variance-Covariance]]
 - [[E - Différentielles usuelles (forme quadratique et Mahalanobis)]]
-- [[A - Analyse Discriminante Linéaire (LDA)]]
+- [[M - Analyse Discriminante Linéaire (LDA)]]
 ## Flashcards
 
 #flashcards/IFT6269/09-lda-calcul-matriciel

@@ -1,9 +1,8 @@
 ---
 type: concept
-cours:
-  - IFT6135
+cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-10-24
+maj: 2026-11-11
 ---
 $X_1$ et $X_2$ sont indépendantes étant donné $X_3$ si
 $$p(x_1,x_2|x_3) = p(x_1|x_3)p(x_2|x_3)$$
@@ -38,7 +37,7 @@ Lecture graphique : [[C - Séparation Directionnelle|d-séparation]] (DGM), sép
 ## Liens connexes
 
 - [[MOC - Probabilité]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
 - [[M - Modèle Graphique Probabiliste]]
 - [[C - Indépendance (variables aléatoires)]]

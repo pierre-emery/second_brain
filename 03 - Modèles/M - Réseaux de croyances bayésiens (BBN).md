@@ -1,12 +1,13 @@
 ---
 type: modele
+cours: [IFT6269]
 statut: brouillon
 maj: 2026-11-11
 ---
 La [[M - Classification Naïve Bayésienne]] suppose une indépendance de classe pour simplifier les estimations de probabilité mais ça n'est pas toujours applicable
 On doit parfoit considérer également les dépendances $P(x[j]|x[i],C)$.
 
-On va donc faire un graphe de réseau de dépendance et pour ce faire un utilise [[G - Graphes Acycliques Directs (DAG)]] pour ce faire. Chaque noeud ne devrait a priori dépendre que de ses parents.
+On va donc faire un graphe de réseau de dépendance et pour ce faire un utilise [[C - Graphe acyclique dirigé (DAG)]] pour ce faire. Chaque noeud ne devrait a priori dépendre que de ses parents.
 
 La structure de DAG fournit des informations qualitatives sur les dépendances conditionelles qui devraient être prises en compte. Ceci est généralement donné par conception (p. ex. de connaissances préalables ou d'experts). La partie quantitative du réseau est donnée par des [[C - Tables de dépendances conditionnelle (CDT)]].
 Étant donné une structure de réseau les entrées CDT de chaque noeud sachant ses parents sont estimées de façon similaire à la [[M - Classification Naïve Bayésienne]] pour les attributs observables et par optimisation pour les cachés.
@@ -33,3 +34,13 @@ Notez que C peut aussi être étendu pour considérer plusieurs noeuds de sortie
 De plus les valeurs manquantes peuvent naturellement être traitées en considérant des ensembles partiels d'attributs. Les [[C - Vraisemblance]] et les [[C - Distribution à postériori]] peuvent alors être estimées en utiisant des probabilités conjointes.
 Lorsqu'on considère la propagation des croyances il est utile d'identifier l'indépendance entre les événements dans le réseau. [[C - Couverture de Markov]] 
 On peut tester l'indépendance entre les événements sachant d'évidence en utilisant la d-séparation ([[C - Séparation Directionnelle]])
+
+## Version formelle (IFT6269)
+
+Un réseau bayésien est exactement un [[M - Modèle Graphique Dirigé (DGM)|modèle graphique dirigé]] : famille $\mathcal L(G)$ des distributions $p(x)=\prod_ip(x_i\mid x_{\pi_i})$ sur un DAG $G$, les CDT/CPT étant les facteurs légaux.
+
+## Liens connexes
+
+- [[M - Modèle Graphique Dirigé (DGM)]]
+- [[C - Graphe acyclique dirigé (DAG)]]
+- [[C - Séparation Directionnelle]]

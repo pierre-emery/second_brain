@@ -1,7 +1,7 @@
 ---
-## type: moc-theme
+type: moc-theme
 sujet: inference-statistique
-maj: 2026-08-06
+maj: 2026-11-11
 ---
 ## 0) Prérequis de base
 
@@ -39,6 +39,12 @@ maj: 2026-08-06
 - [[C - Estimateur Ponctuel]]
 - [[C - Consistance d'un Estimateur]]
 - [[C - Divergence de Kullback-Leibler]]
+- [[C - Méthode des moments]]
+- [[T - Décomposition biais-variance]]
+- [[C - Estimateur de James-Stein]]
+- [[C - Information de Fisher]]
+- [[T - Borne de Cramér-Rao]]
+- [[T - Invariance du MLE (estimateur plug-in)]]
 
 ## 4) Estimation bayésienne ponctuelle
 
@@ -102,6 +108,7 @@ maj: 2026-08-06
 - [[C - Règle de décision]]
 - [[C - Fonction de perte]]
 - [[C - Test d'hypothèse]]
+- [[C - Théorie PAC]]
 
 ### Pertes usuelles
 
@@ -123,6 +130,7 @@ maj: 2026-08-06
 - [[C - Estimateur de Bayes]]
 - [[C - Estimateur de Bayes formel]]
 - [[C - Estimateur de Bayes partiel]]
+- [[E - Estimateur de Bayes sous perte quadratique]]
 
 ## 10) Minimax, maximin et admissibilité
 
@@ -161,4 +169,4 @@ maj: 2026-08-06
 
 - [[MOC - Probabilité]]
 - [[MOC - Évaluation & généralisation]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]

@@ -1,9 +1,8 @@
 ---
 type: concept
-cours:
-  - IFT6135
+cours: [IFT6135, IFT6269]
 statut: brouillon
-maj: 2026-10-24
+maj: 2026-11-11
 ---
 Le pire scénario en apprentissage est qu'on aille un [[C - Biais]] et une [[C - Variance (expliquée)]] élevée. Le meilleur scénario serait qu'on aille un bais et une variance faible. En pratique on tombe très souvent en [[C - Sous-apprentissage]] qui se caractérise par un biais élevé et une variance faible ou bien en [[C - Surapprentissage]] qui se caractérise par un biais faible et une variance élevée.
 
@@ -25,15 +24,15 @@ Cette identité formalise le compromis : un estimateur désirable garde à la fo
 
 Quand l'erreur de généralisation est mesurée par la MSE, augmenter la [[C - Complexité d'un modèle (capacité)|capacité]] d'un modèle tend à **diminuer le biais** et à **augmenter la variance** d'où la courbe en U de l'erreur de généralisation en fonction de la capacité.
 ## Preuve de la décomposition (IFT6269)
-![[E - Décomposition biais-variance]]
+![[T - Décomposition biais-variance]]
 ## Liens connexes
 
 - [[MOC - Évaluation & généralisation]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
 - [[C - Estimateur Ponctuel]]
 - [[C - Complexité d'un modèle (capacité)]]
 - [[MOC - IFT6269 Modèles Graphiques Probabilistes]]
-- [[E - Décomposition biais-variance]]
+- [[T - Décomposition biais-variance]]
 ## Flashcards
 
 #flashcards/IFT6135/00-revision

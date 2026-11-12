@@ -1,6 +1,6 @@
 ---
 sujet: optimisation-calcul-matriciel
-maj: 2026-09-08
+maj: 2026-11-11
 ---
 ## 1) Calcul différentiel
 
@@ -9,6 +9,11 @@ maj: 2026-09-08
 - [[C - Matrice Hessienne]]
 - [[C - Matrice Jacobienne]]
 - [[C - Points Critiques et Optima (local, global, point-selle)]]
+- [[C - Différentielle (calcul matriciel)]]
+- [[T - Règle de la chaîne pour les différentielles]]
+- [[T - Différentielle du log-déterminant]]
+- [[C - Distance de Mahalanobis]]
+- [[E - Différentielles usuelles (forme quadratique et Mahalanobis)]]
 
 ## 2) Stabilité numérique et propriétés des fonctions
 
@@ -28,6 +33,8 @@ maj: 2026-09-08
 - [[C - Taux d'apprentissage]]
 - [[A - Initialisation de Glorot (Xavier)]]
 - [[C - Régularisation]]
+- [[A - SAG et SAGA]]
+
 ## 4) Optimisation classique
 
 - [[C - Dualité]]
@@ -40,7 +47,10 @@ maj: 2026-09-08
 - [[C - Contraintes]]
 - [[C - Flot Maximum]]
 - [[C - Coupe Minimale]]
+- [[A - Méthode de Newton (optimisation)]]
+- [[A - IRLS (moindres carrés repondérés itératifs)]]
+
 ## MOC thématiques liés
 
 - [[MOC - Algèbre linéaire]]
-- [[MOC - IFT6135 Apprentissage de représentations]]
+- [[MOC - IFT6135 Apprentissage de Représentations]]
